@@ -1,0 +1,597 @@
+/* Reset some default browser styles */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+/* Body default styling */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: #333; */
+    /* background-color: #f5f5f5; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ul,
+ol {
+    list-style: none;
+} */
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Ensure full height on mobile browsers */
+/* html, */
+/* body {
+    height: 100%;
+    background-color: #838383;
+} */
+
+
+
+
+
+/* Navbar container */
+.navbar {
+    flex-wrap: wrap;
+    background: white;
+    color: black;
+    font-family: Arial;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.7rem;
+}
+
+/* Links inside the navbar */
+.navbar .middleCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+/* Dropdown button */
+.dropdown {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 8px 18px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+    z-index: 50 !important;
+}
+
+/* The dropdown container */
+.dropbtn {
+    padding: 8px 16px;
+    white-space: nowrap;
+}
+
+/* Add a background color to dropdown button on hover */
+.dropdown:hover .dropbtn {
+    /* background-color: rgb(164, 193, 237); */
+    background-color: rgb(207, 219, 237);
+    border-radius: 12px;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    z-index: 50 !important;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;    
+    z-index: 50 !important;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* Clear floats after the columns */
+.row {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 25px;
+    background-color: #f9f9f9;
+    padding: 8px 18px;
+    margin-top: 20px;
+    z-index: 50 !important;
+}
+
+.rowInside {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    padding: 1px;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #f9f9f9;
+    z-index: 50 !important;
+}
+
+
+.column {
+    padding: 12px;
+    min-width: 17rem;
+    height: auto;
+    border-radius: 12px;
+    background-color: #f6f6f6;
+    z-index: 50 !important;
+}
+
+/* Style links inside the columns */
+.column a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+.column h3 {
+    padding: 8px 0px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.column h3:hover .insideH3Heading {
+    background-color: rgb(213, 224, 240);
+    font-size: 15px;
+    color: black;
+}
+
+.insideH3Heading {
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.column h3 i {
+    font-size: 12px;
+}
+
+.sizeOfBullets {
+    font-size: 5px;
+}
+
+/* Add a background color on hover */
+.column a:hover {
+    /* background-color: #ddd; */
+    color: green;
+}
+
+.insideH3Icon {
+    height: 24px;
+    width: 24px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column1 {
+    padding: 8px;
+    background-color: #f3f3f3;
+    width: 35%;
+    /* width: 500px; */
+    gap: 10px;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+/* Style links inside the columns */
+.column1 a {
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    width: 49%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.industryMenu {
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Add a background color on hover */
+.column1 a:hover .industryMenu {
+    background-color: rgb(213, 224, 240);
+}
+
+
+.column1 .mr-4 {
+    margin-right: 6px;
+    /* font-size: 15px; */
+}
+
+
+
+
+/* ============================================================== */
+
+.row1To {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+    flex-wrap: wrap;
+    z-index: 5 !important;
+}
+
+.row2To {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1100px;
+    z-index: 5 !important;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 16px;
+    margin-top: 20px;
+    z-index: 5 !important;
+}
+
+
+.column6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.column6 img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* ============================================================== */
+
+
+
+/* .column3 {
+    padding: 10px;
+    border-radius: 12px;
+} */
+
+
+
+@media (max-width: 800px) {
+
+    .column6,
+    .column3 {
+        flex: 1 1 calc(50% - 20px);
+    }
+
+}
+
+
+.bars {
+    font-size: 26px;
+    margin-right: 10px;
+    display: none;
+}
+
+@media (max-width: 603px) {
+
+    .navbar .middleCont {
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        text-decoration: none;
+        flex-direction: column;
+        display: none;
+    }
+
+    .navbar .middleCont.active {
+        display: block;
+        /* Shown when active class is added */
+    }
+
+    .dropdown-content {
+        display: none !important;
+        z-index: 50 !important;
+    }
+
+    .dropdown-content.active {
+        display: block !important;
+        z-index: 50 !important;
+    }
+
+    .dropdown {
+        width: 100%;
+        z-index: 50 !important;
+    }
+
+    .column a {
+        font-size: 16px;
+    }
+
+    .insideH3Heading {
+        font-size: 18px;
+    }
+
+
+    .dropbtn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .column {
+        min-width: 100%;
+    }
+
+
+}
+
+
+
+@media (max-width: 742px) {
+
+    .row1,
+    .row {
+        margin-top: 8px;
+        z-index: 50 !important;
+    }
+
+    .navLogoCard {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .row {
+        overflow-x: scroll;
+        height: 77vh;
+        z-index: 50 !important;
+    }
+}
+
+
+@media (max-width: 1126px) {
+    .headerImageSol {
+        display: none;
+    }
+}
+
+
+/* ---------------------------------------------------- */
+
+.headerImageSol {
+    position: relative;
+    width: 620px;
+    margin: 0 auto;
+}
+
+.headerImageSol img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+    padding: 0px 16px;
+}
+
+.centered-input {
+    width: 100%;
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+}
+
+.centered-button {
+    padding: 8px 20px;
+    width: 100%;
+    background: linear-gradient(to right, #fda209, #fef337);
+    /* background: linear-gradient(to right, rgb(196, 168, 30), rgb(229, 238, 112)); */
+    /* color: white; */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.centered-button:hover {
+    background-color: #45a049;
+}
