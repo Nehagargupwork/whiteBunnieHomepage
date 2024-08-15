@@ -550,7 +550,7 @@ a {
 /* Tablet view */
 @media (max-width: 768px) {
   .mainHeading {
-    font-size: 72px;
+    font-size: 42px;
     /* Adjust size for tablets */
     margin: 5rem 0px 2rem 0px;
   }
