@@ -10,7 +10,7 @@ html,
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #222222;
+  /* background-color: #222222; */
 }
 
 /* a blue color as a generic focus style */
@@ -671,8 +671,14 @@ a {
   border-radius: 24px;
 }
 
-.trackRecordBtn{
-  border-radius: 50px; background: #222; margin: 1rem; padding: 1rem 4rem; font-weight: 600; font-size: 18px; color: white;
+.trackRecordBtn {
+  border-radius: 50px;
+  background: #222;
+  margin: 2rem;
+  padding: 1rem 4rem;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
 }
 
 
@@ -735,22 +741,6 @@ a {
   color: #f36915;
 }
 
-/*#mixedSlider .MS-content .item p span{font-size:16px; font-weight:700}*/
-#mixedSlider3 .MS-content .item a {
-  /*  float: right;
-  margin: 0 20px 0 0;
- font-size: 16px;
-  font-style: italic;
-  color: rgba(173, 0, 0, 0.82);
-  font-weight: bold;
-  letter-spacing: 1px;*/
-  transition: linear 0.1s;
-}
-
-#mixedSlider3 .MS-content .item a:hover {
-  /* text-shadow: 0 0 1px grey; */
-}
-
 #mixedSlider3 .MS-controls button {
   position: absolute;
   border: none;
@@ -771,34 +761,166 @@ a {
   position: relative;
 }
 
-@media (max-width: 992px) {
-  #mixedSlider3 .MS-controls button {
-    font-size: 30px;
-  }
+
+
+
+
+/* .marketing-service{width:100%; float:left; margin:0px; padding:70px 0 30px; background:url('./img/SEO-Offering-Background-Image-1.png') } */
+.marketing-service {
+  width: 100%;
+  background: #EBEBEB;
+  float: left;
+  margin: 0px;
+  padding: 30px 0px;
 }
 
-@media (max-width: 767px) {
-  #mixedSlider3 .MS-controls button {
-    font-size: 20px;
-  }
+.marketing-service h3 {
+  width: 100%;
+  float: left;
+  margin: 0px 0 20px;
+  text-align: center;
+
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+  /* 51.36px */
 }
 
-#mixedSlider3 .MS-controls .MS-left {
-  left: -50px;
+.marketing-service h5 {
+  width: 100%;
+  float: left;
+  margin: 0px 0 30px;
+
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  /* 30px */
 }
 
-@media (max-width: 767px) {
-  #mixedSlider3 .MS-controls .MS-left {
-    left: 0px;
-  }
+.marketing-service ul {
+  width: 100%;
+  float: none;
+  margin: 0;
+  padding: 0px;
+  display: inline-block;
+  text-align: center;
 }
 
-#mixedSlider3 .MS-controls .MS-right {
-  right: -50px;
+.marketing-service ul li {
+  width: 31%;
+  float: left;
+  height: 260px;
+  margin: 20px 10px 0px 10px;
+  padding: 20px;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0px 0px 29px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  list-style: none;
 }
 
-@media (max-width: 767px) {
-  #mixedSlider3 .MS-controls .MS-right {
-    right: 0px;
-  }
+.marketing-service ul li:hover {
+  background: #CFEDFA;
+}
+
+.marketing-service ul li .image {
+  width: 100%;
+  float: left;
+  margin: 0px 0 20px;
+  padding: 0px;
+  text-align: center;
+  line-height: 0px;
+}
+
+.marketing-service ul li h6 a {
+  width: 100%;
+  float: left;
+  margin: 0px 0 0px;
+  padding: 0px;
+  font-size: 21px;
+  line-height: 21px;
+  color: #333;
+  font-weight: normal;
+  text-align: left;
+  font-family: 'ProximaNovaAltBold';
+  text-transform: capitalize
+}
+
+.marketing-service ul li p {
+  width: 100%;
+  float: left;
+  margin: 0px 0 0px;
+  padding: 0px;
+  font-size: 17px;
+  line-height: 24px;
+  color: #333;
+  font-weight: normal;
+  text-align: center;
+}
+
+.marketing-service ul li .image {
+  width: 28%;
+  float: left;
+  margin: 0px 0 20px;
+  padding: 0px;
+  text-align: left;
+  line-height: 0px;
+}
+
+.marketing-service ul li .image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.marketing-service ul li .right-txt {
+  width: 100%;
+  float: left;
+  margin: 0px;
+  padding: 0px 0px 0px 10px;
+}
+
+.marketing-service ul li .right-txt h6 {
+  width: 100%;
+  float: left;
+  margin: 10px 0 10px;
+  padding: 10px 0px 5px 0px;
+  font-size: 21px;
+  line-height: 21px;
+  color: #333;
+  font-weight: normal;
+  text-align: center;
+  font-family: 'ProximaNovaAltBold';
+  text-transform: capitalize;
+}
+
+.marketing-service ul li .right-txt p {
+  width: 100%;
+  float: left;
+  margin: 0px 0 25px;
+  padding: 0px;
+  font-size: 17px;
+  line-height: 24px;
+  color: #333;
+  font-weight: normal;
+  text-align: center;
+}
+
+.right-txt img {
+  width: 100%;
+  max-width: 80px;
+}
+
+p.second-para {
+  font-size: 11px !important;
+  font-weight: 300 !important;
+  margin: 25px 0px 0px !important;
+  text-align: center !important
 }

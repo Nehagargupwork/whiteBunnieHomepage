@@ -534,7 +534,7 @@
 
      .chip1 {
          padding: 10px 8px;
-         width: 80px
+         /* width: 80px */
      }
 
      .solutions img {
@@ -942,3 +942,35 @@
 
 
 
+
+ @media (max-width: 992px) {
+    #mixedSlider3 .MS-controls button {
+      font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #mixedSlider3 .MS-controls button {
+      font-size: 20px;
+    }
+  }
+  
+  #mixedSlider3 .MS-controls .MS-left {
+    left: -50px;
+  }
+  
+  @media (max-width: 767px) {
+    #mixedSlider3 .MS-controls .MS-left {
+      left: 0px;
+    }
+  }
+  
+  #mixedSlider3 .MS-controls .MS-right {
+    right: -50px;
+  }
+  
+  @media (max-width: 767px) {
+    #mixedSlider3 .MS-controls .MS-right {
+      right: 0px;
+    }
+  }
