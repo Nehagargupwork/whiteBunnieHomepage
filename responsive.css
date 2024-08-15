@@ -100,22 +100,6 @@
          padding: 10px 14px;
      }
 
-     element.style {}
-
-     #mixedSlider3 .MS-content .item {
-         display: inline-block;
-         width: 48%;
-         position: relative;
-         overflow: hidden;
-         min-height: 282px;
-         white-space: normal;
-         padding: 0px;
-         margin: 0 1% 0px;
-         box-shadow: none;
-         vertical-align: top;
-         border: #b4b4b4 1px solid;
-         border-radius: 24px;
-     }
 
      .banner-text h1 {
          font-size: 60px;
@@ -307,7 +291,7 @@
          border: #cccccc 1px solid;
      }
 
-     #mixedSlider3 .MS-content .item {
+     /* #mixedSlider3 .MS-content .item {
          display: inline-block;
          width: 48%;
          position: relative;
@@ -320,7 +304,7 @@
          vertical-align: top;
          border: #b4b4b4 1px solid;
          border-radius: 24px;
-     }
+     } */
 
      .banner-text h1 {
          font-size: 50px;
@@ -397,8 +381,8 @@
          font-size: 35px;
      }
 
-     .testimonial-count span{
-        font-size: 16px;
+     .testimonial-count span {
+         font-size: 16px;
      }
 
      .container {
@@ -601,7 +585,7 @@
          border: #cccccc 1px solid;
      }
 
-     #mixedSlider3 .MS-content .item {
+     /* #mixedSlider3 .MS-content .item {
          display: inline-block;
          width: 99%;
          position: relative;
@@ -614,7 +598,7 @@
          vertical-align: top;
          border: #b4b4b4 1px solid;
          border-radius: 24px;
-     }
+     } */
 
      .top-icon ul li {
          width: 150px;
@@ -772,8 +756,8 @@
          font-size: 16px;
      }
 
-     .testimonial-section-text p a{
-        font-size: 18px;
+     .testimonial-section-text p a {
+         font-size: 18px;
      }
 
      .why-choose-section {
@@ -784,6 +768,13 @@
 
 
  @media only screen and (min-width: 480px) and (max-width: 1024px) {
+
+
+     #mixedSlider3 .MS-content .item {
+         width: 40%;
+         /* justify-content: space-around; */
+     }
+
      .solut-left {
          width: 100%;
      }
@@ -835,3 +826,119 @@
          display: none;
      }
  }
+
+
+ 
+ /* Tablet view */
+ @media (max-width: 768px) {
+    .mainHeading {
+        font-size: 36px;
+        margin: 4rem 0px 1rem 0px;
+    }
+
+    .subHeading {
+        font-size: 20px;
+    }
+
+    .heroCard {
+        width: 50%;
+    }
+
+    .testimonial-section::before {
+        height: 500px;
+    }
+
+    .buttons {
+        display: none;
+    }
+
+    .buttons2 {
+        border-radius: 50px;
+        background: #FFF234;
+        position: static;
+        cursor: pointer;
+
+        color: var(--Black, #222);
+        font-family: Unbounded;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        /* 162.5% */
+        letter-spacing: 0.24px;
+
+        padding: 16px 38px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+        margin: 1rem auto;
+
+        /* top: 96%;
+   left: 50%; */
+        transform: translate(0, 0);
+    }
+
+
+    .testimonial-section h3 {
+        font-size: 33px;
+    }
+
+    .testimonial-section h6 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .testimonial-section ul {
+        margin-top: 0px;
+    }
+
+
+    .testimonial-section-text p {
+        padding: 7px 0;
+        text-align: center;
+    }
+
+}
+
+ /* Mobile view */
+ @media (max-width: 480px) {
+
+     .trusted-section h3 {
+        font-size: 28px;
+         padding: 2rem 1rem;
+     }
+
+     .mainHeading {
+         font-size: 34px;
+         margin: 3rem 0px 1.5rem 0px;
+     }
+
+     .subHeading {
+         font-size: 19px;
+         /* Adjust size for mobile */
+     }
+
+     .heroCard {
+         width: 100%;
+         padding: 2rem 0rem;
+     }
+
+     #mixedSlider3 .MS-content .item {
+         width: 100%;
+     }
+
+     .ellipse {
+         padding: 1.5rem 1.7rem;
+     }
+
+     .headingCont2 {
+         background-position-y: 3rem;
+         background-size: cover;
+     }
+
+ }
+
+
+
