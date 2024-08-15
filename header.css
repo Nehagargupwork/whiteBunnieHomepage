@@ -162,7 +162,10 @@ select {
 
 
 
-
+.navbar {
+    position: relative;
+    z-index: 10; /* Higher z-index to ensure it's on top */
+  }
 
 /* Navbar container */
 .navbar {
@@ -197,7 +200,6 @@ select {
     background-color: inherit;
     font: inherit;
     margin: 0;
-    z-index: 50 !important;
 }
 
 /* The dropdown container */
@@ -216,7 +218,6 @@ select {
 /* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
-    z-index: 50 !important;
     position: absolute;
     width: 100%;
     left: 0;
@@ -228,7 +229,6 @@ select {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;    
-    z-index: 50 !important;
 }
 
 @keyframes fadeInAnimation {
@@ -251,7 +251,6 @@ select {
     background-color: #f9f9f9;
     padding: 8px 18px;
     margin-top: 20px;
-    z-index: 50 !important;
 }
 
 .rowInside {
@@ -262,7 +261,6 @@ select {
     flex-wrap: wrap;
     gap: 10px;
     background-color: #f9f9f9;
-    z-index: 50 !important;
 }
 
 
@@ -272,7 +270,6 @@ select {
     height: auto;
     border-radius: 12px;
     background-color: #f6f6f6;
-    z-index: 50 !important;
 }
 
 /* Style links inside the columns */
@@ -385,7 +382,6 @@ select {
     gap: 20px;
     max-width: 900px;
     flex-wrap: wrap;
-    z-index: 5 !important;
 }
 
 .row2To {
@@ -394,7 +390,6 @@ select {
     justify-content: center;
     gap: 20px;
     max-width: 1100px;
-    z-index: 5 !important;
 }
 
 .row1 {
@@ -404,7 +399,6 @@ select {
     background-color: #f9f9f9;
     padding: 16px;
     margin-top: 20px;
-    z-index: 5 !important;
 }
 
 

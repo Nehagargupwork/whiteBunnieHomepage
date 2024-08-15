@@ -73,6 +73,7 @@ a {
 
 .headingCont {
   text-align: center;
+  z-index: 1;
 }
 
 
@@ -99,10 +100,18 @@ a {
   line-height: 120%;
 }
 
+.imageHeroSec .foreGroundImage {
+  position: relative;
+  /* or absolute/fixed */
+  z-index: 1;
+  /* Lower z-index */
+}
+
 
 .imageHeroSec {
   /* border: 2px solid white; */
   position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,6 +119,7 @@ a {
 
 .ellipse {
   position: absolute;
+  z-index: 1;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -128,7 +138,7 @@ a {
   background: #FFF234;
   position: absolute;
   cursor: pointer;
-
+  z-index: 1;
   color: var(--Black, #222);
   font-family: Unbounded;
   font-size: 16px;
@@ -277,26 +287,15 @@ a {
   /* line-height: 183%; */
 }
 
-/* .testimonial-section h3 {
-  width: 100%;
-  float: left;
-  margin: 0px 0 20px;
-  padding: 0px;
-  font-size: 46px;
-  line-height: 48px;
-  color: #333333;
-  font-weight: normal;
-  text-align: center;
-  font-family: 'ProximaNovaAltBold';
-} */
+
 
 .testimonial-section h6 {
   color: #FFF;
   font-family: Poppins;
-  font-size: 28px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
-  text-align: center; 
+  text-align: center;
   margin-top: 20px;
 }
 
@@ -310,11 +309,13 @@ a {
 .testimonial-section ul li {
   width: 46%;
   float: left;
-  /* height: 620px; */
   margin: 0px 2% 20px;
-  padding: 0px;
+  padding: 16px;
   list-style: none;
-  border: #cccccc 1px solid;
+
+  border-radius: 30px;
+  background: #222;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.50);
 }
 
 .testimonial-section ul li .img1 {
@@ -323,31 +324,43 @@ a {
   margin: 0px;
   padding: 0px;
   line-height: 0px;
+
 }
 
 .testimonial-section ul li .img1 img {
   width: 100%;
-  height: auto
+  height: auto;
+  border-radius: 30px;
 }
 
 .testimonial-heading {
-  width: 100%;
-  float: left;
+  /* width: 100%;
+  float: left; */
   margin: 0px;
   padding: 0px;
+  border-radius: 30px;
+
   font-size: 26px;
-  line-height: 56px;
-  color: #fff;
+  line-height: 55px;
   font-weight: 700;
-  background: #010a83;
-  text-align: center
+  background: #fff;
+  text-align: center;
+
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .testimonial-section-text {
   width: 100%;
   float: left;
   margin: 0px;
-  padding: 0px 3% 10px;
+  padding: 0px 3% 0px;
+
+
 }
 
 .testimonial-count {
@@ -356,31 +369,30 @@ a {
   margin: 15px 0;
   padding: 0px 0;
   border-right: #333 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .testimonial-count h2 {
-  width: 100%;
-  float: left;
   margin: 0px 0 10px;
-  padding: 0px;
-  font-size: 46px;
-  line-height: 48px;
-  color: #333;
-  font-weight: normal;
+  color: #FFF;
   text-align: center;
-  font-family: 'ProximaNovaAltBold';
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
 }
 
 .testimonial-count span {
-  width: 100%;
-  float: left;
-  margin: 0px;
-  padding: 0px;
-  font-size: 18px;
-  line-height: 18px;
-  color: #333;
-  font-weight: 300;
-  text-align: center;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 107%;
 }
 
 .testimonial-count.last-child {
@@ -392,20 +404,34 @@ a {
   float: left;
   margin: 0px;
   padding: 0px 0 10px;
-  font-size: 16px;
-  line-height: 24px;
-  color: #333;
-  font-weight: normal;
-  text-align: left;
+
+  text-align: justify;
+  text-justify: inter-word;
+
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+
 }
 
 .testimonial-section-text p a {
-  color: #038e70;
-  font-family: 'ProximaNovaAltBold';
+
+  color: #FFF234;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 107%;
+
+
 }
 
 .testimonial-section-text p a:hover {
-  color: #000
+  color: #9b9322;
 }
 
 
@@ -572,7 +598,7 @@ a {
     transform: translate(0, 0);
   }
 
-  
+
   .testimonial-section h3 {
     font-size: 33px;
   }
@@ -582,15 +608,15 @@ a {
     margin-top: 10px;
   }
 
-  .testimonial-section ul{
+  .testimonial-section ul {
     margin-top: 0px;
   }
 
-  
-.testimonial-section-text p {
-  padding: 0 0;
-  margin-top: 8px;
-}
+
+  .testimonial-section-text p {
+    padding: 7px 0;
+    text-align: center;
+  }
 
 }
 
