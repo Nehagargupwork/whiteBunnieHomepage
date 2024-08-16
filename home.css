@@ -764,8 +764,7 @@ a {
 
 
 
-
-/* .marketing-service{width:100%; float:left; margin:0px; padding:70px 0 30px; background:url('./img/SEO-Offering-Background-Image-1.png') } */
+/* ============================== marketing-service ===============================  */
 .marketing-service {
   width: 100%;
   background: #EBEBEB;
@@ -775,11 +774,6 @@ a {
 }
 
 .marketing-service h3 {
-  width: 100%;
-  float: left;
-  margin: 0px 0 20px;
-  text-align: center;
-
   color: #222;
   text-align: center;
   font-family: Poppins;
@@ -790,130 +784,73 @@ a {
   /* 51.36px */
 }
 
-.marketing-service h5 {
-  width: 100%;
-  float: left;
-  margin: 0px 0 30px;
 
+.marketing-service h5 {
   color: #222;
   text-align: center;
   font-family: Poppins;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 125%;
+  margin: 1rem 0px;
   /* 30px */
 }
 
+
 .marketing-service ul {
-  width: 100%;
-  float: none;
-  margin: 0;
-  padding: 0px;
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 26px;
+  margin: 3rem 0;
 }
 
-.marketing-service ul li {
-  width: 31%;
-  float: left;
-  height: 260px;
-  margin: 20px 10px 0px 10px;
-  padding: 20px;
+.marketing-service ul a {
+  width: 20rem;
+  background-color: white;
   border-radius: 30px;
-  background: #fff;
-  box-shadow: 0px 0px 29px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
-  list-style: none;
+  flex-wrap: wrap;
 }
 
-.marketing-service ul li:hover {
-  background: #CFEDFA;
+.marketing-service ul a:hover img {
+  transform: scale(1.1);
+  transition: 0.2s ease-in;
 }
 
-.marketing-service ul li .image {
-  width: 100%;
-  float: left;
-  margin: 0px 0 20px;
-  padding: 0px;
+
+.marketing-service ul a p {
+  color: #000;
   text-align: center;
-  line-height: 0px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
+  margin: 1rem;
 }
 
-.marketing-service ul li h6 a {
-  width: 100%;
-  float: left;
-  margin: 0px 0 0px;
-  padding: 0px;
-  font-size: 21px;
-  line-height: 21px;
-  color: #333;
-  font-weight: normal;
-  text-align: left;
-  font-family: 'ProximaNovaAltBold';
-  text-transform: capitalize
+
+
+.marketing-service ul a h6 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101%;
+  margin-top: 1rem;
 }
 
-.marketing-service ul li p {
-  width: 100%;
-  float: left;
-  margin: 0px 0 0px;
-  padding: 0px;
-  font-size: 17px;
-  line-height: 24px;
-  color: #333;
-  font-weight: normal;
-  text-align: center;
-}
 
-.marketing-service ul li .image {
-  width: 28%;
-  float: left;
-  margin: 0px 0 20px;
-  padding: 0px;
-  text-align: left;
-  line-height: 0px;
-}
-
-.marketing-service ul li .image img {
-  max-width: 100%;
-  height: auto;
-}
-
-.marketing-service ul li .right-txt {
-  width: 100%;
-  float: left;
-  margin: 0px;
-  padding: 0px 0px 0px 10px;
-}
-
-.marketing-service ul li .right-txt h6 {
-  width: 100%;
-  float: left;
-  margin: 10px 0 10px;
-  padding: 10px 0px 5px 0px;
-  font-size: 21px;
-  line-height: 21px;
-  color: #333;
-  font-weight: normal;
-  text-align: center;
-  font-family: 'ProximaNovaAltBold';
-  text-transform: capitalize;
-}
-
-.marketing-service ul li .right-txt p {
-  width: 100%;
-  float: left;
-  margin: 0px 0 25px;
-  padding: 0px;
-  font-size: 17px;
-  line-height: 24px;
-  color: #333;
-  font-weight: normal;
-  text-align: center;
-}
-
-.right-txt img {
+.marketing-service ul a img {
   width: 100%;
   max-width: 80px;
 }
