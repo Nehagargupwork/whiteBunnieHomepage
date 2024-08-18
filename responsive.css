@@ -557,7 +557,7 @@
      .why-choose-section h3 {
          width: 100%;
          float: left;
-         margin: 0px 0 40px;
+         margin: 0px 0 18px;
          padding: 0px 0%;
      }
 
@@ -706,7 +706,7 @@
      }
 
      .why-choose-section h3 {
-         font-size: 36px;
+         font-size: 33px;
          line-height: 40px;
      }
 
@@ -972,5 +972,127 @@
   @media (max-width: 767px) {
     #mixedSlider3 .MS-controls .MS-right {
       right: 0px;
+    }
+  }
+
+
+
+
+
+  
+/* Media Query for Tablets */
+@media screen and (max-width: 1000px) {
+    .maxiRoiRightParas p {
+      margin: 1rem 2rem 0 0;
+      font-size: 1.6vw;
+    }
+  
+    .maxiRoiLeftMamImgBox .phoneShowImgRoi1 {
+      max-width: 24rem;
+    }
+  
+    .lookingForYellowBox h2 {
+      font-size: 29px;
+      margin: 1rem 2rem;
+    }
+  
+    .lookingForYellowBox p {
+      font-size: 22px;
+      margin: 1rem 4rem;
+    }
+  
+    .maxiRoiLeftMamImgBox .phoneShowImgRoi1 {
+      max-width: 23rem;
+    }
+  
+  
+  
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+    
+    .lookingForYellowBox .buttonBox {
+      flex-direction: column;
+      gap: 0;
+    }
+  
+  
+    .lookingForYellowBox {
+      border-radius: 38px;
+      background: #FFF234;
+      max-width: 1280px;
+      padding: 1rem;
+      position: static;
+      bottom: 1rem;
+      margin: 1rem 0;
+    }
+  
+  
+    .maxiRoiCont {
+      padding-bottom: 0;
+    }
+  
+    .maxiRoiLeftMamImgBox .phoneShowImgRoi1 {
+      transform: none;
+      display: none;
+    }
+  
+  
+    .maxiRoiCont {
+      flex-direction: column;
+    }
+  
+    .maxiRoiRightParas h3 {
+      margin: 1rem 0;
+      font-size: 6vw;
+    }
+  
+  
+    .maxiRoiLeftMamImgBox {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  
+    .maxiRoiRightParas {
+      width: 100%;
+    }
+  
+    .maxiRoiRightParas p {
+      margin: 1rem 0rem 0 0;
+      font-size: 3.5vw;
+    }
+  
+    /* .maxiRoiLeftMamImgBox {
+      display: none;
+    } */
+  
+    .phoneShowImgRoi {
+      display: block;
+    }
+  }
+  
+  /* Media Query for Phones */
+  @media screen and (max-width: 480px) {
+  
+    .lookingForYellowBox p {
+      font-size: 18px;
+      margin: 1rem 0;
+    }
+  
+    .lookingForYellowBox h2 {
+      font-size: 24px;
+      margin: 0 0;
+    }
+  
+    .maxiRoiRightParas h3 {
+      margin: 1rem 0;
+      /* Responsive font size for heading */
+    }
+  
+    .maxiRoiRightParas p {
+      margin: 1rem 0 0 0;
+      font-size: 4vw;
+      /* Responsive font size for paragraphs */
     }
   }

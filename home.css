@@ -861,3 +861,260 @@ p.second-para {
   margin: 25px 0px 0px !important;
   text-align: center !important
 }
+
+
+
+
+
+
+
+
+/* =========================== Maximize ROI ========================== */
+
+
+.maxiRoiCont {
+  display: flex;
+  justify-content: center;
+  background: #222;
+  border: 2px solid black;
+  padding: 1rem;
+  padding-bottom: 8rem;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.maxiRoiLeftMamImgBox {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.maxiRoiRightParas {
+  width: 55%;
+}
+
+.maxiRoiRightParas h3 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 3.6vw;
+  /* Adjusted for responsive sizing */
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%;
+  margin: 2rem 4rem 1rem 0;
+}
+
+.maxiRoiRightParas p {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 1.3vw;
+  /* Adjusted for responsive sizing */
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin: 1rem 5rem 0 0;
+}
+
+.maxiRoiLeftMamImgBox .phoneShowImgRoi1 {
+  height: auto;
+  width: 100%;
+  max-width: 29rem;
+  transform: translateY(-50px) rotate(2.971deg) scale(1.05);
+  flex-shrink: 0;
+  /* box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); */
+}
+
+.phoneShowImgRoi {
+  display: none;
+}
+
+
+.lookingForYellowBox {
+  border-radius: 38px;
+  background: #FFF234;
+  max-width: 1280px;
+  padding: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  margin: 0 1rem;
+}
+
+.lookingForYellowBox h2 {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%;
+  margin: 1rem 2rem;
+}
+
+
+.lookingForYellowBox .buttonBox a {
+  border-radius: 38px;
+  background: #222;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 107%;
+  padding: 1rem;
+  margin: 10px 0;
+}
+
+.lookingForYellowBox p {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  margin: 1rem 7rem;
+}
+
+.lookingForYellowBox .buttonBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+
+
+.why-choose-section strong {
+  font-weight: 700;
+}
+
+
+.why-choose-section {
+  width: 100%;
+  float: left;
+  margin: 0px;
+  padding: 30px 0 30px;
+  color: #fff;
+  background: var(--Black, #222);
+}
+
+.why-choose-section h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+  margin: 0 0 1.5rem 0;
+
+}
+
+.why-choose-section p {
+  margin: 0px 0 30px;
+  padding: 0px;
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.why-choose-section .img {
+  float: right;
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 20px 40px
+}
+
+.why-choose-section ul {
+  width: 100%;
+  float: left;
+  margin: 30px 0 0 0;
+  padding: 0px;
+}
+
+.why-choose-section ul li {
+  width: 24%;
+  float: left;
+  margin: 0 0.5% 40px;
+  padding: 0px;
+  list-style: none;
+}
+
+.why-choose-section ul li h6 {
+  width: 100%;
+  float: left;
+  margin: 0px 0 15px;
+  padding: 12px;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600;
+  text-align: center;
+  font-family: Poppins;
+  border-radius: 50px;
+  background: #D9D9D9;
+  color: #000;
+}
+
+.why-choose-section ul li p {
+  margin: 0px 0 0px;
+  padding: 0px;
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: normal;
+}
+
+
+.accordion_pre {
+  background: #D9D9D9;
+  color: #000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  margin: 1px 0px;
+  text-align: left;
+  outline: none;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.mob-pre-section{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* .active_pre,
+.accordion_pre:hover {
+  background-color: #010a83;
+} */
+
+.accordion_pre:after {
+  content: '\002B';
+  color: #000000;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active_pre:after {
+  content: "\2212";
+}
+
+.panel_pre {
+  padding: 0 18px;
+  background-color: #eaeaea;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.panel_pre p {
+  font-size: 20px;
+  margin: 10px 0px 20px;
+}
