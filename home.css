@@ -419,19 +419,29 @@ a {
   float: left;
   margin: 0px;
   padding: 55px 0 55px;
+  background-color: #222;
+  color: white;
 }
 
 .testimonial-section-btm h3 {
-  width: 100%;
+  /* width: 100%;
   float: left;
   margin: 0px 0 40px;
   padding: 0px;
   font-size: 46px;
   line-height: 48px;
-  color: #333;
   font-weight: normal;
   font-family: 'ProximaNovaAltBold';
+  text-align: center; */
+
+  margin: 0px 0 40px;
+  color: #FFF;
   text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
 }
 
 .testimonial-section-btm ul {
@@ -466,6 +476,7 @@ a {
   width: 114px;
   height: 114px;
   border-radius: 50%;
+  border: 2px solid #fff234;
   margin: 0 auto;
   display: table;
 }
@@ -477,7 +488,6 @@ a {
   padding: 0px;
   font-size: 22px;
   line-height: 22px;
-  color: #010a83;
   font-weight: normal;
   text-align: center;
   font-family: 'ProximaNovaAltBold';
@@ -490,9 +500,22 @@ a {
   padding: 0px;
   font-size: 17px;
   line-height: 24px;
-  color: #333;
   font-weight: normal;
   text-align: center;
+}
+
+
+.testimonial-section-btm ul li p strong {
+  color: #FFF234;
+}
+
+.testimonial-section-btm .clientTalking {
+  color: #FFF234;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
 }
 
 
@@ -505,6 +528,26 @@ a {
 
 
 
+.readall-button {
+  border-radius: 38px;
+  background: #FFF234;
+  color: black;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 107%;
+  margin: 0px auto;
+  display: table;
+}
+
+
+.readall-button:hover {
+  background: #333;
+  color: #fff;
+}
 
 
 
@@ -965,6 +1008,41 @@ p.second-para {
   margin: 10px 0;
 }
 
+
+/* .why-choose-section .buttonBox a {
+  border-radius: 38px;
+  background: #222;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 107%;
+  padding: 1rem;
+  margin: 10px 0;
+} */
+
+.why-choose-section .buttonBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.why-choose-section .buttonBox a {
+  border-radius: 38px;
+  background: #FFF234;
+  color: black;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 107%;
+}
+
 .lookingForYellowBox p {
   color: #222;
   text-align: center;
@@ -1081,7 +1159,7 @@ p.second-para {
   border-radius: 50px;
 }
 
-.mob-pre-section{
+.mob-pre-section {
   align-items: center;
   justify-content: center;
   display: flex;
@@ -1108,13 +1186,70 @@ p.second-para {
 
 .panel_pre {
   padding: 0 18px;
-  background-color: #eaeaea;
+  background: #D9D9D9;
+  color: #000;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  border-radius: 30px;
 }
 
 .panel_pre p {
   font-size: 20px;
   margin: 10px 0px 20px;
 }
+
+
+
+/* ===================================== */
+
+
+.our-portfolio {
+  width: 100%;
+  float: left;
+  margin: 0px;
+  padding: 30px 0 30px;
+  /* background: #eaeaea; */
+  background: #D9D9D9;
+}
+
+.our-portfolio h3 {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  margin: 0px 0 10px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+}
+
+.our-portfolio h5 {
+  width: 100%;
+  float: left;
+  margin: 0px 0 30px;
+  padding: 0px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #333;
+  font-weight: normal;
+  text-align: center;
+  font-family: Poppins;
+}
+
+.our-portfolio-image {
+  width: 32.33%;
+  max-height: 387.95px;
+  float: left;
+  margin: 0px 0.5% 20px;
+  padding: 0px;
+  line-height: 0px;
+}
+
+.our-portfolio-image img {
+  width: 100%;
+  height: auto;
+}
+
+
+

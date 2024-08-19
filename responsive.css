@@ -711,22 +711,26 @@
      }
 
      .testimonial-section-btm h3 {
-         font-size: 36px;
+         font-size: 33px;
          line-height: 40px;
      }
 
+     .testimonial-section-btm .clientTalking{
+        font-size: 33px;
+     }
+
      .our-portfolio h3 {
-         font-size: 36px;
+         font-size: 33px;
          line-height: 40px;
      }
 
      .award-section h3 {
-         font-size: 36px;
+         font-size: 33px;
          line-height: 40px;
      }
 
      .faq h3 {
-         font-size: 36px;
+         font-size: 33px;
          line-height: 40px;
      }
  }
@@ -760,19 +764,12 @@
          font-size: 18px;
      }
 
-     .why-choose-section {
-         margin-bottom: 50px;
-     }
-
  }
 
 
  @media only screen and (min-width: 480px) and (max-width: 1024px) {
-
-
      #mixedSlider3 .MS-content .item {
          width: 40%;
-         /* justify-content: space-around; */
      }
 
      .solut-left {
@@ -819,94 +816,99 @@
      .mob-pre-section {
          display: none;
      }
+
  }
 
  @media screen and (max-width: 479px) {
      ul.pre-des {
          display: none;
      }
+
+     #desk-why {
+         display: none;
+     }
  }
 
 
- 
+
  /* Tablet view */
  @media (max-width: 768px) {
-    .mainHeading {
-        font-size: 36px;
-        margin: 4rem 0px 1rem 0px;
-    }
+     .mainHeading {
+         font-size: 36px;
+         margin: 4rem 0px 1rem 0px;
+     }
 
-    .subHeading {
-        font-size: 20px;
-    }
+     .subHeading {
+         font-size: 20px;
+     }
 
-    .heroCard {
-        width: 50%;
-    }
+     .heroCard {
+         width: 50%;
+     }
 
-    .testimonial-section::before {
-        height: 500px;
-    }
+     .testimonial-section::before {
+         height: 500px;
+     }
 
-    .buttons {
-        display: none;
-    }
+     .buttons {
+         display: none;
+     }
 
-    .buttons2 {
-        border-radius: 50px;
-        background: #FFF234;
-        position: static;
-        cursor: pointer;
+     .buttons2 {
+         border-radius: 50px;
+         background: #FFF234;
+         position: static;
+         cursor: pointer;
 
-        color: var(--Black, #222);
-        font-family: Unbounded;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 26px;
-        /* 162.5% */
-        letter-spacing: 0.24px;
+         color: var(--Black, #222);
+         font-family: Unbounded;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: 26px;
+         /* 162.5% */
+         letter-spacing: 0.24px;
 
-        padding: 16px 38px;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        gap: 8px;
+         padding: 16px 38px;
+         display: inline-flex;
+         justify-content: center;
+         align-items: center;
+         gap: 8px;
 
-        margin: 1rem auto;
+         margin: 1rem auto;
 
-        /* top: 96%;
+         /* top: 96%;
    left: 50%; */
-        transform: translate(0, 0);
-    }
+         transform: translate(0, 0);
+     }
 
 
-    .testimonial-section h3 {
-        font-size: 33px;
-    }
+     .testimonial-section h3 {
+         font-size: 33px;
+     }
 
-    .testimonial-section h6 {
-        font-size: 20px;
-        margin-top: 10px;
-    }
+     .testimonial-section h6 {
+         font-size: 20px;
+         margin-top: 10px;
+     }
 
-    .testimonial-section ul {
-        margin-top: 0px;
-    }
+     .testimonial-section ul {
+         margin-top: 0px;
+     }
 
 
-    .testimonial-section-text p {
-        padding: 7px 0;
-        text-align: center;
-    }
+     .testimonial-section-text p {
+         padding: 7px 0;
+         text-align: center;
+     }
 
-}
+ }
 
  /* Mobile view */
  @media (max-width: 480px) {
 
      .trusted-section h3 {
-        font-size: 33px;
+         font-size: 33px;
          padding: 2rem 1rem;
      }
 
@@ -944,155 +946,155 @@
 
 
  @media (max-width: 992px) {
-    #mixedSlider3 .MS-controls button {
-      font-size: 30px;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    #mixedSlider3 .MS-controls button {
-      font-size: 20px;
-    }
-  }
-  
-  #mixedSlider3 .MS-controls .MS-left {
-    left: -50px;
-  }
-  
-  @media (max-width: 767px) {
-    #mixedSlider3 .MS-controls .MS-left {
-      left: 0px;
-    }
-  }
-  
-  #mixedSlider3 .MS-controls .MS-right {
-    right: -50px;
-  }
-  
-  @media (max-width: 767px) {
-    #mixedSlider3 .MS-controls .MS-right {
-      right: 0px;
-    }
-  }
+     #mixedSlider3 .MS-controls button {
+         font-size: 30px;
+     }
+ }
+
+ @media (max-width: 767px) {
+     #mixedSlider3 .MS-controls button {
+         font-size: 20px;
+     }
+ }
+
+ #mixedSlider3 .MS-controls .MS-left {
+     left: -50px;
+ }
+
+ @media (max-width: 767px) {
+     #mixedSlider3 .MS-controls .MS-left {
+         left: 0px;
+     }
+ }
+
+ #mixedSlider3 .MS-controls .MS-right {
+     right: -50px;
+ }
+
+ @media (max-width: 767px) {
+     #mixedSlider3 .MS-controls .MS-right {
+         right: 0px;
+     }
+ }
 
 
 
 
 
-  
-/* Media Query for Tablets */
-@media screen and (max-width: 1000px) {
-    .maxiRoiRightParas p {
-      margin: 1rem 2rem 0 0;
-      font-size: 1.6vw;
-    }
-  
-    .maxiRoiLeftMamImgBox .phoneShowImgRoi1 {
-      max-width: 24rem;
-    }
-  
-    .lookingForYellowBox h2 {
-      font-size: 29px;
-      margin: 1rem 2rem;
-    }
-  
-    .lookingForYellowBox p {
-      font-size: 22px;
-      margin: 1rem 4rem;
-    }
-  
-    .maxiRoiLeftMamImgBox .phoneShowImgRoi1 {
-      max-width: 23rem;
-    }
-  
-  
-  
-  }
-  
-  @media screen and (max-width: 768px) {
-  
-    
-    .lookingForYellowBox .buttonBox {
-      flex-direction: column;
-      gap: 0;
-    }
-  
-  
-    .lookingForYellowBox {
-      border-radius: 38px;
-      background: #FFF234;
-      max-width: 1280px;
-      padding: 1rem;
-      position: static;
-      bottom: 1rem;
-      margin: 1rem 0;
-    }
-  
-  
-    .maxiRoiCont {
-      padding-bottom: 0;
-    }
-  
-    .maxiRoiLeftMamImgBox .phoneShowImgRoi1 {
-      transform: none;
-      display: none;
-    }
-  
-  
-    .maxiRoiCont {
-      flex-direction: column;
-    }
-  
-    .maxiRoiRightParas h3 {
-      margin: 1rem 0;
-      font-size: 6vw;
-    }
-  
-  
-    .maxiRoiLeftMamImgBox {
-      width: 100%;
-      margin-bottom: 1rem;
-    }
-  
-    .maxiRoiRightParas {
-      width: 100%;
-    }
-  
-    .maxiRoiRightParas p {
-      margin: 1rem 0rem 0 0;
-      font-size: 3.5vw;
-    }
-  
-    /* .maxiRoiLeftMamImgBox {
+
+ /* Media Query for Tablets */
+ @media screen and (max-width: 1000px) {
+     .maxiRoiRightParas p {
+         margin: 1rem 2rem 0 0;
+         font-size: 1.6vw;
+     }
+
+     .maxiRoiLeftMamImgBox .phoneShowImgRoi1 {
+         max-width: 24rem;
+     }
+
+     .lookingForYellowBox h2 {
+         font-size: 29px;
+         margin: 1rem 2rem;
+     }
+
+     .lookingForYellowBox p {
+         font-size: 22px;
+         margin: 1rem 4rem;
+     }
+
+     .maxiRoiLeftMamImgBox .phoneShowImgRoi1 {
+         max-width: 23rem;
+     }
+
+
+
+ }
+
+ @media screen and (max-width: 768px) {
+
+
+     .lookingForYellowBox .buttonBox {
+         flex-direction: column;
+         gap: 0;
+     }
+
+
+     .lookingForYellowBox {
+         border-radius: 38px;
+         background: #FFF234;
+         max-width: 1280px;
+         padding: 1rem;
+         position: static;
+         bottom: 1rem;
+         margin: 1rem 0;
+     }
+
+
+     .maxiRoiCont {
+         padding-bottom: 0;
+     }
+
+     .maxiRoiLeftMamImgBox .phoneShowImgRoi1 {
+         transform: none;
+         display: none;
+     }
+
+
+     .maxiRoiCont {
+         flex-direction: column;
+     }
+
+     .maxiRoiRightParas h3 {
+         margin: 1rem 0;
+         font-size: 6vw;
+     }
+
+
+     .maxiRoiLeftMamImgBox {
+         width: 100%;
+         margin-bottom: 1rem;
+     }
+
+     .maxiRoiRightParas {
+         width: 100%;
+     }
+
+     .maxiRoiRightParas p {
+         margin: 1rem 0rem 0 0;
+         font-size: 3.5vw;
+     }
+
+     /* .maxiRoiLeftMamImgBox {
       display: none;
     } */
-  
-    .phoneShowImgRoi {
-      display: block;
-    }
-  }
-  
-  /* Media Query for Phones */
-  @media screen and (max-width: 480px) {
-  
-    .lookingForYellowBox p {
-      font-size: 18px;
-      margin: 1rem 0;
-    }
-  
-    .lookingForYellowBox h2 {
-      font-size: 24px;
-      margin: 0 0;
-    }
-  
-    .maxiRoiRightParas h3 {
-      margin: 1rem 0;
-      /* Responsive font size for heading */
-    }
-  
-    .maxiRoiRightParas p {
-      margin: 1rem 0 0 0;
-      font-size: 4vw;
-      /* Responsive font size for paragraphs */
-    }
-  }
+
+     .phoneShowImgRoi {
+         display: block;
+     }
+ }
+
+ /* Media Query for Phones */
+ @media screen and (max-width: 480px) {
+
+     .lookingForYellowBox p {
+         font-size: 18px;
+         margin: 1rem 0;
+     }
+
+     .lookingForYellowBox h2 {
+         font-size: 24px;
+         margin: 0 0;
+     }
+
+     .maxiRoiRightParas h3 {
+         margin: 1rem 0;
+         /* Responsive font size for heading */
+     }
+
+     .maxiRoiRightParas p {
+         margin: 1rem 0 0 0;
+         font-size: 4vw;
+         /* Responsive font size for paragraphs */
+     }
+ }

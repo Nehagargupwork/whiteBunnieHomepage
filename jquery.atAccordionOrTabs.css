@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* CSS Document */
+/* jQuery at Responsive Accordion or Tabs - v1.0.4 - 2016-02-24
+* https://github.com/stazna01/jQuery-rt-Responsive-Tables
+*
+* This plugin is built heavily upon the work by Chris Coyier
+* found at http://css-tricks.com/responsive-data-tables/
+*
+* Copyright (c) 2016 Nathan Stazewski; Licensed MIT */
+
+.aria-only {
+	position: absolute;
+	left: -10000px;
+	overflow: hidden;
+}
+
+.at-accordion-or-tabs {
+	position: relative;
+	margin: 24px auto;
+	border: none;
+	width: 100%;
+	padding: 0;
+	clear: both;
+	/*visibility: hidden; */
+}
+
+.at-accordion-or-tabs>li {
+	list-style: none;
+	padding: 0 !important;
+	margin-bottom: 3px;
+	border: 1px solid #9d9d9d;
+}
+
+.at-accordion-or-tabs>li>a {
+	display: block;
+	background: transparent;
+	text-decoration: none;
+	color: #222;
+	padding: 5px 55px;
+	line-height: 41px;
+	border: none;
+	margin: 0 0 -1px 0;
+	font-size: 19px;
+	font-weight: normal;
+	font-family: 'ProximaNovaAltBold';
+	border: 0;
+
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 34px;
+	/* 212.5% */
+
+}
+
+.at-accordion-or-tabs>li>a:hover,
+.at-accordion-or-tabs>li>a.active {
+	background: #333333;
+	color: #F2F2F2;
+}
+
+.at-accordion-or-tabs>li>section {
+	display: none;
+	background: none;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 15px;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+
+.no-js .at-accordion-or-tabs>li>section {
+	display: block;
+}
+
+.at-accordion-or-tabs .at-tab-one-pixel-fix-left,
+.at-accordion-or-tabs .at-tab-one-pixel-fix-right {
+	display: none;
+	height: 0px;
+	width: 0px;
+	background-color: #000000;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+.at-accordion-or-tabs .at-tab-one-pixel-fix-right {
+	left: auto;
+	right: -1px;
+}
+
+.at-accordion-or-tabs.at-tabs {
+	border: none;
+}
+
+.at-accordion-or-tabs.at-tabs>li {
+	display: inline;
+	border: none;
+}
+
+.at-accordion-or-tabs.at-tabs>li>a {
+	display: inline-block;
+	z-index: 98;
+	position: relative;
+	border: 2px solid black;
+	box-sizing: border-box;
+	border-radius: 30px;
+}
+
+.at-accordion-or-tabs.at-tabs>li>a.active {
+	z-index: 100;
+	background-color: #333333;
+	color: #FFF234;
+	border-radius: 30px;
+}
+
+.at-accordion-or-tabs.at-tabs .at-tab-one-pixel-fix-left,
+.at-accordion-or-tabs.at-tabs .at-tab-one-pixel-fix-right {
+	display: inline-block;
+}
+
+.at-accordion-or-tabs.at-tabs>li>section {
+	float: left;
+	top: 0px;
+	left: 0;
+	border: 0;
+	/* border-top: 1px #9d9d9d solid; */
+	z-index: 99;
+	border-radius: 0px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	box-sizing: border-box;
+	padding: 30px 0 0 0;
+	box-sizing: border-box;
+}
+
+.at-accordion-or-tabs.at-tabs>li>section p {
+	width: 100%;
+	float: left;
+	margin: 0px;
+	padding: 0 0 20px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+
+.our-portfolio img{
+	border-radius: 30px;
+}
