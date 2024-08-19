@@ -715,8 +715,8 @@
          line-height: 40px;
      }
 
-     .testimonial-section-btm .clientTalking{
-        font-size: 33px;
+     .testimonial-section-btm .clientTalking {
+         font-size: 33px;
      }
 
      .our-portfolio h3 {
@@ -1013,6 +1013,12 @@
 
  @media screen and (max-width: 768px) {
 
+
+
+     .footerJi {
+         justify-content: start;
+         padding: 10%;
+     }
 
      .lookingForYellowBox .buttonBox {
          flex-direction: column;
