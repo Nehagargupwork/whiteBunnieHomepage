@@ -921,7 +921,7 @@ p.second-para {
   background: #222;
   border: 2px solid black;
   padding: 1rem;
-  padding-bottom: 8rem;
+  padding-bottom: 10rem;
   flex-wrap: wrap;
   position: relative;
 }
