@@ -109,7 +109,7 @@ a {
 
 
 .imageHeroSec {
-  /* border: 2px solid white; */
+  border: 2px solid white;
   position: relative;
   z-index: 1;
   display: flex;
@@ -133,10 +133,11 @@ a {
   transform: translate(-50%, -50%);
 }
 
-.buttons {
+
+.buttonsNakli {
+  /* position: absolute; */
   border-radius: 50px;
   background: #FFF234;
-  position: absolute;
   cursor: pointer;
   z-index: 1;
   color: var(--Black, #222);
@@ -145,7 +146,6 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: 26px;
-  /* 162.5% */
   letter-spacing: 0.24px;
 
   padding: 16px 38px;
@@ -154,6 +154,33 @@ a {
   align-items: center;
   gap: 8px;
 
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  /* top: 96%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+
+.buttons {
+  position: absolute;
+  border-radius: 50px;
+  background: #FFF234;
+  cursor: pointer;
+  z-index: 1;
+  color: var(--Black, #222);
+  font-family: Unbounded;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.24px;
+
+  padding: 16px 38px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
   top: 96%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -165,7 +192,8 @@ a {
 
 
 .headingCont2 {
-  background-image: url("./img/png-4-1.png");
+  /* background-image: url("./img/png-4-1.png"); */
+  /*  change */
 
   background-repeat: no-repeat;
   background-position: center;
@@ -201,6 +229,11 @@ a {
   flex-wrap: wrap;
 }
 
+.hero4cards>div:nth-child(-n+3) {
+  border-right: 1px solid rgb(54, 54, 54);
+}
+
+
 .heroCard {
   width: 25%;
   padding: 4rem 0rem;
@@ -209,6 +242,7 @@ a {
   justify-content: center;
   flex-direction: column;
   box-sizing: border-box;
+
 }
 
 
@@ -586,6 +620,8 @@ a {
   border: 2px solid black;
   transition: 0.3s;
   background-color: #222;
+  position: relative;
+  z-index: 10;
 }
 
 .inStatsSide {
@@ -645,15 +681,16 @@ a {
   /* color: black; */
   text-align: center;
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 2rem;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 137%;
   /* 34.24px */
 }
 
 .inner-card1 img {
-  width: 20rem;
+  /* width: 20rem; */
+  width: 25rem;
 }
 
 .chip1 {
@@ -700,7 +737,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 3rem;
   flex-wrap: wrap;
 }
 
@@ -1009,6 +1046,11 @@ p.second-para {
 }
 
 
+.lookingForYellowBox .buttonBox a:hover {
+  color: #FFF234;
+}
+
+
 /* .why-choose-section .buttonBox a {
   border-radius: 38px;
   background: #222;
@@ -1064,7 +1106,7 @@ p.second-para {
 
 
 .why-choose-section strong {
-  font-weight: 700;
+  font-weight: 800;
 }
 
 
@@ -1141,6 +1183,39 @@ p.second-para {
   line-height: 25px;
   font-weight: normal;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .accordion_pre {
@@ -1290,6 +1365,11 @@ p.second-para {
 }
 
 @media (max-width: 768px) {
+
+  .hero4cards>div:nth-child(-n+3) {
+    border-right: none;
+  }
+
   .asSeenOn .asSeenOnHeading {
     font-size: 2rem;
   }
@@ -1304,6 +1384,11 @@ p.second-para {
 }
 
 @media (max-width: 480px) {
+
+  .hero4cards>div:nth-child(-n+3) {
+    border-bottom: 1px solid rgb(54, 54, 54);
+  }
+
   .asSeenOn .asSeenOnHeading {
     font-size: 1.5rem;
   }
@@ -1324,7 +1409,7 @@ p.second-para {
 
 
 
-.footerJi{
+.footerJi {
   justify-content: space-around;
   background-color: #000;
   color: white;
@@ -1335,68 +1420,70 @@ p.second-para {
   gap: 4rem;
 }
 
-.inRightFooter, .inLeftFooter{
+.inRightFooter,
+.inLeftFooter {
   display: flex;
   gap: 3rem;
   flex-direction: column;
 }
 
-.footerJi .heading{
+.footerJi .heading {
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 2rem;  
+  margin-bottom: 2rem;
 }
 
-.footMiddle{
+.footMiddle {
   display: flex;
   flex-direction: column;
 }
 
 
-.footRight, .footLeft{
+.footRight,
+.footLeft {
   display: flex;
   justify-content: start;
   flex-direction: column;
 }
 
-.footLeft .countryDiv{
+.footLeft .countryDiv {
   display: flex;
   font-size: 24px;
-  font-weight: 500; 
+  font-weight: 500;
   align-items: center;
   gap: 10px;
   margin-bottom: 1rem;
 }
 
-.footMiddle .inFootMiddle{
+.footMiddle .inFootMiddle {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.footMiddle .inFootMiddle a{
+.footMiddle .inFootMiddle a {
   font-size: 18px;
 }
 
-.footRight svg{
-    width: 25px;
-    line-height: 24px;
-    color: #ffffff;
-    fill: #ffffff;
+.footRight svg {
+  width: 25px;
+  line-height: 24px;
+  color: #ffffff;
+  fill: #ffffff;
 }
 
-.footLeft svg{
-    width: 20px;
-    line-height: 24px;
-    color: #ffffff;
-    fill: #ffffff;
+.footLeft svg {
+  width: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  fill: #ffffff;
 }
 
-.footRight span{
+.footRight span {
   display: flex;
 }
 
-.footRight a{
+.footRight a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1404,34 +1491,85 @@ p.second-para {
   padding: 6px 5px;
 }
 
-.footRight .facebook{
+.footRight .facebook {
   background-color: #1778f2;
   /* background: #1da1f2; */
 }
 
-.footRight .twitter{
+.footRight .twitter {
   background: #1da1f2;
 }
 
-.footRight .insta{
+.footRight .insta {
   background: #f00075;
 }
 
-.footRight .whatsApp{
+.footRight .whatsApp {
   background: #25d366;
 }
 
-.footRight .skype{  
+.footRight .skype {
   background: #0478d7;
 }
 
-.footRight .iconCont{
+.footRight .iconCont {
   display: flex;
   gap: 2rem;
 }
 
-.footRight svg{
+.footRight svg {
   border-radius: 30px;
   color: white;
   fill: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.semiCircleSection {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  /* Background color for the section */
+}
+
+.semiCircle {
+  position: absolute;
+  top: 55%;
+  width: 25rem;
+  /* Diameter of the semicircle */
+  height: 17rem;
+  background-color: #7e7e7e;
+  /* Color of the semicircle */
+  border-radius: 50%;
+  /* Creates a semicircle */
+  transform: translateY(-50%);
+}
+
+.semiCircle.left {
+  left: 0;
+  transform: translate(-60%, -50%) rotate(90deg);
+  /* Position and rotate for the left side */
+}
+
+.semiCircle.right {
+  right: 0;
+  transform: translate(60%, -50%) rotate(-90deg);
+  /* Position and rotate for the right side */
 }
