@@ -1551,3 +1551,16 @@ p.second-para {
   /* Position and rotate for the right side */
 }
 
+
+:hover {  transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;}
+
+.effect{ position:relative; display:block; overflow:hidden;}
+.effect:before,.effect:after{content:''; background:rgba(212, 210, 210, 0.2) none repeat scroll 0 0;content: "";opacity: 1;position:absolute;}
+.effect:before{ bottom: 0;left: 50%;right:50%;top: 0;}
+.effect:after{left: 0;bottom: 50%;right:0;top:50%;}
+.effect:hover:before,.effect:hover:after{transition: all 900ms ease-in 0s;}
+.effect:hover:before{ left: 0; opacity: 0; right: 0;}
+.effect:hover:after{ top: 0; opacity: 0; bottom: 0;}

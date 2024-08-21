@@ -26,33 +26,30 @@
 
 .at-accordion-or-tabs>li {
 	list-style: none;
-	padding: 0 !important;
-	margin-bottom: 3px;
-	border: 1px solid #9d9d9d;
+	margin-bottom: 12px;
 }
 
 .at-accordion-or-tabs>li>a {
 	display: block;
 	background: transparent;
 	text-decoration: none;
-	color: #222;
-	padding: 5px 55px;
+	color: white;
+	padding: 5px 25px;
 	line-height: 41px;
-	border: none;
-	margin: 0 0 -1px 0;
-	font-size: 19px;
-	font-weight: normal;
-	font-family: 'ProximaNovaAltBold';
-	border: 0;
 
 	font-family: Poppins;
-	font-size: 16px;
+	font-size: 18px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 34px;
-	/* 212.5% */
-
+	background: #222;
+	box-sizing: border-box;
+	border-radius: 30px;
 }
+
+
+
+
 
 .at-accordion-or-tabs>li>a:hover,
 .at-accordion-or-tabs>li>a.active {
@@ -150,6 +147,6 @@
 }
 
 
-.our-portfolio img{
+.our-portfolio img {
 	border-radius: 30px;
 }

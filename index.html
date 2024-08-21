@@ -8,13 +8,15 @@
 
     <link rel="stylesheet" href="./letTalk.css" />
     <link rel="stylesheet" href="./home.css" />
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
     <link rel="stylesheet" href="./header.css" />
     <link rel="stylesheet" href="./responsive.css" />
     <link rel="stylesheet" href="./jquery.atAccordionOrTabs.css" />
-    <!-- <script src="home.js"></script> -->
-    <script src="./jquery.atAccordionOrTabs.js"></script>
+
 
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css' rel='stylesheet'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 </head>
 
@@ -1202,7 +1204,7 @@
                         </section>
                     </li>
 
-                    <!-- <li><a href="!#tabset_0=1"><span class="at-tab-one-pixel-fix-left"></span><span
+                    <li><a href="!#tabset_0=1"><span class="at-tab-one-pixel-fix-left"></span><span
                                 class="at-tab-one-pixel-fix-right"></span>Videos </a>
                         <section aria-live="assertive">
                             <h1 class="aria-only">Videos </h1>
@@ -1211,7 +1213,7 @@
                                 href="https://www.youtube.com/watch?v=da8_TwQPJd8" aria-controls="fancybox-wrap"
                                 aria-haspopup="dialog">
                                 <div class="our-portfolio-image effect"><img
-                                        src="https://whitebunnie.com/wp-content/uploads/2024/07/colllab-management-video-thumbnail.webp"
+                                        src="./img/portfolio/colllab-management-video-thumbnail.webp"
                                         width="387" height="387" alt="colllab-management"></div>
                             </a>
 
@@ -1219,14 +1221,14 @@
                                 href="https://www.youtube.com/watch?v=uRY-pjQrD-Q" aria-controls="fancybox-wrap"
                                 aria-haspopup="dialog">
                                 <div class="our-portfolio-image effect"><img
-                                        src="https://whitebunnie.com/wp-content/uploads/2024/07/Mn-brow.jpg" width="387"
+                                        src="./img/portfolio/Mn-brow.jpg" width="387"
                                         height="387" alt="Mn-brow"></div>
                             </a>
                             <a class="show-popup fancybox-youtube" data-fancybox-type="iframe"
                                 href="https://www.youtube.com/watch?v=6RdbTm9aK6w" aria-controls="fancybox-wrap"
                                 aria-haspopup="dialog">
                                 <div class="our-portfolio-image effect"> <img
-                                        src="https://whitebunnie.com/wp-content/uploads/2024/07/premier.jpg" width="387"
+                                        src="./img/portfolio/premier.jpg" width="387"
                                         height="387" alt="premier"></div>
                             </a>
                         </section>
@@ -1237,16 +1239,16 @@
                         <section aria-live="assertive">
                             <h1 class="aria-only">Websites </h1>
                             <div class="our-portfolio-image effect"><img
-                                    src="https://whitebunnie.com/wp-content/uploads/2024/05/calsun.webp" width="387"
+                                    src="./img/portfolio/calsun.webp" width="387"
                                     height="387" alt="our-portfolio"></div>
                             <div class="our-portfolio-image effect"><img
-                                    src="https://whitebunnie.com/wp-content/uploads/2024/05/colarado.webp" width="387"
+                                    src="./img/portfolio/colarado.webp" width="387"
                                     height="387" alt="our-portfolio"></div>
                             <div class="our-portfolio-image effect"><img
-                                    src="https://whitebunnie.com/wp-content/uploads/2024/05/togoag-1.webp" width="387"
+                                    src="./img/portfolio/togoag-1.webp" width="387"
                                     height="387" alt="our-portfolio"></div>
                         </section>
-                    </li> -->
+                    </li>
 
                 </ul>
             </div>
@@ -1399,10 +1401,16 @@
     </footer>
 
 
-
+    <!-- <script src="home.js"></script> -->
+    <script src="./jquery.atAccordionOrTabs.js"></script>
+    <script src="./jquery.bbq.js"></script>
 
 
     <script>
+
+
+        $('.demo').accordionortabs();
+
         var acc = document.getElementsByClassName("accordion");
         var i;
 

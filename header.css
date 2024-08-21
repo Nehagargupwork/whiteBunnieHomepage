@@ -461,6 +461,11 @@ select {
     .insideH3Heading {
         font-weight: 600;
     }
+
+    
+.togglePlusMinusIcon {
+    display: none;
+}
 }
 
 
