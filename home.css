@@ -1296,6 +1296,7 @@ p.second-para {
   margin: 0px 0.5% 20px;
   padding: 0px;
   line-height: 0px;
+  border-radius: 30px;
 }
 
 .our-portfolio-image img {
