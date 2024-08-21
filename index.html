@@ -1179,8 +1179,11 @@
                 <ul class="demo at-tabs-when-possible bbq clearfix at-accordion-or-tabs at-tabs"
                     data-tabset-id="tabset_0">
 
-                    <li><a href="!#tabset_0=0" class="active"><span class="at-tab-one-pixel-fix-left"></span>
-                            <span class="at-tab-one-pixel-fix-right"></span>Graphics</a>
+                    <li>
+
+                        <a href="!#tabset_0=0" class="active"> <span>Graphics</span> <i
+                                class="fa-solid fa-angle-down"></i> </a>
+
                         <section aria-live="assertive" class="is-open" style="display: block;">
                             <h1 class="aria-only">Graphics</h1>
                             <div class="our-portfolio-image effect"><img
@@ -1204,8 +1207,10 @@
                         </section>
                     </li>
 
-                    <li><a href="!#tabset_0=1"><span class="at-tab-one-pixel-fix-left"></span><span
-                                class="at-tab-one-pixel-fix-right"></span>Videos </a>
+                    <li>
+
+                        <a href="!#tabset_0=0"> <span>Videos</span> <i class="fa-solid fa-angle-down"></i> </a>
+
                         <section aria-live="assertive">
                             <h1 class="aria-only">Videos </h1>
 
@@ -1213,40 +1218,40 @@
                                 href="https://www.youtube.com/watch?v=da8_TwQPJd8" aria-controls="fancybox-wrap"
                                 aria-haspopup="dialog">
                                 <div class="our-portfolio-image effect"><img
-                                        src="./img/portfolio/colllab-management-video-thumbnail.webp"
-                                        width="387" height="387" alt="colllab-management"></div>
+                                        src="./img/portfolio/colllab-management-video-thumbnail.webp" width="387"
+                                        height="387" alt="colllab-management"></div>
                             </a>
 
                             <a class="show-popup fancybox-youtube" data-fancybox-type="iframe"
                                 href="https://www.youtube.com/watch?v=uRY-pjQrD-Q" aria-controls="fancybox-wrap"
                                 aria-haspopup="dialog">
-                                <div class="our-portfolio-image effect"><img
-                                        src="./img/portfolio/Mn-brow.jpg" width="387"
-                                        height="387" alt="Mn-brow"></div>
+                                <div class="our-portfolio-image effect"><img src="./img/portfolio/Mn-brow.jpg"
+                                        width="387" height="387" alt="Mn-brow"></div>
                             </a>
                             <a class="show-popup fancybox-youtube" data-fancybox-type="iframe"
                                 href="https://www.youtube.com/watch?v=6RdbTm9aK6w" aria-controls="fancybox-wrap"
                                 aria-haspopup="dialog">
-                                <div class="our-portfolio-image effect"> <img
-                                        src="./img/portfolio/premier.jpg" width="387"
-                                        height="387" alt="premier"></div>
+                                <div class="our-portfolio-image effect"> <img src="./img/portfolio/premier.jpg"
+                                        width="387" height="387" alt="premier"></div>
                             </a>
                         </section>
                     </li>
 
-                    <li><a href="!#tabset_0=2"><span class="at-tab-one-pixel-fix-left"></span><span
-                                class="at-tab-one-pixel-fix-right"></span>Websites </a>
+                    <li>
+
+                        <a href="!#tabset_0=0"> <span>Websites</span> <i class="fa-solid fa-angle-down"></i> </a>
+
                         <section aria-live="assertive">
                             <h1 class="aria-only">Websites </h1>
-                            <div class="our-portfolio-image effect"><img
-                                    src="./img/portfolio/calsun.webp" width="387"
-                                    height="387" alt="our-portfolio"></div>
-                            <div class="our-portfolio-image effect"><img
-                                    src="./img/portfolio/colarado.webp" width="387"
-                                    height="387" alt="our-portfolio"></div>
-                            <div class="our-portfolio-image effect"><img
-                                    src="./img/portfolio/togoag-1.webp" width="387"
-                                    height="387" alt="our-portfolio"></div>
+                            <div class="our-portfolio-image zoomWebsiteImages effect"><img
+                                    src="./img/portfolio/calsun.webp" width="387" height="387" alt="our-portfolio">
+                            </div>
+                            <div class="our-portfolio-image zoomWebsiteImages effect"><img
+                                    src="./img/portfolio/colarado.webp" width="387" height="387" alt="our-portfolio">
+                            </div>
+                            <div class="our-portfolio-image zoomWebsiteImages effect"><img
+                                    src="./img/portfolio/togoag-1.webp" width="387" height="387" alt="our-portfolio">
+                            </div>
                         </section>
                     </li>
 
@@ -1276,9 +1281,20 @@
                 </div>
                 </dv>
             </div>
+        </div>
 
 
     </section>
+
+
+
+    <!-- Popup Overlay and Image -->
+    <div id="imagePopup" class="popup">
+        <img class="popup-content" id="popupImage">
+        <span class="close">&times;</span>
+    </div>
+
+
 
     <footer class="footerJi">
 
@@ -1507,6 +1523,40 @@
 
             });
         });
+
+
+
+
+        document.querySelectorAll('.zoomWebsiteImages img').forEach(image => {
+            image.addEventListener('click', function () {
+                var popup = document.getElementById("imagePopup");
+                var popupImage = document.getElementById("popupImage");
+
+                // Display the popup and set the image source
+                popup.style.display = "block";
+                popupImage.src = this.src;
+
+                // Center the image horizontally
+                popupImage.style.margin = "auto";
+            });
+        });
+
+        // When the user clicks on the close button, close the popup
+        document.querySelector('.close').onclick = function () {
+            var popup = document.getElementById("imagePopup");
+            popup.style.display = "none";
+        };
+
+        // Close the popup if user clicks anywhere outside the image
+        window.onclick = function (event) {
+            var popup = document.getElementById("imagePopup");
+            if (event.target == popup) {
+                popup.style.display = "none";
+            }
+        };
+
+
+
 
 
     </script>

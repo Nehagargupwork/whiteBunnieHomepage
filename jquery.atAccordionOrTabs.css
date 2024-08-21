@@ -30,7 +30,9 @@
 }
 
 .at-accordion-or-tabs>li>a {
-	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	background: transparent;
 	text-decoration: none;
 	color: white;
@@ -48,12 +50,16 @@
 }
 
 
-
+@media (min-width: 768px) {
+	.at-accordion-or-tabs i {
+		display: none;
+	}
+}
 
 
 .at-accordion-or-tabs>li>a:hover,
 .at-accordion-or-tabs>li>a.active {
-	background: #333333;
+	background: #222;
 	color: #F2F2F2;
 }
 
@@ -110,7 +116,7 @@
 
 .at-accordion-or-tabs.at-tabs>li>a.active {
 	z-index: 100;
-	background-color: #333333;
+	background-color: #222;
 	color: #FFF234;
 	border-radius: 30px;
 }

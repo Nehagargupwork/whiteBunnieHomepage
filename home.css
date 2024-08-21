@@ -1344,6 +1344,7 @@ p.second-para {
 
 @media (max-width: 768px) {
 
+
   .hero4cards>div:nth-child(-n+3) {
     border-right: none;
   }
@@ -1553,15 +1554,121 @@ p.second-para {
 }
 
 
-:hover {  transition: all 0.2s ease-in-out 0s;
+:hover {
+  transition: all 0.2s ease-in-out 0s;
   -moz-transition: all 0.2s ease-in-out 0s;
   -webkit-transition: all 0.2s ease-in-out 0s;
-  -o-transition: all 0.2s ease-in-out 0s;}
+  -o-transition: all 0.2s ease-in-out 0s;
+}
 
-.effect{ position:relative; display:block; overflow:hidden;}
+/* .effect{ position:relative; display:block; overflow:hidden; cursor: pointer;}
 .effect:before,.effect:after{content:''; background:rgba(212, 210, 210, 0.2) none repeat scroll 0 0;content: "";opacity: 1;position:absolute;}
 .effect:before{ bottom: 0;left: 50%;right:50%;top: 0;}
 .effect:after{left: 0;bottom: 50%;right:0;top:50%;}
 .effect:hover:before,.effect:hover:after{transition: all 900ms ease-in 0s;}
 .effect:hover:before{ left: 0; opacity: 0; right: 0;}
-.effect:hover:after{ top: 0; opacity: 0; bottom: 0;}
+.effect:hover:after{ top: 0; opacity: 0; bottom: 0;} */
+
+
+.effect {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Popup container - can be anything you want */
+.popup {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 9999;
+  /* Sit on top */
+  padding: 40px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+
+
+
+
+
+/* Popup image */
+.popup-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* Caption of popup image */
+.popup-content {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+
+.close {
+  /* position: absolute; */
+  position: fixed;
+  bottom: 15px;
+  right: 24px;
+  color: #fff;
+  font-size: 40px;
+  transition: 0.3s;
+}
+
+@media (min-width: 768px) {
+  .close {
+    /* position: absolute; */
+    position: fixed;
+    bottom: 50px;
+    right: 5rem;
+    color: #fff;
+    font-size: 40px;
+    transition: 0.3s;
+  }
+}
+
+/* Add animation */
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+/* The close button */
+
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
