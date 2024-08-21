@@ -109,7 +109,7 @@ a {
 
 
 .imageHeroSec {
-  border: 2px solid white;
+  /* border: 2px solid white; */
   position: relative;
   z-index: 1;
   display: flex;
@@ -1039,7 +1039,7 @@ p.second-para {
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 107%;
   padding: 1rem;
   margin: 10px 0;
@@ -1550,3 +1550,4 @@ p.second-para {
   transform: translate(60%, -50%) rotate(-90deg);
   /* Position and rotate for the right side */
 }
+
