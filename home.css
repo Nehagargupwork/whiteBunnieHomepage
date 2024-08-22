@@ -1672,3 +1672,103 @@ p.second-para {
   text-decoration: none;
   cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================== */
+
+.dabbe {
+    width: 50rem;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 1rem; */
+    font-size: 1.4rem;
+    border-radius: 10px;
+    /* gap: 1rem; */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.faqHeading {
+    margin: 1rem 0;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .faqHeading {
+        font-size: 33px;
+    }
+
+    
+.faqQuestion{
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;    
+  font-family: 'Poppins';
+}
+}
+
+.panel {
+    background-color: transparent;
+    font-family: 'Poppins';
+    display: none;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: normal;
+    transition: max-height 0.2s ease-out;
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #222;
+    color: white;
+    border-radius: 10px;
+}
+
+.panel.active-faq {
+    display: block;
+}
+
+.toggle-symbol{
+    padding: 4px 5px;
+    border-radius: 50%;
+    background: #222;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+

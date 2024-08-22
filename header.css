@@ -205,6 +205,8 @@ select {
 
 /* The dropdown container */
 .dropbtn {
+    font-size: 19px;
+    font-weight: 600;
     padding: 8px 16px;
     white-space: nowrap;
 }
