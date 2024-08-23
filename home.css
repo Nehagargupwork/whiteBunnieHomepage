@@ -100,6 +100,55 @@ a {
   line-height: 120%;
 }
 
+
+
+.buttonsNakli {
+  border-radius: 50px;
+  background: #FFF234;
+  cursor: pointer;
+  z-index: 1;
+  color: var(--Black, #222);
+  font-family: Unbounded;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.24px;
+
+  padding: 16px 38px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+}
+
+
+.heroCtaBtnCont {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.extraTextCont {
+  max-width: 1200px;
+  padding: 0.7rem;
+  font-size: 18px;
+}
+
+
+.extraText {
+  color: #FFF;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-top: 1rem;
+}
+
 .imageHeroSec .foreGroundImage {
   position: relative;
   /* or absolute/fixed */
@@ -131,34 +180,6 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-
-.buttonsNakli {
-  /* position: absolute; */
-  border-radius: 50px;
-  background: #FFF234;
-  cursor: pointer;
-  z-index: 1;
-  color: var(--Black, #222);
-  font-family: Unbounded;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px;
-  letter-spacing: 0.24px;
-
-  padding: 16px 38px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  /* top: 96%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
 }
 
 
@@ -1651,6 +1672,9 @@ p.second-para {
     transition: 0.3s;
   }
 
+  .extraTextCont {
+    font-size: 26px;
+  }
 
 }
 
@@ -1716,8 +1740,11 @@ p.second-para {
   flex-wrap: wrap;
 }
 
-.masterSubDabba{
-  display: flex; flex-direction: column; gap: 1rem; width: 30rem;
+.masterSubDabba {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 30rem;
 }
 
 
