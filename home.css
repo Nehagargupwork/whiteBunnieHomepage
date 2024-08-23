@@ -1393,7 +1393,7 @@ p.second-para {
   background-color: #000;
   color: white;
   display: flex;
-  padding: 3% 10%;
+  padding: 3% 6%;
   font-family: Poppins;
   flex-wrap: wrap;
   gap: 4rem;
@@ -1650,6 +1650,8 @@ p.second-para {
     font-size: 40px;
     transition: 0.3s;
   }
+
+
 }
 
 /* Add animation */
@@ -1704,20 +1706,43 @@ p.second-para {
 
 
 /* ==================================================== */
+.masterDabba {
+  gap: 1rem;
+  width: 100%;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.masterSubDabba{
+  display: flex; flex-direction: column; gap: 1rem; width: 30rem;
+}
+
 
 .dabbe {
-  width: 50rem;
-  /* background-color: white; */
   color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 1rem; */
   font-size: 1.4rem;
-  /* gap: 1rem; */
   flex-direction: column;
   cursor: pointer;
 }
+
+
+.subFaqDabba {
+  background-color: white;
+  border-radius: 10px;
+  gap: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
 
 .faqHeading {
   margin: 1rem 0;
@@ -1732,6 +1757,10 @@ p.second-para {
     font-size: 33px;
   }
 
+  .embeddedVid {
+    /* width: 360px; */
+    width: 100%;
+  }
 
   .faqQuestion {
     font-size: 18px;
@@ -1750,11 +1779,28 @@ p.second-para {
   line-height: 24px;
   font-weight: normal;
   transition: max-height 0.2s ease-out;
-  /* margin-top: 1rem; */
   padding: 1rem;
   background: #222;
   color: white;
+
+  position: relative;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
+
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
 
 .panel.active-faq {
   display: block;
@@ -1769,13 +1815,68 @@ p.second-para {
   font-weight: bold;
 }
 
-.subFaqDabba {
-  background-color: white;
-  border-radius: 10px;
-  gap: 1rem;
-  padding: 1rem;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================== Seo */
+
+
+.seoHero {
+  background: url("./img/seoPage/chemHero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  background-color: #000;
+
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.seoHero .seoHeading {
+  color: #FFF234;
+  font-family: Poppins;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 900;
+
+  margin-top: -100px;
+}
+
+.seoHero .seoSubHeading {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 2rem 0;
+}
+
+.seoHero button {
+  border-radius: 50px;
+  background: #FFF234;
+  cursor: pointer;
+  color: var(--Black, #222);
+  font-family: Unbounded;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.24px;
+  padding: 16px 38px;
+  margin-bottom: 3rem;
 }
