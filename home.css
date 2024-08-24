@@ -9,7 +9,7 @@ html,
 body {
   margin: 0px;
   padding: 0px;
-  /* background-color: #222222; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* a blue color as a generic focus style */
@@ -1362,56 +1362,9 @@ p.second-para {
   height: auto;
 }
 
-@media (max-width: 768px) {
 
 
-  .hero4cards>div:nth-child(-n+3) {
-    border-right: none;
-  }
-
-  .asSeenOn .asSeenOnHeading {
-    font-size: 2rem;
-  }
-
-  .asSeenOnRow1 img {
-    width: 100px;
-  }
-
-  .asSeenOnRow2 img {
-    width: 60px;
-  }
-
-  .getURankedBg{
-    display: none;
-  }
-
-}
-
-@media (max-width: 480px) {
-
-  .hero4cards>div:nth-child(-n+3) {
-    border-bottom: 1px solid rgb(54, 54, 54);
-  }
-
-  .asSeenOn .asSeenOnHeading {
-    font-size: 1.5rem;
-  }
-
-  .asSeenOnRow1 img {
-    width: 80px;
-  }
-
-  .asSeenOnRow2 img {
-    width: 50px;
-  }
-
-  .whiteBox {
-    padding: 1rem;
-  }
-}
-
-
-
+/* ====================================================== */
 
 .footerJi {
   justify-content: space-around;
@@ -1665,22 +1618,7 @@ p.second-para {
   transition: 0.3s;
 }
 
-@media (min-width: 768px) {
-  .close {
-    /* position: absolute; */
-    position: fixed;
-    bottom: 50px;
-    right: 5rem;
-    color: #fff;
-    font-size: 40px;
-    transition: 0.3s;
-  }
 
-  .extraTextCont {
-    font-size: 26px;
-  }
-
-}
 
 /* Add animation */
 @keyframes zoom {
@@ -1702,32 +1640,6 @@ p.second-para {
   text-decoration: none;
   cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1783,23 +1695,6 @@ p.second-para {
   font-weight: 700;
 }
 
-@media (max-width: 768px) {
-  .faqHeading {
-    font-size: 33px;
-  }
-
-  .embeddedVid {
-    /* width: 360px; */
-    width: 100%;
-  }
-
-  .faqQuestion {
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 600;
-    font-family: 'Poppins';
-  }
-}
 
 .panel {
   background-color: transparent;
@@ -1927,62 +1822,14 @@ p.second-para {
   margin-bottom: 2rem;
   /* Adjust bottom margin */
   transition: background 0.3s ease;
-  /* Add transition for smooth hover effect */
 }
 
 .seoHero button:hover {
   background: #FFD700;
-  /* Change background color on hover */
 }
 
-@media (min-width: 768px) {
-  .seoHero {
-    padding: 4rem 2rem;
-    /* Increase padding on larger screens */
-  }
 
-  .seoHero .seoHeading {
-    font-size: 4rem;
-    /* Increase font size for tablets and up */
-    margin-top: -5rem;
-  }
 
-  .seoHero .seoSubHeading {
-    font-size: 2rem;
-    /* Increase font size */
-  }
-
-  .seoHero button {
-    font-size: 1.2rem;
-    /* Increase font size */
-    padding: 1.2rem 3rem;
-    /* Increase padding for better visibility */
-  }
-}
-
-@media (min-width: 1024px) {
-  /* .seoHero {
-    padding: 6rem 4rem; 
-  } */
-
-  .seoHero .seoHeading {
-    font-size: 5rem;
-    /* Further increase font size */
-    margin-top: -5rem;
-  }
-
-  .seoHero .seoSubHeading {
-    font-size: 2.5rem;
-    /* Further increase font size */
-  }
-
-  .seoHero button {
-    font-size: 16px;
-    /* Further increase font size */
-    padding: 16px 38px;
-    /* Increase padding for better appearance */
-  }
-}
 
 
 
@@ -2036,7 +1883,8 @@ p.second-para {
   font-weight: 400;
   line-height: 1.5;
   /* Increase line-height for readability */
-  margin-bottom: 1rem;
+  margin: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 .getURankedH6 {
@@ -2168,4 +2016,344 @@ p.second-para {
 .getURanked {
   flex-wrap: wrap;
   /* Allow flex items to wrap on smaller screens */
+}
+
+
+/* ========================================= */
+.freeTrialSection {
+  background: #FFF234;
+}
+
+.freeTrialSubSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  /* Center the section */
+  padding: 1rem;
+  /* Add padding for smaller screens */
+}
+
+.freeTrialHeading {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 33px;
+  /* Adjust font size for better responsiveness */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  /* Adjust line-height for readability */
+  text-transform: uppercase;
+  padding: 0 1rem;
+  /* Add padding for smaller screens */
+}
+
+.freeTrialSubSection button {
+  border-radius: 33px;
+  background: #222;
+  padding: 16px 38px;
+  font-size: 20px;
+  color: #FFF234;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  max-width: 100%;
+  /* Ensure button width is responsive */
+  margin-top: 1rem;
+  /* Add margin for spacing */
+}
+
+
+@media (max-width: 768px) {
+
+  .freeTrialHeading {
+    font-size: 25px;
+  }
+
+}
+
+
+.trusted-section-subHeading {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 107%;
+  text-align: center;
+}
+
+.trusted-section-paragraph {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 107%;
+  margin: 1rem 1rem;
+  text-align: center;
+}
+
+
+/* =============================================================== */
+
+
+/* ============================== seo-service ===============================  */
+.seo-service {
+  width: 100%;
+  background: #222;
+  float: left;
+  margin: 0px;
+  padding: 30px 0px;
+}
+
+.seo-service h3 {
+  color: white;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+  /* 51.36px */
+}
+
+
+.seo-service h5 {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  margin: 1rem 0px;
+  /* 30px */
+}
+
+
+.seo-service ul {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  gap: 26px;
+  margin: 3rem 0;
+}
+
+.seo-service ul span {
+  width: 20rem;
+  /* height: 16.5rem; */
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.seo-service ul span:hover img {
+  transform: scale(1.1);
+  transition: 0.2s ease-in;
+}
+
+
+.seo-service ul span p {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  margin: 1rem 0;
+}
+
+
+.seo-service ul span a {
+  background: #222;
+  color: #FFF234;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 107%;
+  padding: 16px 38px;
+  border-radius: 30px;
+  text-decoration-line: underline;
+}
+
+
+
+.seo-service ul span h6 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101%;
+  margin-top: 1rem;
+}
+
+
+.seo-service ul span img {
+  width: 100%;
+  max-width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================== */
+
+@media (max-width: 768px) {
+  .seo-service h3 {
+    font-size: 33px;
+  }
+
+  .faqHeading {
+    font-size: 33px;
+  }
+
+  .embeddedVid {
+    /* width: 360px; */
+    width: 100%;
+  }
+
+  .faqQuestion {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: 'Poppins';
+  }
+
+  .hero4cards>div:nth-child(-n+3) {
+    border-right: none;
+  }
+
+  .asSeenOn .asSeenOnHeading {
+    font-size: 2rem;
+  }
+
+  .asSeenOnRow1 img {
+    width: 100px;
+  }
+
+  .asSeenOnRow2 img {
+    width: 60px;
+  }
+
+  .getURankedBg {
+    display: none;
+  }
+
+  .trusted-section-paragraph {
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  .hero4cards>div:nth-child(-n+3) {
+    border-bottom: 1px solid rgb(54, 54, 54);
+  }
+
+  .asSeenOn .asSeenOnHeading {
+    font-size: 1.5rem;
+  }
+
+  .asSeenOnRow1 img {
+    width: 80px;
+  }
+
+  .asSeenOnRow2 img {
+    width: 50px;
+  }
+
+  .whiteBox {
+    padding: 1rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .seoHero {
+    padding: 2rem;
+  }
+
+  .seoHero .seoHeading {
+    font-size: 4rem;
+    margin-top: -5rem;
+  }
+
+  .seoHero .seoSubHeading {
+    font-size: 2rem;
+  }
+
+  .seoHero button {
+    font-size: 1.2rem;
+    padding: 1.2rem 3rem;
+  }
+
+  .close {
+    /* position: absolute; */
+    position: fixed;
+    bottom: 50px;
+    right: 5rem;
+    color: #fff;
+    font-size: 40px;
+    transition: 0.3s;
+  }
+
+  .extraTextCont {
+    font-size: 26px;
+  }
+
+}
+
+
+@media (min-width: 1024px) {
+  .seoHero .seoHeading {
+    font-size: 5rem;
+    margin-top: -5rem;
+  }
+
+  .seoHero .seoSubHeading {
+    font-size: 2.5rem;
+  }
+
+  .seoHero button {
+    font-size: 16px;
+    padding: 16px 38px;
+  }
 }
