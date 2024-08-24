@@ -1907,3 +1907,44 @@ p.second-para {
   padding: 16px 38px;
   margin-bottom: 3rem;
 }
+
+
+
+/* ========================================================= */
+.getURankedHeading {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%;
+}
+
+
+.getURankedPara {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.getURankedH6 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  /* 28.8px */
+}
+
+.getURankList {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
