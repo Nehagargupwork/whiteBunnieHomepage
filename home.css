@@ -611,7 +611,6 @@ a {
 .trusted-section {
   width: 100%;
   float: left;
-  margin: -1px 0 0 0;
   background-color: #EBEBEB;
   padding: 2rem 0;
 }
@@ -625,7 +624,8 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: 117%;
-  padding: 2rem 2rem;
+  /* padding: 2rem 2rem; */
+  padding-bottom: 2rem;
 }
 
 
@@ -667,7 +667,6 @@ a {
 }
 
 .inner-card1 {
-  /* border: #b4b4b4 1px solid; */
   overflow: hidden;
   border-radius: 24px;
 }
@@ -1800,7 +1799,7 @@ p.second-para {
   /* Adjust font size for responsiveness */
   font-style: normal;
   font-weight: 600;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   line-height: 1.4;
   /* Improve readability */
 }
@@ -1819,7 +1818,7 @@ p.second-para {
   letter-spacing: 0.24px;
   padding: 1rem 2rem;
   /* Adjust padding for better touch target */
-  margin-bottom: 2rem;
+  margin: 1rem;
   /* Adjust bottom margin */
   transition: background 0.3s ease;
 }
@@ -1841,7 +1840,6 @@ p.second-para {
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  /* Add padding for smaller screens */
   position: relative;
 }
 
@@ -1854,13 +1852,8 @@ p.second-para {
 .getURanked {
   color: white;
   display: flex;
-  flex-direction: column;
-  /* Stack content vertically on smaller screens */
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  /* Center text alignment */
 }
+
 
 .getURankedHeading {
   color: #FFF;
@@ -1871,7 +1864,7 @@ p.second-para {
   font-weight: 800;
   line-height: 110%;
   margin-bottom: 1rem;
-  /* Add margin for spacing */
+  text-align: center;
 }
 
 .getURankedPara {
@@ -1945,48 +1938,18 @@ p.second-para {
   /* Center the box */
 }
 
-@media (min-width: 768px) {
-  .getURanked {
-    flex-direction: row;
-    /* Display content in a row on larger screens */
-    text-align: left;
-    /* Align text to the left */
-  }
-
-  .getURanked div:first-child {
-    flex: 1;
-    /* Take up equal space */
-  }
-
-  .getURanked div:last-child {
-    flex: 1;
-    text-align: center;
-    /* Center the image */
-  }
-
-  .getURankedHeading {
-    font-size: 3rem;
-    /* Increase font size for larger screens */
-  }
-
-  .getURankedPara,
-  .getURankedH6,
-  .getURankList,
-  .afterListGetuRanked {
-    font-size: 1.2rem;
-    /* Increase font size */
-  }
-
-  .getURankedLastBox {
-    font-size: 2rem;
-    /* Increase font size */
-  }
-}
-
 @media (min-width: 1024px) {
+
+  .getURankedLeft {
+    width: 70%;
+  }
+  
+  .getURankedRight {
+    width: 35%;
+  }
+
   .getURankedHeading {
     font-size: 4rem;
-    /* Further increase font size for desktop screens */
   }
 
   .getURankedPara,
@@ -2004,18 +1967,11 @@ p.second-para {
 }
 
 .getURanked img {
-  width: 80%;
+  width: 100%;
   height: auto;
   max-width: 100%;
-  /* Ensure the image doesn't exceed the container width */
   object-fit: cover;
-  /* Make sure the image covers the area without stretching */
   position: relative;
-}
-
-.getURanked {
-  flex-wrap: wrap;
-  /* Allow flex items to wrap on smaller screens */
 }
 
 
@@ -2072,6 +2028,10 @@ p.second-para {
 
   .freeTrialHeading {
     font-size: 25px;
+  }
+
+  .getURanked {
+    flex-direction: column;
   }
 
 }
@@ -2213,10 +2173,28 @@ p.second-para {
 
 
 
+/* ======================================================== */
 
+.seoContriHeading {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+}
 
-
-
+.seoContriSubHeading {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 107%;
+  margin: 2rem;
+}
 
 
 
@@ -2236,6 +2214,14 @@ p.second-para {
 /* ========================================================== */
 
 @media (max-width: 768px) {
+  .seoContriHeading {
+    font-size: 33px;
+  }
+
+  .seoContriSubHeading {
+    font-size: 16px;
+  }
+
   .seo-service h3 {
     font-size: 33px;
   }
@@ -2356,4 +2342,86 @@ p.second-para {
     font-size: 16px;
     padding: 16px 38px;
   }
+}
+
+.seoContriCardHeading {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 107%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 16px 16px 0px 0px;
+  text-align: center;
+}
+
+
+
+/* ======================================= */
+.cardSeoPro {
+  transition: 0.3s;
+  background-color: white;
+  position: relative;
+  z-index: 10;
+}
+
+.inner-cardSeoPro img {
+  width: 100%;
+}
+
+#mixedSlider3 .seoProContent {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+
+.right-partitionSeoPro {
+  text-align: center;
+  width: 100%;
+  /* color: white; */
+  display: flex;
+  flex-direction: column;
+}
+
+
+.statisticsSeoPro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.custom-h2SeoPro {
+  padding: 10px;
+  background-color: #222;
+  color: white;
+  font-size: 20px;
+}
+
+
+
+.inStatsSideSeoPro {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 107%;
+}
+
+.extraTextSeoPro {
+  color: #FFF;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin: 1rem;
 }

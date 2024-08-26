@@ -909,7 +909,12 @@
 
      .trusted-section h3 {
          font-size: 33px;
-         padding: 2rem 1rem;
+         /* padding: 2rem 1rem; */
+         padding: 1rem 1rem;
+     }
+
+     .trusted-section{
+        padding: 1rem;
      }
 
      .mainHeading {
