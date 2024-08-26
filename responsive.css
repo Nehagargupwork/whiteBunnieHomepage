@@ -700,11 +700,11 @@
          line-height: 40px;
      }
 
-     .marketing-service h3 {
+     .marketing-service h3, .serviceWeOfferSeo h3 {
          font-size: 33px;
          line-height: 40px;
      }
-
+     
      .why-choose-section h3 {
          font-size: 33px;
          line-height: 40px;
@@ -909,8 +909,7 @@
 
      .trusted-section h3 {
          font-size: 33px;
-         /* padding: 2rem 1rem; */
-         padding: 1rem 1rem;
+         padding: 1rem 0;
      }
 
      .trusted-section{
@@ -960,6 +959,11 @@
      #mixedSlider3 .MS-controls button {
          font-size: 20px;
      }
+
+     #mixedSlider3 .seoProContent{
+        padding: 0;
+     }
+
  }
 
  #mixedSlider3 .MS-controls .MS-left {

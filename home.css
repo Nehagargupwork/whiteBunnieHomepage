@@ -1876,7 +1876,7 @@ p.second-para {
   font-weight: 400;
   line-height: 1.5;
   /* Increase line-height for readability */
-  margin: 1rem;
+  margin: 1rem 0;
   /* margin-bottom: 1rem; */
 }
 
@@ -1915,7 +1915,7 @@ p.second-para {
   line-height: 1.5;
   margin-top: 1rem;
   margin-bottom: 2rem;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   /* Add padding for smaller screens */
   text-align: center;
 }
@@ -2027,7 +2027,8 @@ p.second-para {
 @media (max-width: 768px) {
 
   .freeTrialHeading {
-    font-size: 25px;
+    font-size: 25px;   
+    padding: 0;
   }
 
   .getURanked {
@@ -2101,14 +2102,13 @@ p.second-para {
 .seo-service ul {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   flex-wrap: wrap;
   gap: 26px;
   margin: 3rem 0;
 }
 
 .seo-service ul span {
-  width: 20rem;
+  width: 21rem;
   /* height: 16.5rem; */
   background-color: white;
   border-radius: 30px;
@@ -2270,6 +2270,10 @@ p.second-para {
 
 @media (max-width: 480px) {
 
+  .seo-service ul {
+    margin: 2rem 0;
+  }
+
   .hero4cards>div:nth-child(-n+3) {
     border-bottom: 1px solid rgb(54, 54, 54);
   }
@@ -2423,5 +2427,101 @@ p.second-para {
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  margin: 1rem;
+}
+
+
+
+/* ==================================================================== */
+
+.serviceWeOfferSeo {
+  width: 100%;
+  background: #EBEBEB;
+  float: left;
+  margin: 0px;
+  padding: 30px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.serviceWeOfferSeo h3 {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+  max-width: 1200px;
+}
+
+
+.serviceWeOfferSeo h5 {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  margin: 1rem 0px;
+  font-style: italic;
+}
+
+
+.serviceWeOfferSeo ul {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  gap: 26px;
+  margin: 3rem 0;
+}
+
+.serviceWeOfferSeo ul a {
+  max-width: 20rem;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.serviceWeOfferSeo ul a:hover img {
+  transform: scale(1.1);
+  transition: 0.2s ease-in;
+}
+
+
+.serviceWeOfferSeo ul a p {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-top: 10px;
+}
+
+
+
+.serviceWeOfferSeo ul a h6 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101%;
+  margin-top: 1rem;
+}
+
+
+.serviceWeOfferSeo ul a img {
+  width: 100%;
+  max-width: 80px;
 }
