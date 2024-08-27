@@ -750,6 +750,11 @@ a {
   height: 100%;
 }
 
+.divider2 {
+  border-left: 2px solid #222;
+  height: 4rem;
+  margin: 0 1rem;
+}
 
 #mixedSlider3 .MS-content {
   padding: 10px;
@@ -1943,7 +1948,7 @@ p.second-para {
   .getURankedLeft {
     width: 70%;
   }
-  
+
   .getURankedRight {
     width: 35%;
   }
@@ -2020,22 +2025,9 @@ p.second-para {
   max-width: 100%;
   /* Ensure button width is responsive */
   margin-top: 1rem;
-  /* Add margin for spacing */
 }
 
 
-@media (max-width: 768px) {
-
-  .freeTrialHeading {
-    font-size: 25px;   
-    padding: 0;
-  }
-
-  .getURanked {
-    flex-direction: column;
-  }
-
-}
 
 
 .trusted-section-subHeading {
@@ -2082,7 +2074,6 @@ p.second-para {
   font-style: normal;
   font-weight: 700;
   line-height: 107%;
-  /* 51.36px */
 }
 
 
@@ -2135,7 +2126,7 @@ p.second-para {
   font-style: normal;
   font-weight: 500;
   line-height: 130%;
-  margin: 1rem 0;
+  margin-bottom: 1rem;
 }
 
 
@@ -2162,7 +2153,7 @@ p.second-para {
   font-style: normal;
   font-weight: 700;
   line-height: 101%;
-  margin-top: 1rem;
+  margin: 1rem 0;
 }
 
 
@@ -2193,7 +2184,7 @@ p.second-para {
   font-style: normal;
   font-weight: 400;
   line-height: 107%;
-  margin: 2rem;
+  margin: 6px 2rem;
 }
 
 
@@ -2348,6 +2339,15 @@ p.second-para {
   }
 }
 
+.seoContriContainer {
+  padding: 2rem 1rem;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .seoContriCardHeading {
   color: #222;
   text-align: center;
@@ -2360,6 +2360,51 @@ p.second-para {
   padding: 10px;
   border-radius: 16px 16px 0px 0px;
   text-align: center;
+}
+
+.seoContriSubContainer {
+  border: 2px solid whit;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.seoContriCard {
+  border: 2px solid white;
+  max-width: 19rem;
+  height: auto;
+  border-radius: 18px;
+}
+
+.seoContriCardSubHeading {
+  color: white;
+  text-align: center;
+  margin: 1rem;
+}
+
+.seoContriContainer h5 {
+  color: white;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  margin: 1rem 0px;
+  font-style: italic;
+}
+
+.seoContriContainer h4 {
+  color: white;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  margin: 1rem 0px;
 }
 
 
@@ -2488,7 +2533,8 @@ p.second-para {
   flex-direction: column;
   text-align: center;
   flex-wrap: wrap;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add shadow */
 }
 
 .serviceWeOfferSeo ul a:hover img {
@@ -2524,4 +2570,142 @@ p.second-para {
 .serviceWeOfferSeo ul a img {
   width: 100%;
   max-width: 80px;
+}
+
+
+/* ==================================================== */
+.getReadyToDisCont {
+  background: #EBEBEB;
+}
+
+.getReadyToDisSubCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 1rem;
+  padding: 1rem;
+  gap: 4rem;
+}
+
+.getReadyToDisCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.getReadyToDisRight {
+  max-width: 65%;
+  text-align: center;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+}
+
+.getReadyToDisHeading {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+}
+
+.getReadyToDisSubHeading {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 107%;
+  margin: 2rem 0;
+}
+
+.getReadyToDisBox {
+  border-radius: 20px;
+  background: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.getReadyToDisBoxHead {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+}
+
+
+.getReadyToDisBoxBtn {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+  border-radius: 30px;
+  background: #FFF234;
+  padding: 10px 16px;
+  margin-top: 1rem;
+}
+
+.getReadyToDisImage2 {
+  display: none;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+  .freeTrialHeading {
+    font-size: 25px;
+    padding: 0;
+  }
+
+  .getURanked {
+    flex-direction: column;
+  }
+
+  .getReadyToDisSubCont {
+    flex-direction: column;
+  }
+
+  .getReadyToDisImage2 {
+    display: block;
+    margin: 2rem auto;
+    width: 8rem;
+  }
+
+  .getReadyToDisSubHeading{
+    margin-top: 0px;
+  }
+
+  .getReadyToDisHeading {
+    font-size: 33px;
+  }
+
+  .getReadyToDisImage1 {
+    display: none;
+  }
+
+
+  .getReadyToDisSubCont {
+    gap: 0;
+  }
+
+  .getReadyToDisRight {
+    max-width: 100%;
+  }
+
 }
