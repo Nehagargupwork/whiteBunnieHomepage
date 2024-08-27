@@ -2942,7 +2942,7 @@ p.second-para {
   font-style: normal;
   font-weight: 500;
   line-height: 125%;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .code-of-ethics-para {
@@ -2958,13 +2958,11 @@ p.second-para {
   border-radius: 30px;
   float: right;
   padding: 0px;
-  margin: 100px 0 0 0;
   display: table;
   height: 54px;
   cursor: pointer;
   background: #fff200;
   text-align: center;
-  /* color: #000; */
   line-height: 54px;
   font-size: 22px;
   font-weight: normal;
@@ -2988,24 +2986,24 @@ p.second-para {
   align-items: center;
   justify-content: center;
   color: #000;
-  padding: 1rem;
+  padding: 2rem 1rem;
+  gap: 4rem;
 }
 
 .code-of-ehins1 .icon-left1 {
-  width: 40%;
-  float: left;
-  line-height: 0px;
+  width: 50%;
+  gap: 5rem;
 }
 
-.code-of-ehins-section1 {
+/* .code-of-ehins-section1 {
   text-align: center;
-}
+} */
 
 .code-of-ehins-section1 div {
   width: 100%;
   margin: 10px 0;
-  font-size: 48px;
-  line-height: 33px;
+  font-size: 42px;
+  line-height: 50px;
   color: #222;
   font-family: Poppins;
   font-weight: 700;
@@ -3013,8 +3011,6 @@ p.second-para {
 
 .code-of-ehins-section1 p {
   width: 100%;
-  /* margin: 18px 10px 5px 10px; */
-
   color: #222;
   font-family: Poppins;
   font-size: 24px;
@@ -3024,17 +3020,6 @@ p.second-para {
 }
 
 .free-trial-btn1 {
-  /* width: 220px;
-  border-radius: 30px;
-  display: table;
-  height: 54px;
-  cursor: pointer;
-  text-align: center;
-  line-height: 54px;
-  font-size: 22px;
-  font-weight: normal;
-  text-transform: uppercase; */
-
   padding: 1rem 2rem;
   border-radius: 30px;
   background: #222;
@@ -3045,7 +3030,7 @@ p.second-para {
   font-style: normal;
   font-weight: 700;
   line-height: 107%;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 /* .free-trial-btn1:hover {
@@ -3150,7 +3135,11 @@ p.second-para {
 
 
 
-
+.consultationBox {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
 
 
 
@@ -3247,6 +3236,7 @@ p.second-para {
 
   .code-of-ehins1 {
     flex-direction: column;
+    gap: 0;
   }
 
   .code-of-ehins1 .icon-left1 {
@@ -3257,10 +3247,22 @@ p.second-para {
 
   .code-of-ehins-section1 div {
     font-size: 33px;
+    line-height: 40px;
+    text-align: center;
   }
 
   .siteOptimizeMainHeading {
     font-size: 33px;
+  }
+
+  .code-of-ehins-section1 p {
+    text-align: center;
+  }
+
+  .consultationBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
 }
