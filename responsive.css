@@ -1253,7 +1253,7 @@
     @media only screen and (max-width: 479px) {
 
         .coverage-sectionCont{
-            padding: 30px 0 30px;
+            padding: 30px 10px 30px;
         }
 
     .container{ width:95%; position:relative;}
@@ -1262,11 +1262,11 @@
     .ranked-section-img img{width:100%; height:auto;}
     .talk-btn{clear:both;}
     .code-of-ehins-section{width:100%;}
-    .code-of-ehins{padding:20px}
+    .code-of-ehins{padding: 30px 12px}
     .code-of-ehins-section h3{font-size: 38px; line-height:38px;}
     .code-of-ehins .icon-left{width:100%; padding:0px 0 10px}
     .key-process-section ul li p{width:82%;}
-    .key-process-section h3{padding: 0px 0%;font-size: 38px; line-height:38px;}
+    .key-process-section h3{padding: 0px 0%;font-size: 33px; line-height:38px;}
     .free-trial h3{font-size: 38px; line-height:38px;}
     .key-process-section ul li{width:100%;padding: 0px 0% 0 0;}
     .consultant-service-right h3{padding: 0px 0% 0 0;}

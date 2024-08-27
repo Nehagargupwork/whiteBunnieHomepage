@@ -2768,94 +2768,9 @@ p.second-para {
 
 
 
-/* ========================== */
-
-@media (max-width: 768px) {
-
-  .freeTrialHeading {
-    font-size: 25px;
-    padding: 0;
-  }
-
-  .getURanked {
-    flex-direction: column;
-  }
-
-  .getReadyToDisSubCont {
-    flex-direction: column;
-  }
-
-  .getReadyToDisImage2 {
-    display: block;
-    margin: 2rem auto;
-    width: 8rem;
-  }
-
-  .getReadyToDisSubHeading {
-    margin-top: 0px;
-  }
-
-  .getReadyToDisHeading {
-    font-size: 33px;
-  }
-
-  .getReadyToDisImage1 {
-    display: none;
-  }
-
-
-  .getReadyToDisSubCont {
-    gap: 0;
-  }
-
-  .getReadyToDisRight {
-    max-width: 100%;
-  }
-
-  .getaFreePageAuditSubCont {
-    display: flex;
-    justify-content: center;
-    padding: 2rem;
-    gap: 4rem;
-    flex-direction: column;
-  }
-
-  .siteOptimizeCard {
-    gap: 8px;
-  }
-
-  .getaFreePageAuditHeading {
-    font-size: 28px;
-    text-align: center;
-  }
-
-  .siteOptimizeCard .siteOptiIconBox {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-  }
-
-  .siteOptimizeCardHeading {
-    font-size: 18px;
-  }
-
-
-  .getaFreePageAuditSubCont {
-    gap: 2rem;
-    padding: 2rem 1rem;
-  }
-
-  .archery {
-    display: none;
-  }
-
-}
-
-
 
 
 /* ====================================================== */
-
 
 
 .coverage-sectionCont {
@@ -2903,7 +2818,7 @@ p.second-para {
 }
 
 .coverage-section ul {
-  width: 50%;
+  width: 45%;
   float: left;
   margin: 10px 0 10px 0;
   padding: 0px;
@@ -2919,6 +2834,16 @@ p.second-para {
   line-height: 24px;
   font-weight: normal;
   font-family: Poppins;
+}
+
+.ulBoxOfCoverageSection {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .talk-btn {
@@ -2944,7 +2869,6 @@ p.second-para {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-
   margin: 1rem auto;
 
 }
@@ -2957,11 +2881,9 @@ p.second-para {
 .code-of-ehins {
   width: 100%;
   float: left;
-  padding: 70px 0 70px 0;
+  padding: 40px 0 40px 0;
   margin: 0px 0 0px 0;
-  background-image: -moz-linear-gradient(180deg, rgb(1, 9, 132) 0%, rgb(3, 155, 110) 100%);
-  background-image: -webkit-linear-gradient(180deg, rgb(1, 9, 132) 0%, rgb(3, 155, 110) 100%);
-  background-image: -ms-linear-gradient(180deg, rgb(1, 9, 132) 0%, rgb(3, 155, 110) 100%);
+  background: #FFF234;
 }
 
 .code-of-ehins .icon-left {
@@ -2979,7 +2901,7 @@ p.second-para {
 }
 
 .code-of-ehins-section h3 {
-  width: 100%;
+  /* width: 100%;
   float: left;
   margin: 0px 0 20px;
   padding: 0px;
@@ -2988,20 +2910,46 @@ p.second-para {
   color: #fff;
   font-weight: normal;
   text-align: left;
-  font-family: 'ProximaNovaAltBold';
+  font-family: 'ProximaNovaAltBold'; */
+
+  margin-bottom: 1rem;
+  color: #222;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+}
+
+.freeTrialBtn {
+  color: #FFF234;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  /* 30px */
+  background: #222;
+  border-radius: 30px;
+  padding: 8px 40px;
+  text-wrap: nowrap;
 }
 
 .code-of-ehins-section p {
-  width: 100%;
-  float: left;
-  margin: 0px 0 20px;
-  padding: 0px;
+  color: #222;
+  font-family: Poppins;
   font-size: 24px;
-  line-height: 26px;
-  color: #fff;
-  font-weight: normal;
-  text-align: left;
-  font-family: 'ProximaNovaAltBold';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  margin-bottom: 1rem;
+}
+
+.code-of-ethics-para {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .free-trial-btn {
@@ -3115,31 +3063,31 @@ p.second-para {
   width: 100%;
   float: left;
   margin: 0px 0 0 0;
-  padding: 60px 0 60px;
-  background: #f2f2f2;
+  padding: 40px 0 16px;
+  background: #222;
 }
 
 .key-process-section h3 {
-  width: 100%;
-  float: left;
-  margin: 0px 0 40px;
+  margin: 0px 0 30px;
   padding: 0px 10%;
-  font-size: 48px;
-  line-height: 52px;
-  color: #333333;
-  font-weight: normal;
+  color: #FFF;
   text-align: center;
-  font-family: 'ProximaNovaAltBold';
-  text-align: center
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+  /* 51.36px */
+
+
 }
 
 .key-process-section ul {
   width: 100%;
   float: left;
   margin: 10px 0 10px 0;
-  padding: 0px;
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
 .key-process-section ul li {
@@ -3157,25 +3105,26 @@ p.second-para {
   margin: 0px 10px 0 0;
   padding: 0px;
   line-height: 45px;
-  background: #010a83;
+  background: rgb(242, 242, 242);
   font-size: 30px;
   text-align: center;
   font-weight: normal;
   font-family: 'ProximaNovaAltBold';
-  color: #fff
+  color: black;
+  border-radius: 8px;
 }
 
 .key-process-section ul li p {
   width: 90%;
   float: left;
-  margin: 0px 0 20px;
-  padding: 0px;
-  font-size: 17px;
+  /* margin: 0px 0 20px; */
+  /* padding: 0px; */
+  font-size: 20px;
   line-height: 22px;
-  color: #333;
+  color: white;
   font-weight: normal;
   text-align: left;
-  font-family: 'ProximaNovaAltRegular';
+  font-family: 'poppins';
 }
 
 
@@ -3203,4 +3152,103 @@ p.second-para {
   font-weight: 400;
   line-height: 107%;
   margin: 6px 2rem;
+}
+
+
+
+
+
+
+
+
+
+/* ========================== */
+
+@media (max-width: 768px) {
+
+  .ulBoxOfCoverageSection {
+    gap: 0;
+  }
+
+  .code-of-ethics-para {
+    flex-wrap: wrap;
+  }
+
+  .freeTrialHeading {
+    font-size: 25px;
+    padding: 0;
+  }
+
+  .getURanked {
+    flex-direction: column;
+  }
+
+  .getReadyToDisSubCont {
+    flex-direction: column;
+  }
+
+  .getReadyToDisImage2 {
+    display: block;
+    margin: 2rem auto;
+    width: 8rem;
+  }
+
+  .getReadyToDisSubHeading {
+    margin-top: 0px;
+  }
+
+  .getReadyToDisHeading {
+    font-size: 33px;
+  }
+
+  .getReadyToDisImage1 {
+    display: none;
+  }
+
+
+  .getReadyToDisSubCont {
+    gap: 0;
+  }
+
+  .getReadyToDisRight {
+    max-width: 100%;
+  }
+
+  .getaFreePageAuditSubCont {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 4rem;
+    flex-direction: column;
+  }
+
+  .siteOptimizeCard {
+    gap: 8px;
+  }
+
+  .getaFreePageAuditHeading {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .siteOptimizeCard .siteOptiIconBox {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .siteOptimizeCardHeading {
+    font-size: 18px;
+  }
+
+
+  .getaFreePageAuditSubCont {
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .archery {
+    display: none;
+  }
+
 }
