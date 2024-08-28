@@ -583,7 +583,7 @@ a {
   width: 1200px;
   margin: 0 auto;
   padding: 0px;
-  position: relative;
+  /* position: relative; */
 }
 
 
@@ -2105,8 +2105,8 @@ p.second-para {
 }
 
 .seo-service ul span {
-  width: 21rem;
-  /* height: 16.5rem; */
+  width: 23rem;
+  /* width: 21rem; */
   background-color: white;
   border-radius: 30px;
   padding: 20px;
@@ -2160,8 +2160,19 @@ p.second-para {
   font-weight: 700;
   line-height: 101%;
   margin: 1rem 0;
+  height: 2rem;
 }
 
+
+.seo-service ul span p.boxSizeForHeading {
+  font-style: italic;
+  font-weight: 600;
+  height: 2.4rem;
+}
+
+.seo-service ul span p.forBoxSize {
+  height: 9rem;
+}
 
 .seo-service ul span img {
   width: 100%;
@@ -2363,8 +2374,8 @@ p.second-para {
   text-align: center;
 }
 
-.seoContriSubContainer {
-  border: 2px solid whit;
+.seoContriSubContainer,
+.seoServiceBest {
   display: flex;
   gap: 2rem;
   justify-content: center;
@@ -2372,9 +2383,14 @@ p.second-para {
   margin: 1rem;
 }
 
+
+.seoServiceBest {
+  max-width: 1200px;
+}
+
 .seoContriCard {
   border: 2px solid white;
-  max-width: 19rem;
+  max-width: 20rem;
   height: auto;
   border-radius: 18px;
 }
@@ -2483,10 +2499,12 @@ p.second-para {
   width: 100%;
   background: #EBEBEB;
   float: left;
-  margin: 0px;
+  margin: auto;
   padding: 30px 10px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .serviceWeOfferSeo h3 {
@@ -2873,17 +2891,14 @@ p.second-para {
 
 }
 
-/* .talk-btn:hover {
-  background: #000;
-  color: #fff;
-} */
 
 .code-of-ehins {
   width: 100%;
   float: left;
-  padding: 40px 0 40px 0;
   margin: 0px 0 0px 0;
+  padding: 40px 40px 40px;
   background: #FFF234;
+  position: relative;
 }
 
 .code-of-ehins .icon-left {
@@ -2901,17 +2916,6 @@ p.second-para {
 }
 
 .code-of-ehins-section h3 {
-  /* width: 100%;
-  float: left;
-  margin: 0px 0 20px;
-  padding: 0px;
-  font-size: 48px;
-  line-height: 52px;
-  color: #fff;
-  font-weight: normal;
-  text-align: left;
-  font-family: 'ProximaNovaAltBold'; */
-
   margin-bottom: 1rem;
   color: #222;
   font-family: Poppins;
@@ -2928,11 +2932,13 @@ p.second-para {
   font-style: normal;
   font-weight: 500;
   line-height: 125%;
-  /* 30px */
+  cursor: pointer;
   background: #222;
   border-radius: 30px;
   padding: 8px 40px;
   text-wrap: nowrap;
+  position: relative;
+  z-index: 1;
 }
 
 .code-of-ehins-section p {
@@ -2948,8 +2954,15 @@ p.second-para {
 .code-of-ethics-para {
   display: flex;
   align-items: start;
-  justify-content: center;
+  justify-content: space-between;
   gap: 1rem;
+}
+
+.codeEthicsArrow {
+  position: absolute;
+  top: -20rem;
+  right: -21rem;
+  width: 30rem;
 }
 
 .free-trial-btn {
@@ -2995,10 +3008,6 @@ p.second-para {
   gap: 5rem;
 }
 
-/* .code-of-ehins-section1 {
-  text-align: center;
-} */
-
 .code-of-ehins-section1 div {
   width: 100%;
   margin: 10px 0;
@@ -3033,11 +3042,6 @@ p.second-para {
   margin: 1rem 0;
 }
 
-/* .free-trial-btn1:hover {
-  background: #fff;
-  color: #333;
-} */
-
 .key-process-section {
   width: 100%;
   float: left;
@@ -3056,9 +3060,6 @@ p.second-para {
   font-style: normal;
   font-weight: 700;
   line-height: 107%;
-  /* 51.36px */
-
-
 }
 
 .key-process-section ul {
@@ -3096,8 +3097,6 @@ p.second-para {
 .key-process-section ul li p {
   width: 90%;
   float: left;
-  /* margin: 0px 0 20px; */
-  /* padding: 0px; */
   font-size: 20px;
   line-height: 22px;
   color: white;
@@ -3145,7 +3144,132 @@ p.second-para {
 
 
 
+
+
+/* ==================================================== */
+
+
+
+.pronsCont {
+  background: #222;
+  color: white;
+}
+
+.pronsSubjiCont {
+  max-width: 1200px;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.pronsSubCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.pronsCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pronsUl {
+  text-align: left;
+  font-size: 20px;
+}
+
+.pronsRight {
+  max-width: 55%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pronsHeading {
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+}
+
+.pronsSubHeading {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 107%;
+  margin: 2rem 0;
+}
+
+.pronslastLine {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 107%;
+  margin-top: 2rem;
+}
+
+.pronsBox {
+  border-radius: 20px;
+  background: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.pronsBoxHead {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+}
+
+
+.pronsBoxBtn {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+  border-radius: 30px;
+  background: #FFF234;
+  padding: 10px 16px;
+  margin-top: 1rem;
+}
+
+.pronsImage2 {
+  display: none;
+}
+
+/* ================================================================= */
+
+
+
+
+
+
+
+
+
 /* ========================== */
+
+@media (max-width: 1200px) {
+
+  .codeEthicsArrow {
+    display: none;
+  }
+}
+
 
 @media (max-width: 768px) {
 
@@ -3155,6 +3279,7 @@ p.second-para {
 
   .code-of-ethics-para {
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .freeTrialHeading {
@@ -3166,8 +3291,11 @@ p.second-para {
     flex-direction: column;
   }
 
+
+
   .getReadyToDisSubCont {
     flex-direction: column;
+    gap: 0;
   }
 
   .getReadyToDisImage2 {
@@ -3188,14 +3316,46 @@ p.second-para {
     display: none;
   }
 
-
-  .getReadyToDisSubCont {
-    gap: 0;
-  }
-
   .getReadyToDisRight {
     max-width: 100%;
   }
+
+  /* =============== prons*/
+
+
+
+
+  .pronsSubCont {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .pronsImage2 {
+    display: block;
+    margin: 2rem auto;
+  }
+
+  .pronsSubHeading {
+    margin-top: 0px;
+  }
+
+  .pronsHeading {
+    font-size: 33px;
+  }
+
+  .pronsImage1 {
+    display: none;
+  }
+
+  .pronsRight {
+    max-width: 100%;
+  }
+
+
+
+
+  /* ==================== */
+
 
   .getaFreePageAuditSubCont {
     display: flex;
@@ -3263,6 +3423,10 @@ p.second-para {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .seo-service ul span p.forBoxSize {
+    height: 7rem;
   }
 
 }
