@@ -144,7 +144,6 @@ a {
   font-size: 18px;
 }
 
-
 .extraText {
   color: #FFF;
   font-family: Poppins;
@@ -152,6 +151,16 @@ a {
   font-weight: 400;
   line-height: 120%;
   margin-top: 1rem;
+}
+
+.extraTextProven {
+  color: black;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin: 1rem;
+  text-align: center;
 }
 
 .imageHeroSec .foreGroundImage {
@@ -218,9 +227,6 @@ a {
 
 
 .headingCont2 {
-  /* background-image: url("./img/png-4-1.png"); */
-  /*  change */
-
   background-repeat: no-repeat;
   background-position: center;
 
@@ -231,20 +237,6 @@ a {
   align-items: center;
   justify-content: center;
 }
-
-
-
-.testimonial-section::before {
-  content: "";
-  position: absolute;
-  border-radius: 0px 0px 200px 200px;
-  opacity: 0.5;
-  background: #222;
-  width: 100%;
-  height: 703px;
-  flex-shrink: 0;
-}
-
 
 
 
@@ -314,6 +306,21 @@ a {
   background: #EBEBEB;
 }
 
+
+
+.testimonial-section::before {
+  content: "";
+  position: absolute;
+  border-radius: 0px 0px 200px 200px;
+  opacity: 0.5;
+  background: #222;
+  width: 100%;
+  height: 703px;
+  flex-shrink: 0;
+}
+
+
+
 .testimonial-section h3 {
   color: #FFF;
   text-align: center;
@@ -371,9 +378,8 @@ a {
   border-radius: 30px;
 }
 
+
 .testimonial-heading {
-  /* width: 100%;
-  float: left; */
   margin: 0px;
   padding: 0px;
   border-radius: 30px;
@@ -484,16 +490,6 @@ a {
 }
 
 .testimonial-section-btm h3 {
-  /* width: 100%;
-  float: left;
-  margin: 0px 0 40px;
-  padding: 0px;
-  font-size: 46px;
-  line-height: 48px;
-  font-weight: normal;
-  font-family: 'ProximaNovaAltBold';
-  text-align: center; */
-
   margin: 0px 0 40px;
   color: #FFF;
   text-align: center;
@@ -583,7 +579,6 @@ a {
   width: 1200px;
   margin: 0 auto;
   padding: 0px;
-  /* position: relative; */
 }
 
 
@@ -613,6 +608,12 @@ a {
 
 /* =========================================================== */
 
+.containerTrustedKa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .trusted-section {
   width: 100%;
@@ -630,8 +631,6 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: 117%;
-  /* padding: 2rem 2rem; */
-  padding-bottom: 2rem;
 }
 
 

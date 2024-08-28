@@ -857,7 +857,7 @@
     </section>
 
 
-
+    <!-- prons section start  -->
     <section class="pronsCont">
         <div class="pronsSubjiCont">
 
@@ -897,6 +897,111 @@
 
 
     </section>
+    <!-- prons section end  -->
+
+
+
+
+
+
+
+    <!-- What Client Talk start -->
+    <div class="our-portfolio">
+        <div class="container">
+            <h3>Hire a Result-Driven SEO Agency - Know the Details</h3>
+            <h5>Hiring an SEO service provider is not an easy task. When you search for a good SEO service agency
+                near me, you will get hundreds of results. But the question is, which is right for you? To get the
+                personalized SEO plan, here are a few questions you must first understand before hiring.</h5>
+            <ul class="demo at-tabs-when-possible bbq clearfix at-accordion-or-tabs at-tabs" data-tabset-id="tabset_0">
+
+                <li>
+
+                    <a href="!#tabset_0=0" class="active"> <span>What is an SEO agency?</span> <i class="fa-solid fa-angle-down"></i>
+                    </a>
+
+                    <section aria-live="assertive" class="is-open" style="display: block;">
+                        <h1 class="aria-only">Graphics</h1>
+
+                        <div class="our-portfolio-image effect"><img
+                                src="./img/portfolio/405354078_864052465727847_5338972003150264105_n.webp" width="387"
+                                height="387" alt="Graphics"></div>
+
+                        <div class="our-portfolio-image effect"><img
+                                src="./img/portfolio/WhatsApp-Image-2024-03-04-at-12.25.13-PM-1.webp" width="387"
+                                height="387" alt="our-portfolio"></div>
+                        <div class="our-portfolio-image effect"><img
+                                src="./img/portfolio/WhatsApp-Image-2024-03-04-at-12.25.14-PM-1.webp" width="387"
+                                height="387" alt="our-portfolio"></div>
+                        <div class="our-portfolio-image effect"><img
+                                src="./img/portfolio/WhatsApp-Image-2024-03-04-at-12.25.15-PM.webp" width="387"
+                                height="387" alt="our-portfolio"></div>
+                        <div class="our-portfolio-image effect"><img
+                                src="./img/portfolio/346281330_2227563987440770_2589573692111507749_n.webp" width="387"
+                                height="387" alt="our-portfolio"></div>
+                        <div class="our-portfolio-image effect"><img
+                                src="./img/portfolio/WhatsApp-Image-2024-03-04-at-5.22.25-PM.webp" width="387"
+                                height="387" alt="our-portfolio"></div>
+                    </section>
+                </li>
+
+                <li>
+
+                    <a href="!#tabset_0=0"> <span>How Does it Work?</span> <i class="fa-solid fa-angle-down"></i> </a>
+
+                    <section aria-live="assertive">
+                        <h1 class="aria-only">Videos </h1>
+
+                        <iframe class="embeddedVid" width="395" height="300"
+                            src="https://www.youtube.com/embed/da8_TwQPJd8?si=bmL_8-N9DZ_vYmFJ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+                        <iframe class="embeddedVid" width="395" height="300"
+                            src="https://www.youtube.com/embed/uRY-pjQrD-Q?si=hvsNbvTSqAl4QHNG"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                        <iframe class="embeddedVid" width="395" height="300"
+                            src="https://www.youtube.com/embed/6RdbTm9aK6w?si=NEHoUSuK61lZNIYQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+                    </section>
+                </li>
+
+                <li>
+
+                    <a href="!#tabset_0=0"> <span>Who Should Seek Service?</span> <i class="fa-solid fa-angle-down"></i> </a>
+
+                    <section aria-live="assertive">
+                        <h1 class="aria-only">Websites </h1>
+                        <div class="our-portfolio-image zoomWebsiteImages effect"><img
+                                src="./img/portfolio/portweb1.png" width="387" height="387" alt="our-portfolio">
+                        </div>
+                        <div class="our-portfolio-image zoomWebsiteImages effect"><img
+                                src="./img/portfolio/portweb2.png" width="387" height="387" alt="our-portfolio">
+                        </div>
+                        <div class="our-portfolio-image zoomWebsiteImages effect"><img
+                                src="./img/portfolio/portweb3.png" width="387" height="387" alt="our-portfolio">
+                        </div>
+                    </section>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+    <!-- What Client Talk end -->
+
+
+
+
+
 
 
 
@@ -1064,8 +1169,142 @@
 
 </body>
 
+<!-- <script src="home.js"></script> -->
+<script src="./jquery.atAccordionOrTabs.js"></script>
+<script src="./jquery.bbq.js"></script>
+
+
 
 <script>
+    $('.demo').accordionortabs();
+
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+
+
+    var acc = document.getElementsByClassName("accordion_pre");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active_pre");
+            var panel_pre = this.nextElementSibling;
+            if (panel_pre.style.maxHeight) {
+                panel_pre.style.maxHeight = null;
+            } else {
+                panel_pre.style.maxHeight = panel_pre.scrollHeight + "px";
+            }
+        });
+    }
+
+
+
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "350px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+
+    document.querySelector('.bars').addEventListener('click', function () {
+        const middleCont = document.querySelector('.navbar .middleCont');
+        middleCont.classList.toggle('active');
+
+        const letsTalk = document.querySelector('.navbar .lets-talk');
+        if (letsTalk) {
+            letsTalk.classList.toggle('active');
+        }
+    });
+
+    // Select all the dropbtn elements
+    const dropdownButtons = document.querySelectorAll('.dropbtn');
+
+    dropdownButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const allDropdownContents = document.querySelectorAll('.dropdown-content');
+            allDropdownContents.forEach(content => {
+                if (content !== this.nextElementSibling) {
+                    content.classList.remove('active');
+                }
+            });
+
+            const dropdownContent = this.nextElementSibling;
+            dropdownContent.classList.toggle('active');
+        });
+    });
+
+
+    // Select all the dropbtn elements
+    const menuTogglekiHeadings = document.querySelectorAll('.toggleKeLieHeading');
+
+    menuTogglekiHeadings.forEach(heading => {
+        heading.addEventListener('click', function () {
+
+
+            const allDropdownMenus = document.querySelectorAll('.menuToggleinPhone');
+            allDropdownMenus.forEach(content => {
+                if (content !== this.nextElementSibling) {
+                    content.classList.remove('active');
+                }
+            });
+
+            const dropdownMenu = this.nextElementSibling;
+            dropdownMenu.classList.toggle('active');
+
+            // Toggle the icon between + and -
+            const togglePlusMinusIcon = this.querySelector('.togglePlusMinusIcon');
+            if (dropdownMenu.classList.contains('active')) {
+                togglePlusMinusIcon.textContent = "-";
+            } else {
+                togglePlusMinusIcon.textContent = "+";
+            }
+
+        });
+    });
+
+
+
+
+    document.querySelectorAll('.zoomWebsiteImages img').forEach(image => {
+        image.addEventListener('click', function () {
+            var popup = document.getElementById("imagePopup");
+            var popupImage = document.getElementById("popupImage");
+
+            // Display the popup and set the image source
+            popup.style.display = "block";
+            popupImage.src = this.src;
+
+            // Center the image horizontally
+            popupImage.style.margin = "auto";
+        });
+    });
+
+    // When the user clicks on the close button, close the popup
+    document.querySelector('.close').onclick = function () {
+        var popup = document.getElementById("imagePopup");
+        popup.style.display = "none";
+    };
+
+    // Close the popup if user clicks anywhere outside the image
+    window.onclick = function (event) {
+        var popup = document.getElementById("imagePopup");
+        if (event.target == popup) {
+            popup.style.display = "none";
+        }
+    };
 
 
 
@@ -1090,7 +1329,11 @@
         });
     }
 
+
 </script>
+
+
+
 
 
 </html>
