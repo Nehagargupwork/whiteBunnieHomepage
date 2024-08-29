@@ -1298,6 +1298,7 @@
                 </div>
 
                 <div class="masterSubDabba">
+
                     <div class="dabbe accordion-faq">
 
                         <div class="subFaqDabba">
@@ -1334,6 +1335,7 @@
 
 
                     </div>
+                    
                 </div>
 
             </div>
@@ -1500,7 +1502,7 @@
     <script src="./jquery.bbq.js"></script>
 
 
-    <script>
+    <!-- <script>
         $('.demo').accordionortabs();
 
         var acc = document.getElementsByClassName("accordion");
@@ -1655,8 +1657,177 @@
         }
 
 
-    </script>
+    </script> -->
 
+
+    
+<script>
+
+
+    var accFaq = document.getElementsByClassName("accordion-faq");
+
+    for (var i = 0; i < accFaq.length; i++) {
+        accFaq[i].addEventListener("click", function () {
+            var panel = this.querySelector(".panel");
+            var toggleSymbol = this.querySelector(".toggle-symbol");
+
+            // Inject the icon
+            toggleSymbol.innerHTML = '<i class="fa-solid fa-plus"></i>';
+
+            // Toggle display
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+                toggleSymbol.innerHTML = '<i class="fa-solid fa-plus"></i>'; // Plus symbol when closed
+            } else {
+                panel.style.display = "block";
+                toggleSymbol.innerHTML = '<i class="fa-solid fa-minus"></i>'; // Minus symbol when opened
+            }
+        });
+    }
+
+
+
+
+
+
+    $('.demo').accordionortabs();
+
+    var accTab = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < accTab.length; i++) {
+        accTab[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+
+
+    var accPre = document.getElementsByClassName("accordion_pre");
+    var i;
+
+    for (i = 0; i < accPre.length; i++) {
+        accPre[i].addEventListener("click", function () {
+            this.classList.toggle("active_pre");
+            var panel_pre = this.nextElementSibling;
+            if (panel_pre.style.maxHeight) {
+                panel_pre.style.maxHeight = null;
+            } else {
+                panel_pre.style.maxHeight = panel_pre.scrollHeight + "px";
+            }
+        });
+    }
+
+
+
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "350px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+
+
+    document.querySelector('.bars').addEventListener('click', function () {
+        const middleCont = document.querySelector('.navbar .middleCont');
+        middleCont.classList.toggle('active');
+
+        const letsTalk = document.querySelector('.navbar .lets-talk');
+        if (letsTalk) {
+            letsTalk.classList.toggle('active');
+        }
+    });
+
+    // Select all the dropbtn elements
+    const dropdownButtons = document.querySelectorAll('.dropbtn');
+
+    dropdownButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const allDropdownContents = document.querySelectorAll('.dropdown-content');
+            allDropdownContents.forEach(content => {
+                if (content !== this.nextElementSibling) {
+                    content.classList.remove('active');
+                }
+            });
+
+            const dropdownContent = this.nextElementSibling;
+            dropdownContent.classList.toggle('active');
+        });
+    });
+
+
+    // Select all the dropbtn elements
+    const menuTogglekiHeadings = document.querySelectorAll('.toggleKeLieHeading');
+
+    menuTogglekiHeadings.forEach(heading => {
+        heading.addEventListener('click', function () {
+
+
+            const allDropdownMenus = document.querySelectorAll('.menuToggleinPhone');
+            allDropdownMenus.forEach(content => {
+                if (content !== this.nextElementSibling) {
+                    content.classList.remove('active');
+                }
+            });
+
+            const dropdownMenu = this.nextElementSibling;
+            dropdownMenu.classList.toggle('active');
+
+            // Toggle the icon between + and -
+            const togglePlusMinusIcon = this.querySelector('.togglePlusMinusIcon');
+            if (dropdownMenu.classList.contains('active')) {
+                togglePlusMinusIcon.textContent = "-";
+            } else {
+                togglePlusMinusIcon.textContent = "+";
+            }
+
+        });
+    });
+
+
+
+
+    document.querySelectorAll('.zoomWebsiteImages img').forEach(image => {
+        image.addEventListener('click', function () {
+            var popup = document.getElementById("imagePopup");
+            var popupImage = document.getElementById("popupImage");
+
+            // Display the popup and set the image source
+            popup.style.display = "block";
+            popupImage.src = this.src;
+
+            // Center the image horizontally
+            popupImage.style.margin = "auto";
+        });
+    });
+
+    // When the user clicks on the close button, close the popup
+    document.querySelector('.close').onclick = function () {
+        var popup = document.getElementById("imagePopup");
+        popup.style.display = "none";
+    };
+
+    // Close the popup if user clicks anywhere outside the image
+    window.onclick = function (event) {
+        var popup = document.getElementById("imagePopup");
+        if (event.target == popup) {
+            popup.style.display = "none";
+        }
+    };
+
+
+
+
+
+
+
+</script>
 
 
 

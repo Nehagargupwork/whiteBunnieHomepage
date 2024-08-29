@@ -987,7 +987,7 @@ p.second-para {
   background: #222;
   border: 2px solid black;
   padding: 1rem;
-  padding-bottom: 10rem;
+  padding-bottom: 16rem;
   flex-wrap: wrap;
   position: relative;
 }
@@ -1041,11 +1041,11 @@ p.second-para {
 .lookingForYellowBox {
   border-radius: 38px;
   background: #FFF234;
-  max-width: 1280px;
+  /* max-width: 1280px; */
+  margin: 0 3rem;
   padding: 1rem;
   position: absolute;
   bottom: 1rem;
-  margin: 0 1rem;
 }
 
 .lookingForYellowBox h2 {

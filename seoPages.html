@@ -916,7 +916,8 @@
 
                 <li>
 
-                    <a href="!#tabset_0=0" class="active"> <span>What is an SEO agency?</span> <i class="fa-solid fa-angle-down"></i>
+                    <a href="!#tabset_0=0" class="active"> <span>What is an SEO agency?</span> <i
+                            class="fa-solid fa-angle-down"></i>
                     </a>
 
                     <section aria-live="assertive" class="is-open" style="display: block;">
@@ -976,7 +977,8 @@
 
                 <li>
 
-                    <a href="!#tabset_0=0"> <span>Who Should Seek Service?</span> <i class="fa-solid fa-angle-down"></i> </a>
+                    <a href="!#tabset_0=0"> <span>Who Should Seek Service?</span> <i class="fa-solid fa-angle-down"></i>
+                    </a>
 
                     <section aria-live="assertive">
                         <h1 class="aria-only">Websites </h1>
@@ -1176,13 +1178,43 @@
 
 
 <script>
+
+
+
+
+    var accFaq = document.getElementsByClassName("accordion-faq");
+
+    for (var i = 0; i < accFaq.length; i++) {
+        accFaq[i].addEventListener("click", function () {
+            var panel = this.querySelector(".panel");
+            var toggleSymbol = this.querySelector(".toggle-symbol");
+
+            // Inject the icon
+            toggleSymbol.innerHTML = '<i class="fa-solid fa-plus"></i>';
+
+            // Toggle display
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+                toggleSymbol.innerHTML = '<i class="fa-solid fa-plus"></i>'; // Plus symbol when closed
+            } else {
+                panel.style.display = "block";
+                toggleSymbol.innerHTML = '<i class="fa-solid fa-minus"></i>'; // Minus symbol when opened
+            }
+        });
+    }
+
+
+
+
+
+
     $('.demo').accordionortabs();
 
-    var acc = document.getElementsByClassName("accordion");
+    var accTab = document.getElementsByClassName("accordion");
     var i;
 
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
+    for (i = 0; i < accTab.length; i++) {
+        accTab[i].addEventListener("click", function () {
             this.classList.toggle("active");
             var panel = this.nextElementSibling;
             if (panel.style.maxHeight) {
@@ -1194,11 +1226,11 @@
     }
 
 
-    var acc = document.getElementsByClassName("accordion_pre");
+    var accPre = document.getElementsByClassName("accordion_pre");
     var i;
 
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
+    for (i = 0; i < accPre.length; i++) {
+        accPre[i].addEventListener("click", function () {
             this.classList.toggle("active_pre");
             var panel_pre = this.nextElementSibling;
             if (panel_pre.style.maxHeight) {
@@ -1218,6 +1250,7 @@
     function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
     }
+
 
     document.querySelector('.bars').addEventListener('click', function () {
         const middleCont = document.querySelector('.navbar .middleCont');
@@ -1308,26 +1341,8 @@
 
 
 
-    var acc = document.getElementsByClassName("accordion-faq");
 
-    for (var i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
-            var panel = this.querySelector(".panel");
-            var toggleSymbol = this.querySelector(".toggle-symbol");
 
-            // Inject the icon
-            toggleSymbol.innerHTML = '<i class="fa-solid fa-plus"></i>';
-
-            // Toggle display
-            if (panel.style.display === "block") {
-                panel.style.display = "none";
-                toggleSymbol.innerHTML = '<i class="fa-solid fa-plus"></i>'; // Plus symbol when closed
-            } else {
-                panel.style.display = "block";
-                toggleSymbol.innerHTML = '<i class="fa-solid fa-minus"></i>'; // Minus symbol when opened
-            }
-        });
-    }
 
 
 </script>
