@@ -1290,8 +1290,11 @@ p.second-para {
   float: left;
   margin: 0px;
   padding: 30px 0 30px;
-  /* background: #eaeaea; */
   background: #D9D9D9;
+}
+
+.result-driven  {
+  padding: 30px 0 0 0;
 }
 
 .our-portfolio h3 {
@@ -3383,7 +3386,7 @@ p.second-para {
 @media (min-width: 768px) {
 
   .answerBox{
-    margin: 0 1rem; font-size: 24px;
+    margin: 0 1rem 2rem 1rem; font-size: 24px; 
   }
 
   .seoHero {
