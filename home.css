@@ -2297,58 +2297,6 @@ p.second-para {
 }
 
 
-@media (min-width: 768px) {
-  .seoHero {
-    padding: 2rem;
-  }
-
-  .seoHero .seoHeading {
-    font-size: 4rem;
-    margin-top: -5rem;
-  }
-
-  .seoHero .seoSubHeading {
-    font-size: 2rem;
-  }
-
-  .seoHero button {
-    font-size: 1.2rem;
-    padding: 1.2rem 3rem;
-  }
-
-  .close {
-    /* position: absolute; */
-    position: fixed;
-    bottom: 50px;
-    right: 5rem;
-    color: #fff;
-    font-size: 40px;
-    transition: 0.3s;
-  }
-
-  .extraTextCont {
-    font-size: 26px;
-  }
-
-}
-
-
-@media (min-width: 1024px) {
-  .seoHero .seoHeading {
-    font-size: 5rem;
-    margin-top: -5rem;
-  }
-
-  .seoHero .seoSubHeading {
-    font-size: 2.5rem;
-  }
-
-  .seoHero button {
-    font-size: 16px;
-    padding: 16px 38px;
-  }
-}
-
 .seoContriContainer {
   padding: 2rem 1rem;
   background-color: #222;
@@ -3252,7 +3200,9 @@ p.second-para {
 /* ================================================================= */
 
 
-
+.answerBox{
+  margin: 0 1rem; font-size: 1rem; line-height: 30px;
+}
 
 
 
@@ -3427,4 +3377,62 @@ p.second-para {
     height: 7rem;
   }
 
+}
+
+
+@media (min-width: 768px) {
+
+  .answerBox{
+    margin: 0 1rem; font-size: 24px;
+  }
+
+  .seoHero {
+    padding: 2rem;
+  }
+
+  .seoHero .seoHeading {
+    font-size: 4rem;
+    margin-top: -5rem;
+  }
+
+  .seoHero .seoSubHeading {
+    font-size: 2rem;
+  }
+
+  .seoHero button {
+    font-size: 1.2rem;
+    padding: 1.2rem 3rem;
+  }
+
+  .close {
+    /* position: absolute; */
+    position: fixed;
+    bottom: 50px;
+    right: 5rem;
+    color: #fff;
+    font-size: 40px;
+    transition: 0.3s;
+  }
+
+  .extraTextCont {
+    font-size: 26px;
+  }
+
+}
+
+
+@media (min-width: 1024px) {
+  .seoHero .seoHeading {
+    font-size: 5rem;
+    margin-top: -5rem;
+  }
+
+  .seoHero .seoSubHeading {
+    font-size: 2.5rem;
+  }
+
+  .seoHero button {
+    font-size: 16px;
+    padding: 16px 38px;
+  }
 }
