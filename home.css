@@ -1797,12 +1797,10 @@ p.second-para {
   color: #FFF234;
   font-family: Poppins;
   font-size: 2.5rem;
-  /* Adjust font size for responsiveness */
   font-style: normal;
   font-weight: 900;
   margin-top: -2rem;
   margin-bottom: 1rem;
-  /* Add margin for spacing */
 }
 
 .seoHero .seoSubHeading {
@@ -3394,7 +3392,7 @@ p.second-para {
   }
 
   .seoHero .seoHeading {
-    font-size: 4rem;
+    font-size: 5rem;
     margin-top: -5rem;
   }
 
@@ -3425,11 +3423,6 @@ p.second-para {
 
 
 @media (min-width: 1024px) {
-  .seoHero .seoHeading {
-    font-size: 5rem;
-    margin-top: -5rem;
-  }
-
   .seoHero .seoSubHeading {
     font-size: 2.5rem;
   }
