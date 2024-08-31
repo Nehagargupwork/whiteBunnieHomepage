@@ -1465,14 +1465,15 @@ img.image-quote {
   color: #fff;
 }
 
+
+
 .code-of-ehins {
   width: 100%;
   float: left;
-  padding: 70px 0 70px 0;
   margin: 0px 0 0px 0;
-  background-image: -moz-linear-gradient(180deg, rgb(1, 9, 132) 0%, rgb(3, 155, 110) 100%);
-  background-image: -webkit-linear-gradient(180deg, rgb(1, 9, 132) 0%, rgb(3, 155, 110) 100%);
-  background-image: -ms-linear-gradient(180deg, rgb(1, 9, 132) 0%, rgb(3, 155, 110) 100%);
+  padding: 40px 40px 40px;
+  background: #FFF234;
+  position: relative;
 }
 
 .code-of-ehins .icon-left {
@@ -1490,29 +1491,53 @@ img.image-quote {
 }
 
 .code-of-ehins-section h3 {
-  width: 100%;
-  float: left;
-  margin: 0px 0 20px;
-  padding: 0px;
+  margin-bottom: 1rem;
+  color: #222;
+  font-family: Poppins;
   font-size: 48px;
-  line-height: 52px;
-  color: #fff;
-  font-weight: normal;
-  text-align: left;
-  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+}
+
+.freeTrialBtn {
+  color: #FFF234;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  cursor: pointer;
+  background: #222;
+  border-radius: 30px;
+  padding: 8px 40px;
+  text-wrap: nowrap;
+  position: relative;
+  z-index: 1;
 }
 
 .code-of-ehins-section p {
-  width: 100%;
-  float: left;
-  margin: 0px 0 20px;
-  padding: 0px;
+  color: #222;
+  font-family: Poppins;
   font-size: 24px;
-  line-height: 26px;
-  color: #fff;
-  font-weight: normal;
-  text-align: left;
-  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  margin: 1rem 0;
+}
+
+.code-of-ethics-para {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.codeEthicsArrow {
+  position: absolute;
+  top: -20rem;
+  right: -21rem;
+  width: 30rem;
 }
 
 .free-trial-btn {
@@ -1521,15 +1546,16 @@ img.image-quote {
   border-radius: 30px;
   float: right;
   padding: 0px;
-  margin: 100px 0 0 0;
   display: table;
   height: 54px;
   cursor: pointer;
   background: #fff200;
   text-align: center;
-  color: #000;
   line-height: 54px;
   font-size: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: 'ProximaNovaAltBold';
 }
 
 .free-trial-btn:hover {
@@ -1537,62 +1563,48 @@ img.image-quote {
   color: #333;
 }
 
+.consultationCont {
+  width: 100%;
+  background: #F5F5F5;
+}
 
 .code-of-ehins1 {
   width: 100%;
-  float: left;
-  padding: 0px 0 0px 0;
-  margin: 70px 0 0px 0;
-  background-image: -moz-linear-gradient(180deg, rgb(1, 9, 132) 0%, rgb(3, 155, 110) 100%);
-  background-image: -webkit-linear-gradient(180deg, rgb(1, 9, 132) 0%, rgb(3, 155, 110) 100%);
-  background-image: -ms-linear-gradient(180deg, rgb(1, 9, 132) 0%, rgb(3, 155, 110) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  padding: 2rem 1rem;
+  gap: 4rem;
 }
 
 .code-of-ehins1 .icon-left1 {
-  width: 40%;
-  float: left;
-  margin: 0px 0 -80px 0;
-  padding: 60px 0 0 0;
-  line-height: 0px;
+  width: 50%;
+  gap: 5rem;
 }
 
-.code-of-ehins1 .icon-left1 img {
-  max-width: 100%;
-  height: auto;
-}
-
-.code-of-ehins-section1 {
-  width: 60%;
-  float: left;
-  margin: 0px 0 0 0;
-  padding: 50px 0 50px 4%;
-}
-
-.code-of-ehins-section1 h3 {
+.code-of-ehins-section1 div {
   width: 100%;
-  float: left;
-  margin: 0px 0 10px;
-  padding: 0px;
-  font-size: 48px;
-  line-height: 52px;
-  color: #fff;
-  font-weight: normal;
-  text-align: left;
-  font-family: 'poppins';
+  margin: 10px 0;
+  font-size: 42px;
+  line-height: 50px;
+  color: #222;
+  font-family: Poppins;
+  font-weight: 700;
 }
 
 .code-of-ehins-section1 p {
   width: 100%;
-  float: left;
-  margin: 0px 0 20px;
-  padding: 0px;
-  font-size: 22px;
-  line-height: 24px;
-  color: #fff;
-  font-weight: normal;
-  text-align: left;
-  font-family: 'poppins';
+  color: #222;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 107%;
 }
+
+
+
 
 .free-trial-btn1 {
   width: 220px;
@@ -2590,6 +2602,14 @@ img.image-quote {
   object-fit: cover;
 }
 
+
+.getURankedBg {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
 /* ========================================================== */
 
 /* Responsive styles */
@@ -2681,6 +2701,42 @@ img.image-quote {
   .socioAdversing-img img {
     max-width: 12rem;
   }
+
+
+  .getURankedBg {
+    display: none;
+  }
+
+  .code-of-ethics-para {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  .code-of-ehins1 {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .code-of-ehins1 .icon-left1 {
+    width: 100%;
+    padding: 1rem;
+  }
+
+
+  .code-of-ehins-section1 div {
+    font-size: 33px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .siteOptimizeMainHeading {
+    font-size: 33px;
+  }
+
+  .code-of-ehins-section1 p {
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {
@@ -2699,5 +2755,12 @@ img.image-quote {
 
   .ranked-section-img img {
     max-width: 11rem;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .codeEthicsArrow {
+    display: none;
   }
 }
