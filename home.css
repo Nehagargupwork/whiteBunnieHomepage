@@ -1658,6 +1658,7 @@ p.second-para {
 
 
 /* ==================================================== */
+
 .masterDabba {
   gap: 1rem;
   width: 100%;
@@ -1752,19 +1753,6 @@ p.second-para {
   font-size: 16px;
   font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* =============================================== Seo */
@@ -1870,7 +1858,6 @@ p.second-para {
   color: #FFF;
   font-family: Poppins;
   font-size: 33px;
-  /* Adjust font size for responsiveness */
   font-style: normal;
   font-weight: 800;
   line-height: 110%;
@@ -2229,12 +2216,13 @@ p.second-para {
     font-size: 33px;
   }
 
-  .faqHeading {
-    font-size: 33px;
-  }
-
   .embeddedVid {
     width: 100%;
+  }
+
+
+  .faqHeading {
+    font-size: 33px;
   }
 
   .faqQuestion {

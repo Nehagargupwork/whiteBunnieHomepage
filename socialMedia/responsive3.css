@@ -1,264 +1,661 @@
- 
-@media only screen and (min-width: 1000px) and (max-width: 1169px) {	
-.container{width:980px; position:relative; }
-.talk-btn{clear:both;}
-.code-of-ehins-section{width:60%;}
-.key-process-section ul li p{width:85%;}
-.consultant-service-right h3{padding: 0px 20% 0 0;}
-.seo-service-section1 h3 {
-    margin: -15px 0 0 0;
-    font-size: 62px;
-    line-height: 65px;
-}
-.seo-service-section1{width:50%;}
-}
+ @media only screen and (min-width: 1000px) and (max-width: 1169px) {
+     .container {
+         width: 980px;
+         position: relative;
+     }
+
+     .talk-btn {
+         clear: both;
+     }
+
+     .code-of-ehins-section {
+         width: 60%;
+     }
+
+     .key-process-section ul li p {
+         width: 85%;
+     }
+
+     .consultant-service-right h3 {
+         padding: 0px 20% 0 0;
+     }
+
+     .seo-service-section1 h3 {
+         margin: -15px 0 0 0;
+         font-size: 62px;
+         line-height: 65px;
+     }
+
+     .seo-service-section1 {
+         width: 50%;
+     }
+ }
 
 
-@media only screen and (min-width: 768px) and (max-width: 999px) {	
-.container{ width:737px; position:relative; }
-.ranked-section-img{width:100%; margin:0 0 30px}
-.ranked-section-img img{width:100%; height:auto;}
-.talk-btn{clear:both;}
-.code-of-ehins-section{width:100%;}
-.code-of-ehins .icon-left{width:100%; padding:0px 0 10px}
-.key-process-section ul li p{width:85%;}
-.key-process-section h3{padding: 0px 0%;}
+ @media only screen and (min-width: 768px) and (max-width: 999px) {
+     .container {
+         width: 737px;
+         position: relative;
+     }
 
-.key-process-section ul li{width:100%;}
-.consultant-service-right h3{padding: 0px 20% 0 0;}
-.consultant-service-right{width:100%;}
-.seo-service-section1 h3 {
-    margin: -15px 0 0 0;
-    font-size: 62px;
-    line-height: 65px;
-}
-.seo-service-section1{width:100%;}
-.seo-service1 .icon-left{width:100%; margin:0 0 20px;}
-.click-here-btn{float:left; margin:30px 0 0 0;}
-.ranked-section h4{padding: 0px 0%;}
-.consultant-section h3{padding: 0px 0%;}
-.consultant-section ul li {
-    width:48%;
-    float: left;
-    margin: 0px 1% 20px;
-    padding: 0px;
-    list-style: none;
-    border: #cccccc 1px solid;
-}
-.marketing-service ul li .image{ width:100%;}
-.marketing-service ul li .right-txt{ width:100%;}
-.get-in-touch-form{ width:60%;}
-.coverage-section h3{width:100%;padding: 0px 0%;}
-.testimonial-section-btm ul li{width:100%;}
-.faq ul {
-    list-style: none;
-    width: 100%;
-    margin: 0px 0% 0px 0;
-    float: left;
-    padding: 0px;
-}
+     .ranked-section-img {
+         width: 100%;
+         margin: 0 0 30px
+     }
 
-}
+     .ranked-section-img img {
+         width: 100%;
+         height: auto;
+     }
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {		
-.container{ width:95%; position:relative; }
-.ranked-section-img{width:100%; margin:0 0 30px}
-.ranked-section-img img{width:100%; height:auto;}
-.talk-btn{clear:both;}
-.code-of-ehins-section{width:100%;}
-.code-of-ehins .icon-left{width:100%; padding:0px 0 10px}
-.key-process-section ul li p{width:85%;}
-.key-process-section h3{padding: 0px 0%;}
+     .talk-btn {
+         clear: both;
+     }
 
-.key-process-section ul li{width:100%;}
-.consultant-service-right h3{padding: 0px 20% 0 0;}
-.consultant-service-right{width:100%;}
-.seo-service-section1 h3 {
-    margin: -15px 0 0 0;
-    font-size: 62px;
-    line-height: 65px;
-}
-.seo-service-section1{width:100%;}
-.seo-service1 .icon-left{width:100%; margin:0 0 20px;}
-.click-here-btn{float:left; margin:30px 0 0 0;}
-.ranked-section h4{padding: 0px 0%;}
-.consultant-section h3{padding: 0px 0%;}
-.consultant-section ul li {
-    width:100%;
-    float: left;
-    margin: 0px 0% 20px;
-    padding: 0px;
-    list-style: none;
-    border: #cccccc 1px solid;
-}
-.marketing-service ul li {
-    width:50%;
-    float: left;
-    margin: -1px -1px 0px 0;
-    padding: 20px;
-    text-align: center;
-    list-style: none;
-    border: #ccc 1px solid;
-}
-.marketing-service ul li .image{ width:100%;}
-.marketing-service ul li .right-txt{ width:100%;}
-.get-in-touch-form{ width:60%;}
-.coverage-section h3{width:100%;padding: 0px 0%;}
-.testimonial-section-btm ul li{width:100%;}
-.faq ul {
-    list-style: none;
-    width: 100%;
-    margin: 0px 0% 0px 0;
-    float: left;
-    padding: 0px;
-}
-.coverage-section ul{width:100%;}
-.investment-box ul {
-    flex-wrap: wrap;
-}
-.investment-box ul li {
-    width: 100%;    text-align: center;
-    margin-bottom: 50px;
-}
-.ins-box p {
-    height: auto !important;
-}
-.investment-box ul li:after {
-    right: auto;
-    transform: rotate(90deg);
-    bottom: -41px;
-    width: 50px;
-    height: 15px;
-}
-}
+     .code-of-ehins-section {
+         width: 100%;
+     }
 
-@media only screen and (max-width: 479px) {
-.container{ width:95%; position:relative;}
-.banner {width: 100%;float: left;margin: 0px;padding: 0px;/* background: url(https://whitebunnie.com/wp-content/uploads/2024/02/banner1.jpg) no-repeat left top; */
+     .code-of-ehins .icon-left {
+         width: 100%;
+         padding: 0px 0 10px
+     }
 
-background-size: cover;min-height: 400px;height: 400px;}
-.banner-text{width: 100%!important;padding: 0!important;margin: 100px 0px 0px !important;}
-/* .seo-left-txt {width: 100%;margin: 30px 0px 30px;} */
-.banner-text h1{font-size: 34px;line-height: 34px;text-align:center;text-transform: uppercase;}
-.right-sec-seo {width: 100%;}
-.banner-text h4{font-size: 18px;line-height: 24px;margin: 20px 0px 30px; display: block;text-align: center;}
-.free-proposal{float: none;}
-.seo-para-Marketing { width: 100%;padding: 0px 20px;}
-.coverage-section ul li{margin: 0 0% 0 0%;}
-.button-cse ul li{margin: 10px 0px 0px 0px!important;}
-.case-left img{position: relative;margin: 30px 0px 0px;}
-.case-right {width: 100%;padding: 0;margin: 30px 0px 0px;}
-.code-of-ehins1 .icon-left1{width: 100%;margin: 0px 0 -20px 0;}
-.code-of-ehins-section1{width: 100%;}
-.engaging-left{width: 100%;position: relative;}
-.Top.Benefits-left{width: 100%;}
-.Top.Benefits-right{width: 100%;margin: 30px 0px 0px;padding: 0;}
-.case-left{width: 100%;}
-.case-right{width: 100%;}
-.Case-Studies{display: table;}
-.engaging-right{width: 100%;}
-/* .ranked-section-img{width:100%; margin:0 0 30px} */
-.ranked-section h3, .socioAdversing h3{font-size: 33px; line-height:38px;}
-.ranked-section-img img{width:100%; height:auto;}
-.talk-btn{clear:both;}
-.code-of-ehins-section{width:100%;}
-.code-of-ehins{padding:20px}
-.code-of-ehins-section h3{font-size: 38px; line-height:38px;}
-.code-of-ehins .icon-left{width:100%; padding:0px 0 10px}
-.key-process-section ul li p{width:82%;}
-.key-process-section h3{padding: 0px 0%;font-size: 38px; line-height:38px;}
-.free-trial h3{font-size: 38px; line-height:38px;}
-.key-process-section ul li{width:100%;padding: 0px 0% 0 0;}
-.consultant-service-right h3{padding: 0px 0% 0 0;}
-.consultant-service-right{width:100%;}
-.seo-service-section1 h3 {
-    margin: 0px 0 0 0;
-    font-size: 38px; line-height:38px;
-}
-.seo-service-section1 h3 span {
-    font-size: 33px;
-    line-height: 33px;
-    color: #fff;
-}
-.seo-service1{ padding:20px;}
-.seo-service-section1{width:100%;}
-.seo-service1 .icon-left{width:100%; margin:0 0 20px;}
-.click-here-btn{float:left; margin:30px 0 0 0;}
-.ranked-section h4{padding: 0px 0%;}
-.consultant-section h3{padding: 0px 0%;font-size: 38px; line-height:38px;}
-.consultant-section ul li {
-    width:100%;
-    float: left;
-    margin: 0px 0% 20px;
-    padding: 0px;
-    list-style: none;
-    border: #cccccc 1px solid;
-}
-.marketing-service ul li {
-    width:100%;
-    float: left;
-    margin: -1px -1px 0px 0;
-    padding: 20px;
-    text-align: center;
-    list-style: none;
-    border: #ccc 1px solid;
-}
-.marketing-service h3{font-size: 38px; line-height:38px;}
-.marketing-service ul li .image{ width:100%;}
-.marketing-service ul li .right-txt{ width:100%;}
-.get-in-touch-form{ width:100%;}
-.coverage-section h3{width:100%;padding: 0px 0%;font-size: 38px; line-height:38px;}
-.coverage-section ul li {
-    width: 95%;
-    float: left;
-    margin: 0 0% 0 5%;
-}
+     .key-process-section ul li p {
+         width: 85%;
+     }
 
-.testimonial-section-btm ul li{width:100%;}
-.faq ul {
-    list-style: none;
-    width: 100%;
-    margin: 0px 0% 0px 0;
-    float: left;
-    padding: 0px;
-}
-.coverage-section ul{width:100%;}
-.investment-box ul {
-    flex-wrap: wrap;
-}
-.investment-box ul li {
-    width: 100%;    text-align: center;
-    margin-bottom: 50px;
-}
-.ins-box p {
-    height: auto !important;
-}
-.investment-box ul li:after {
-    right: auto;
-    transform: rotate(90deg);
-    bottom: -41px;
-    width: 50px;
-    height: 15px;
-}
-.business-success h3{font-size: 38px; line-height:38px;}
-.business-success ul li {
-    width:100%;
-    float: left;
-    margin: 0px 0% 20px;
-    padding: 15px 4%;
-    list-style: none;
-    border-right:0;
-}
-.our-seo-section h3{font-size: 38px; line-height:38px;padding: 0px 0%;}
-.testimonial-section-btm h3{font-size: 38px; line-height:38px;}
-.faq h3{font-size: 38px; line-height:38px;}
+     .key-process-section h3 {
+         padding: 0px 0%;
+     }
 
-.free-trial-top h4{padding: 30px 0%;}
-.seo-marketing h3{font-size: 38px; line-height:38px;}
-.site-optimi-left{width:100%;}
+     .key-process-section ul li {
+         width: 100%;
+     }
 
-.seo-services-btm ul li{width:100%;}
-.seo-services-btm ul li .overlay p{font-size: 16px;
-    line-height: 22px;}
-	.seo-services-btm h3{font-size: 38px; line-height:38px;}
-}
+     .consultant-service-right h3 {
+         padding: 0px 20% 0 0;
+     }
+
+     .consultant-service-right {
+         width: 100%;
+     }
+
+     .seo-service-section1 h3 {
+         margin: -15px 0 0 0;
+         font-size: 62px;
+         line-height: 65px;
+     }
+
+     .seo-service-section1 {
+         width: 100%;
+     }
+
+     .seo-service1 .icon-left {
+         width: 100%;
+         margin: 0 0 20px;
+     }
+
+     .click-here-btn {
+         float: left;
+         margin: 30px 0 0 0;
+     }
+
+     .ranked-section h4 {
+         padding: 0px 0%;
+     }
+
+     .consultant-section h3 {
+         padding: 0px 0%;
+     }
+
+     .consultant-section ul li {
+         width: 48%;
+         float: left;
+         margin: 0px 1% 20px;
+         padding: 0px;
+         list-style: none;
+         border: #cccccc 1px solid;
+     }
+
+     .marketing-service ul li .image {
+         width: 100%;
+     }
+
+     .marketing-service ul li .right-txt {
+         width: 100%;
+     }
+
+     .get-in-touch-form {
+         width: 60%;
+     }
+
+     .coverage-section h3 {
+         width: 100%;
+         padding: 0px 0%;
+     }
+
+     .testimonial-section-btm ul li {
+         width: 100%;
+     }
+
+     .faq ul {
+         list-style: none;
+         width: 100%;
+         margin: 0px 0% 0px 0;
+         float: left;
+         padding: 0px;
+     }
+
+ }
+
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+     .container {
+         width: 95%;
+         position: relative;
+     }
+
+     .ranked-section-img {
+         width: 100%;
+         margin: 0 0 30px
+     }
+
+     .ranked-section-img img {
+         width: 100%;
+         height: auto;
+     }
+
+     .talk-btn {
+         clear: both;
+     }
+
+     .code-of-ehins-section {
+         width: 100%;
+     }
+
+     .code-of-ehins .icon-left {
+         width: 100%;
+         padding: 0px 0 10px
+     }
+
+     .key-process-section ul li p {
+         width: 85%;
+     }
+
+     .key-process-section h3 {
+         padding: 0px 0%;
+     }
+
+     .key-process-section ul li {
+         width: 100%;
+     }
+
+     .consultant-service-right h3 {
+         padding: 0px 20% 0 0;
+     }
+
+     .consultant-service-right {
+         width: 100%;
+     }
+
+     .seo-service-section1 h3 {
+         margin: -15px 0 0 0;
+         font-size: 62px;
+         line-height: 65px;
+     }
+
+     .seo-service-section1 {
+         width: 100%;
+     }
+
+     .seo-service1 .icon-left {
+         width: 100%;
+         margin: 0 0 20px;
+     }
+
+     .click-here-btn {
+         float: left;
+         margin: 30px 0 0 0;
+     }
+
+     .ranked-section h4 {
+         padding: 0px 0%;
+     }
+
+     .consultant-section h3 {
+         padding: 0px 0%;
+     }
+
+     .consultant-section ul li {
+         width: 100%;
+         float: left;
+         margin: 0px 0% 20px;
+         padding: 0px;
+         list-style: none;
+         border: #cccccc 1px solid;
+     }
+
+     .marketing-service ul li {
+         width: 50%;
+         float: left;
+         margin: -1px -1px 0px 0;
+         padding: 20px;
+         text-align: center;
+         list-style: none;
+         border: #ccc 1px solid;
+     }
+
+     .marketing-service ul li .image {
+         width: 100%;
+     }
+
+     .marketing-service ul li .right-txt {
+         width: 100%;
+     }
+
+     .get-in-touch-form {
+         width: 60%;
+     }
+
+     .coverage-section h3 {
+         width: 100%;
+         padding: 0px 0%;
+     }
+
+     .testimonial-section-btm ul li {
+         width: 100%;
+     }
+
+     .faq ul {
+         list-style: none;
+         width: 100%;
+         margin: 0px 0% 0px 0;
+         float: left;
+         padding: 0px;
+     }
+
+     .coverage-section ul {
+         width: 100%;
+     }
+
+     .investment-box ul {
+         flex-wrap: wrap;
+     }
+
+     .investment-box ul li {
+         width: 100%;
+         text-align: center;
+         margin-bottom: 50px;
+     }
+
+     .ins-box p {
+         height: auto !important;
+     }
+
+     .investment-box ul li:after {
+         right: auto;
+         transform: rotate(90deg);
+         bottom: -41px;
+         width: 50px;
+         height: 15px;
+     }
+ }
+
+ @media only screen and (max-width: 479px) {
+     .container {
+         width: 95%;
+         position: relative;
+     }
+
+     .banner {
+         width: 100%;
+         float: left;
+         margin: 0px;
+         padding: 0px;
+         /* background: url(https://whitebunnie.com/wp-content/uploads/2024/02/banner1.jpg) no-repeat left top; */
+
+         background-size: cover;
+         min-height: 400px;
+         height: 400px;
+     }
+
+     .banner-text {
+         width: 100% !important;
+         padding: 0 !important;
+         margin: 100px 0px 0px !important;
+     }
+
+     /* .seo-left-txt {width: 100%;margin: 30px 0px 30px;} */
+     .banner-text h1 {
+         font-size: 34px;
+         line-height: 34px;
+         text-align: center;
+         text-transform: uppercase;
+     }
+
+     .right-sec-seo {
+         width: 100%;
+     }
+
+     .banner-text h4 {
+         font-size: 18px;
+         line-height: 24px;
+         margin: 20px 0px 30px;
+         display: block;
+         text-align: center;
+     }
+
+     .free-proposal {
+         float: none;
+     }
+
+     .seo-para-Marketing {
+         width: 100%;
+         padding: 0px 20px;
+     }
+
+     .coverage-section ul li {
+         margin: 0 0% 0 0%;
+     }
+
+     .button-cse ul li {
+         margin: 10px 0px 0px 0px !important;
+     }
+
+     .case-left img {
+         position: relative;
+         margin: 30px 0px 0px;
+     }
+
+     .case-right {
+         width: 100%;
+         padding: 0;
+         margin: 30px 0px 0px;
+     }
+
+     .code-of-ehins1 .icon-left1 {
+         width: 100%;
+         margin: 0px 0 -20px 0;
+     }
+
+     .code-of-ehins-section1 {
+         width: 100%;
+     }
+
+     .engaging-left {
+         width: 100%;
+         position: relative;
+     }
+
+     .Top.Benefits-left {
+         width: 100%;
+     }
+
+     .Top.Benefits-right {
+         width: 100%;
+         margin: 30px 0px 0px;
+         padding: 0;
+     }
+
+     .case-left {
+         width: 100%;
+     }
+
+     .case-right {
+         width: 100%;
+     }
+
+     .Case-Studies {
+         display: table;
+     }
+
+     .engaging-right {
+         width: 100%;
+     }
+
+     /* .ranked-section-img{width:100%; margin:0 0 30px} */
+     .ranked-section h3,
+     .socioAdversing h3 {
+         font-size: 33px;
+         line-height: 38px;
+     }
+
+     .ranked-section-img img {
+         width: 100%;
+         height: auto;
+     }
+
+     .talk-btn {
+         clear: both;
+     }
+
+     .code-of-ehins-section {
+         width: 100%;
+     }
+
+     .code-of-ehins {
+         padding: 2rem
+     }
+
+     .code-of-ehins-section h3 {
+         font-size: 38px;
+         line-height: 38px;
+     }
+
+     .code-of-ehins .icon-left {
+         width: 100%;
+         padding: 0px 0 10px
+     }
+
+     .key-process-section ul li p {
+         width: 82%;
+     }
+
+     .key-process-section h3 {
+         padding: 0px 0%;
+         font-size: 38px;
+         line-height: 38px;
+     }
+
+     .free-trial h3 {
+         font-size: 38px;
+         line-height: 38px;
+     }
+
+     .key-process-section ul li {
+         width: 100%;
+         padding: 0px 0% 0 0;
+     }
+
+     .consultant-service-right h3 {
+         padding: 0px 0% 0 0;
+     }
+
+     .consultant-service-right {
+         width: 100%;
+     }
+
+     .seo-service-section1 h3 {
+         margin: 0px 0 0 0;
+         font-size: 38px;
+         line-height: 38px;
+     }
+
+     .seo-service-section1 h3 span {
+         font-size: 33px;
+         line-height: 33px;
+         color: #fff;
+     }
+
+     .seo-service1 {
+         padding: 20px;
+     }
+
+     .seo-service-section1 {
+         width: 100%;
+     }
+
+     .seo-service1 .icon-left {
+         width: 100%;
+         margin: 0 0 20px;
+     }
+
+     .click-here-btn {
+         float: left;
+         margin: 30px 0 0 0;
+     }
+
+     .ranked-section h4 {
+         padding: 0px 0%;
+     }
+
+     .consultant-section h3 {
+         padding: 0px 0%;
+         font-size: 38px;
+         line-height: 38px;
+     }
+
+     .consultant-section ul li {
+         width: 100%;
+         float: left;
+         margin: 0px 0% 20px;
+         padding: 0px;
+         list-style: none;
+         border: #cccccc 1px solid;
+     }
+
+     .marketing-service ul li {
+         width: 100%;
+         float: left;
+         margin: -1px -1px 0px 0;
+         padding: 20px;
+         text-align: center;
+         list-style: none;
+         border: #ccc 1px solid;
+     }
+
+     .marketing-service h3 {
+         font-size: 38px;
+         line-height: 38px;
+     }
+
+     .marketing-service ul li .image {
+         width: 100%;
+     }
+
+     .marketing-service ul li .right-txt {
+         width: 100%;
+     }
+
+     .get-in-touch-form {
+         width: 100%;
+     }
+
+     .coverage-section h3 {
+         width: 100%;
+         padding: 0px 0%;
+         font-size: 38px;
+         line-height: 38px;
+     }
+
+     .coverage-section ul li {
+         width: 95%;
+         float: left;
+         margin: 0 0% 0 5%;
+     }
+
+     .testimonial-section-btm ul li {
+         width: 100%;
+     }
+
+     .faq ul {
+         list-style: none;
+         width: 100%;
+         margin: 0px 0% 0px 0;
+         float: left;
+         padding: 0px;
+     }
+
+     .coverage-section ul {
+         width: 100%;
+     }
+
+     .investment-box ul {
+         flex-wrap: wrap;
+     }
+
+     .investment-box ul li {
+         width: 100%;
+         text-align: center;
+         margin-bottom: 50px;
+     }
+
+     .ins-box p {
+         height: auto !important;
+     }
+
+     .investment-box ul li:after {
+         right: auto;
+         transform: rotate(90deg);
+         bottom: -41px;
+         width: 50px;
+         height: 15px;
+     }
+
+     .business-success h3 {
+         font-size: 38px;
+         line-height: 38px;
+     }
+
+     .business-success ul li {
+         width: 100%;
+         float: left;
+         margin: 0px 0% 20px;
+         padding: 15px 4%;
+         list-style: none;
+         border-right: 0;
+     }
+
+     .our-seo-section h3 {
+         font-size: 38px;
+         line-height: 38px;
+         padding: 0px 0%;
+     }
+
+     .testimonial-section-btm h3 {
+         font-size: 38px;
+         line-height: 38px;
+     }
+
+     .faq h3 {
+         font-size: 38px;
+         line-height: 38px;
+     }
+
+     .free-trial-top h4 {
+         padding: 30px 0%;
+     }
+
+     .seo-marketing h3 {
+         font-size: 38px;
+         line-height: 38px;
+     }
+
+     .site-optimi-left {
+         width: 100%;
+     }
+
+     .seo-services-btm ul li {
+         width: 100%;
+     }
+
+     .seo-services-btm ul li .overlay p {
+         font-size: 16px;
+         line-height: 22px;
+     }
+
+     .seo-services-btm h3 {
+         font-size: 38px;
+         line-height: 38px;
+     }
+ }
