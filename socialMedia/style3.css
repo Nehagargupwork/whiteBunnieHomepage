@@ -326,17 +326,6 @@ input.buttonget5:hover {
   font-family: 'poppins';
 }
 
-h2.contribute-h {
-  background: -webkit-linear-gradient(0deg, #010984, #039b6e);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 48px;
-  text-align: center;
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 48px;
-  margin-bottom: 40px;
-}
 
 .social-media-btn {
   border-radius: 50px;
@@ -715,7 +704,7 @@ img.image-quote {
   justify-content: center;
   flex-direction: column;
   background-color: #FFF234;
-  padding: 2rem;
+  padding: 2rem 1rem;
   gap: 2rem;
 }
 
@@ -725,7 +714,7 @@ img.image-quote {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #EBEBEB ;
+  background-color: #EBEBEB;
   padding: 2rem 1rem;
 }
 
@@ -736,11 +725,12 @@ img.image-quote {
   line-height: 120%;
 }
 
-.free-trial1 h4 {
-  font-size: 32px;
-  margin: 0;
+.free-trial1 div {
+  font-size: 22px;
+  font-weight: 500;
   text-align: center;
   margin-top: 1rem;
+  line-height: 120%;
 }
 
 .free-trial1 p {
@@ -1328,19 +1318,48 @@ img.image-quote {
   text-align: left;
 }
 
-.site-optimi-left ul li:last-child {
-  border: 0px;
+
+.awarenessSec {
+  display: flex;
+  align-items: center;
+  padding: 0 0 4rem 0;
+  max-width: 1400px;
+  flex-wrap: wrap-reverse;
 }
 
-.Top.Benefits-right {
-  width: 50%;
-  float: right;
+.BenefitsRightImgBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.BenefitsRightImgBox img {
+  border-radius: 30px;
+  width: 100%;
+  max-width: 30rem;
+}
+
+
+.Benefits-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 45rem;
+  padding: 1rem;
+}
+
+
+.benefits-list ul {
+  margin: 0;
+  margin-top: 6px;
+}
+
 
 .benefits-list {
-  padding: 15px 30px;
-  background: #e8f1f5;
-  margin: 0px 0px 15px;
+  background: #fff;
+  border-radius: 30px;
+  padding: 1rem;
 }
 
 .benefits-list h4 {
@@ -1348,24 +1367,10 @@ img.image-quote {
   color: #000;
   font-size: 20px;
   font-weight: 700;
+  margin-left: 1rem;
 }
 
-.benefits-list ul {
-  margin: 10px 0px 0px;
-  padding: 0;
-}
 
-.benefits-list ul li {
-  width: auto;
-  margin: 0;
-  padding: 0px 0px 10px 26px;
-  list-style: none;
-  font-size: 17px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #333333;
-  background: url(../images/arrow.png) no-repeat left top;
-}
 
 .social-media-section {
   padding: 20px 0px;
@@ -1388,51 +1393,48 @@ img.image-quote {
   background-color: #222;
 }
 
-.coverage-section2 {
-  width: 100%;
-  float: left;
-  margin: 0px 0 70px 0;
-  padding: 20px 0 0 0px;
+.contributeCont {
+  background-color: #EBEBEB;
+}
+
+.contribute {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.contribute .heading {
+  margin-top: 1rem;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+  max-width: 1200px;
+}
+
+.contribute p {
+  font-size: 20px;
+  text-align: center;
+  line-height: 24px;
+  color: #000;
+  max-width: 1200px;
 }
 
 .coverage-section h3 {
-  /* width: 100%;
-  float: left;
-  margin: 0px 0 20px;
-  padding: 0px 14%;
-  font-size: 48px;
-  line-height: 52px;
-  color: #333333;
-  font-weight: normal;
-  text-align: center;
-  font-family: 'poppins';
-  text-align: center; */
-
   text-align: center;
   color: #FFF;
   font-family: Poppins;
-  font-size: 36px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 800;
   line-height: 110%;
 
 }
 
-.contribute p {
-  padding: 0px;
-  font-size: 17px;
-  line-height: 24px;
-  color: #333;
-  font-weight: normal;
-  font-family: 'ProximaNovaAltRegular';
-}
-
-.Top.Benefits-left {
-  width: 50%;
-  float: left;
-  margin: 20px 0px 0px;
-  padding: 0;
-}
 
 .talk-btn {
   width: 220px;
@@ -2412,19 +2414,19 @@ img.image-quote {
 
 @media (max-width: 768px) {
 
-  /* .free-trial1 h3{
+  .free-trial1 h3 {
     font-size: 33px;
-  } */
-  
-.free-trial1 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #EBEBEB ;
-  padding: 1rem;
-}
+  }
+
+  .free-trial1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #EBEBEB;
+    padding: 1rem;
+  }
 
 
   .SocioAdvertisingContainer {
@@ -2656,71 +2658,6 @@ img.image-quote {
 }
 
 /* =============================================== */
-
-
-
-@media (max-width: 768px) {
-  .seoContriHeading {
-    font-size: 33px;
-  }
-
-  .seoContriSubHeading {
-    font-size: 16px;
-  }
-
-  .siteOptimizeMainHeading {
-    font-size: 33px;
-  }
-
-  .siteOptimizeSubHeading {
-    font-size: 16px;
-  }
-
-  .seo-service h3 {
-    font-size: 33px;
-  }
-
-  .embeddedVid {
-    width: 100%;
-  }
-
-
-  .faqHeading {
-    font-size: 33px;
-  }
-
-  .faqQuestion {
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 600;
-    font-family: 'Poppins';
-  }
-
-  .hero4cards>div:nth-child(-n+3) {
-    border-right: none;
-  }
-
-  .asSeenOn .asSeenOnHeading {
-    font-size: 2rem;
-  }
-
-  .asSeenOnRow1 img {
-    width: 100px;
-  }
-
-  .asSeenOnRow2 img {
-    width: 60px;
-  }
-
-  .getURankedBg {
-    display: none;
-  }
-
-  .trusted-section-paragraph {
-    font-size: 20px;
-  }
-}
-
 
 
 
@@ -3063,3 +3000,74 @@ img.image-quote {
 
 
 
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .Benefits-left,
+  .awarenessSec {
+    padding: 1rem 0;
+  }
+
+  .seoContriHeading {
+    font-size: 34px;
+  }
+
+  .seoContriSubHeading {
+    font-size: 16px;
+  }
+
+  .siteOptimizeSubHeading {
+    font-size: 16px;
+  }
+
+  .embeddedVid {
+    width: 100%;
+  }
+
+  .faqQuestion {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: 'Poppins';
+  }
+
+  .hero4cards>div:nth-child(-n+3) {
+    border-right: none;
+  }
+
+  .asSeenOn .asSeenOnHeading {
+    font-size: 2rem;
+  }
+
+  .asSeenOnRow1 img {
+    width: 100px;
+  }
+
+  .asSeenOnRow2 img {
+    width: 60px;
+  }
+
+  .getURankedBg {
+    display: none;
+  }
+
+  .trusted-section-paragraph {
+    font-size: 20px;
+  }
+
+  .testimonial-section-btm .clientTalking,
+  .contribute .heading,
+  .faqHeading,
+  .siteOptimizeMainHeading,
+  .seo-service h3 {
+    font-size: 33px;
+  }
+
+  .BenefitsRightImgBox {
+    width: 100%;
+  }
+}
