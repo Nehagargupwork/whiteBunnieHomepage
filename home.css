@@ -3088,6 +3088,9 @@ p.second-para {
 .pronsCont {
   background: #222;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pronsSubjiCont {
@@ -3103,11 +3106,7 @@ p.second-para {
   gap: 4rem;
 }
 
-.pronsCont {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .pronsUl {
   text-align: left;

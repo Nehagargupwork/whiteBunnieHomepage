@@ -595,6 +595,10 @@ a {
   font-weight: 600;
 }
 
+.case-left ul li {
+  cursor: pointer;
+}
+
 .case-right h4 {
   font-size: 36px;
   margin: 0;
@@ -637,7 +641,7 @@ a {
 }
 
 
-.button-cse span {
+.button-cse a {
   color: #fff;
   border-radius: 30px;
   background-color: #222;
@@ -705,7 +709,21 @@ img.image-quote {
   flex-direction: column;
   background-color: #FFF234;
   padding: 2rem 1rem;
-  gap: 2rem;
+  gap: 1rem;
+}
+
+.free-trial span,
+.engaging-left span,
+.contribute span {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.free-trial p {
+  font-weight: 400;
+  line-height: 120%;
+  font-size: 20px;
+  margin: 0;
 }
 
 .free-trial1 {
@@ -2414,6 +2432,15 @@ img.image-quote {
 
 @media (max-width: 768px) {
 
+
+  .seoContriHeading {
+    font-size: 33px;
+  }
+
+  .seoContriSubHeading {
+    font-size: 16px;
+  }
+
   .free-trial1 h3 {
     font-size: 33px;
   }
@@ -2584,7 +2611,7 @@ img.image-quote {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   flex-direction: column;
   cursor: pointer;
 }
@@ -2882,11 +2909,12 @@ img.image-quote {
   text-align: center;
 }
 
+
 .testimonial-section-btm ul li {
   width: 32.33%;
   float: none;
-  margin: 0 0 40px;
-  padding: 0px 2%;
+  margin: 0 0 35px;
+  padding: 0px 1%;
   display: inline-block;
   text-align: center;
   list-style: none;
@@ -2977,31 +3005,279 @@ img.image-quote {
 
 
 
+/* ========================================== */
+
+
+.seoContriContainer {
+  padding: 2rem 1rem;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.seoContriCardHeading {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 107%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 16px 16px 0px 0px;
+  text-align: center;
+}
+
+.seoContriSubContainer,
+.seoServiceBest {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+
+.seoServiceBest {
+  max-width: 1200px;
+}
+
+.seoContriCard {
+  border: 2px solid white;
+  max-width: 20rem;
+  height: auto;
+  border-radius: 18px;
+}
+
+.seoContriCardSubHeading {
+  color: white;
+  text-align: center;
+  margin: 1rem;
+}
+
+.seoContriContainer h5 {
+  color: white;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  margin: 1rem 0px;
+  font-style: italic;
+}
+
+.seoContriContainer h4 {
+  color: white;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  margin: 1rem 0px;
+}
+
+.seoContriHeading {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+}
+
+.seoContriSubHeading {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 107%;
+}
 
 
 
+/* ================================================ */
+
+
+.answerBox {
+  margin: 0 1rem;
+  font-size: 1rem;
+  line-height: 30px;
+}
 
 
 
+@media (min-width: 768px) {
+
+  .answerBox {
+    margin: 0 1rem 2rem 1rem;
+    font-size: 24px;
+  }
+
+}
+
+.our-portfolio {
+  width: 100%;
+  float: left;
+  margin: 0px;
+  padding: 30px 0 30px;
+  background: #D9D9D9;
+}
+
+.result-driven {
+  padding: 30px 0 0 0;
+}
+
+.our-portfolio h3 {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  margin: 0px 0 10px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+}
+
+.our-portfolio h5 {
+  width: 100%;
+  float: left;
+  margin: 0px 0 30px;
+  padding: 0px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #333;
+  font-weight: normal;
+  text-align: center;
+  font-family: Poppins;
+}
+
+.our-portfolio-image {
+  width: 32.33%;
+  max-height: 387.95px;
+  float: left;
+  margin: 0px 0.5% 20px;
+  padding: 0px;
+  line-height: 0px;
+  border-radius: 30px;
+}
+
+.our-portfolio-image img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* ============================================================= */
 
 
 
+.pronsCont {
+  background: #222;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pronsSubjiCont {
+  max-width: 1200px;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.pronsSubCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.pronsUl {
+  text-align: left;
+  font-size: 20px;
+}
+
+.pronsRight {
+  max-width: 55%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pronsHeading {
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+}
+
+.pronsSubHeading {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 107%;
+  margin: 2rem 0;
+}
+
+.pronslastLine {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 107%;
+  margin-top: 2rem;
+}
+
+.pronsBox {
+  border-radius: 20px;
+  background: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.pronsBoxHead {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+}
 
 
+.pronsBoxBtn {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+  border-radius: 30px;
+  background: #FFF234;
+  padding: 10px 16px;
+  margin-top: 1rem;
+}
 
+.pronsImage2 {
+  display: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* ================================================================= */
 
 
 
