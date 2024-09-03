@@ -2451,11 +2451,7 @@ img.image-quote {
 
 @media (max-width: 768px) {
 
-  .seoContriSubContainer,
-  .seoServiceBest {
-    margin: 1rem 0px;
-  }
-
+  
   .seoContriHeading,
   .seo-service h3,
   .free-trial1 h3,
@@ -3070,7 +3066,7 @@ img.image-quote {
   gap: 2rem;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 
@@ -3080,7 +3076,7 @@ img.image-quote {
 
 .seoContriCard {
   border: 2px solid white;
-  max-width: 20rem;
+  max-width: 21rem;
   height: auto;
   border-radius: 18px;
 }
@@ -3413,6 +3409,7 @@ img.image-quote {
   justify-content: center;
   flex-wrap: wrap;
   gap: 26px;
+  padding: 0;
   margin: 3rem 0;
 }
 
@@ -3621,9 +3618,15 @@ img.image-quote {
 
 @media (max-width: 768px) {
 
-  /* .pronsRight {
-    max-width: 100%;
-  } */
+  .seoContriSubContainer,
+  .seoServiceBest {
+    margin: 1rem 0px;
+  } 
+
+  .seoContriSubContainer,
+  .seoServiceBest {
+    margin: 1;
+  }
 
   .pronsSubCont {
     flex-direction: column;
