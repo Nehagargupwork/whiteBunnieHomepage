@@ -3060,14 +3060,6 @@ img.image-quote {
   text-align: center;
 }
 
-.seoContriSubContainer,
-.seoServiceBest {
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 2rem;
-}
 
 
 .seoServiceBest {
