@@ -586,8 +586,8 @@ a {
 
 .case-right {
   width: 70%;
-  float: left;
-  padding: 0px 40px 0px 70px;
+  /* float: left; */
+  padding: 0px 30px;
 }
 
 .case-left ul {
@@ -607,15 +607,15 @@ a {
 
 .case-right h5 {
   text-align: left;
-  margin: 1rem 0;
+  margin: 0 0;
   text-transform: uppercase;
   font-size: 18px;
 }
 
 
 .case-right p {
-  margin: 0;
-  font-size: 20px;
+  margin: 12px 0;
+  font-size: 18px;
 }
 
 
@@ -638,6 +638,7 @@ a {
   align-items: center;
   margin-top: 2rem;
   gap: 1rem;
+  width: 100%;
 }
 
 
@@ -729,7 +730,7 @@ img.image-quote {
 .free-trial1 {
   width: 100%;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   flex-direction: column;
   background-color: #EBEBEB;
@@ -741,21 +742,39 @@ img.image-quote {
   text-align: center;
   margin: 0;
   line-height: 120%;
+  max-width: 1200px;
 }
 
-.free-trial1 div {
-  font-size: 22px;
-  font-weight: 500;
+.free-trial1 .takeyourfStep {
   text-align: center;
-  margin-top: 1rem;
-  line-height: 120%;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  margin: 1rem 0px;
+  font-style: italic;
+
 }
 
 .free-trial1 p {
   font-size: 20px;
   text-align: center;
-  line-height: 24px;
+  line-height: 28px;
   color: #000;
+}
+
+.addStrategy {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.addStrategyHeading {
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 
@@ -2432,18 +2451,26 @@ img.image-quote {
 
 @media (max-width: 768px) {
 
+  .seoContriSubContainer,
+  .seoServiceBest {
+    margin: 1rem 0px;
+  }
 
-  .seoContriHeading {
+  .seoContriHeading,
+  .seo-service h3,
+  .free-trial1 h3,
+  .siteOptimizeMainHeading {
     font-size: 33px;
+  }
+
+  .seo-service ul span p.forBoxSize {
+    height: 7rem;
   }
 
   .seoContriSubHeading {
     font-size: 16px;
   }
 
-  .free-trial1 h3 {
-    font-size: 33px;
-  }
 
   .free-trial1 {
     width: 100%;
@@ -2528,9 +2555,6 @@ img.image-quote {
     text-align: center;
   }
 
-  .siteOptimizeMainHeading {
-    font-size: 33px;
-  }
 
   .code-of-ehins-section1 p {
     text-align: center;
@@ -2538,6 +2562,14 @@ img.image-quote {
 }
 
 @media (max-width: 480px) {
+
+  .seo-service ul {
+    margin: 2rem 0;
+  }
+
+  .hero4cards>div:nth-child(-n+3) {
+    border-bottom: 1px solid rgb(54, 54, 54);
+  }
 
   .seoContriSubHeading {
     font-size: 1.5rem;
@@ -2959,6 +2991,7 @@ img.image-quote {
   line-height: 24px;
   font-weight: normal;
   text-align: center;
+  color: white;
 }
 
 
@@ -3058,17 +3091,6 @@ img.image-quote {
   margin: 1rem;
 }
 
-.seoContriContainer h5 {
-  color: white;
-  text-align: center;
-  font-family: Poppins;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 125%;
-  margin: 1rem 0px;
-  font-style: italic;
-}
 
 .seoContriContainer h4 {
   color: white;
@@ -3205,12 +3227,12 @@ img.image-quote {
   font-size: 20px;
 }
 
-.pronsRight {
+/* .pronsRight {
   max-width: 55%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
+} */
 
 .pronsHeading {
   font-family: Poppins;
@@ -3281,7 +3303,336 @@ img.image-quote {
 
 
 
+
+
+
+.seoHero {
+  background: url("./img/seoPage/chemHero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  background-color: #000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  gap: 16px;
+  /* Add padding for smaller screens */
+}
+
+.seoHero img {
+  max-width: 100%;
+  /* Ensure the image is responsive */
+  height: auto;
+  /* margin-bottom: 2rem;  */
+}
+
+.seoHero .seoHeading {
+  color: #FFF234;
+  font-family: Poppins;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.seoHero .seoSubHeading {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  /* Adjust font size for responsiveness */
+  font-style: normal;
+  font-weight: 600;
+  /* margin-bottom: 2rem; */
+  line-height: 1.4;
+  /* Improve readability */
+}
+
+.seoHero button {
+  border-radius: 50px;
+  background: #FFF234;
+  cursor: pointer;
+  color: var(--Black, #222);
+  font-family: Unbounded;
+  font-size: 1rem;
+  /* Adjust font size for responsiveness */
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.24px;
+  padding: 1rem 2rem;
+  /* Adjust padding for better touch target */
+  margin: 1rem;
+  /* Adjust bottom margin */
+  transition: background 0.3s ease;
+}
+
+.seoHero button:hover {
+  background: #FFD700;
+}
+
+
+/* ============================== seo-service ===============================  */
+.seo-service {
+  width: 100%;
+  background: #222;
+  float: left;
+  margin: 0px;
+  padding: 30px 0px;
+}
+
+.seo-service h3 {
+  color: white;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107%;
+}
+
+
+.seo-service h5 {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  margin: 1rem 0px;
+  /* 30px */
+}
+
+
+.seo-service ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 26px;
+  margin: 3rem 0;
+}
+
+.seo-service ul span {
+  width: 23rem;
+  /* width: 21rem; */
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.seo-service ul span:hover img {
+  transform: scale(1.1);
+  transition: 0.2s ease-in;
+}
+
+
+.seo-service ul span p {
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  margin-bottom: 1rem;
+}
+
+
+.seo-service ul span a {
+  background: #222;
+  color: #FFF234;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 107%;
+  padding: 16px 38px;
+  border-radius: 30px;
+  text-decoration-line: underline;
+}
+
+
+
+.seo-service ul span h6 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101%;
+  margin: 1rem 0;
+  height: 2rem;
+}
+
+
+.seo-service ul span p.boxSizeForHeading {
+  font-style: italic;
+  font-weight: 600;
+  height: 2.4rem;
+}
+
+.seo-service ul span p.forBoxSize {
+  height: 9rem;
+}
+
+.seo-service ul span img {
+  width: 100%;
+  max-width: 80px;
+}
+
+
+
+/* ======================================================== */
+
+
+
+
+
+.extraTextSeoPro {
+  color: #FFF;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  font-size: 22px;
+  margin: 12px;
+}
+
+
+.hero4cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 4rem;
+  flex-wrap: wrap;
+}
+
+.hero4cards>div:nth-child(-n+3) {
+  border-right: 1px solid rgb(54, 54, 54);
+}
+
+
+.heroCard {
+  width: 25%;
+  padding: 3rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+
+}
+
+
+.heroCardTypography {
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #FFF;
+  color: transparent;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px;
+  opacity: 0.5;
+  white-space: nowrap;
+  border-color: #fff;
+  /* 115.625% */
+}
+
+.plus {
+  margin-left: 10px;
+  font-family: "Unbounded", Helvetica;
+  font-weight: 600;
+  color: #fff234;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+
+
+
+
+@media (min-width: 1024px) {
+  .seoHero button {
+    font-size: 16px;
+    padding: 16px 38px;
+  }
+}
+
+
+@media (min-width: 768px) {
+
+  .answerBox {
+    margin: 0 1rem 2rem 1rem;
+    font-size: 24px;
+  }
+
+  .seoHero {
+    padding: 3rem 2rem;
+
+  }
+
+  .seoHero .seoHeading {
+    font-size: 4rem;
+    /* margin-top: -5rem; */
+    line-height: 120%;
+  }
+
+  .seoHero .seoSubHeading {
+    margin-top: 16px;
+    font-size: 2rem;
+  }
+
+  .seoHero button {
+    font-size: 1.2rem;
+    padding: 1.2rem 3rem;
+  }
+
+  .close {
+    /* position: absolute; */
+    position: fixed;
+    bottom: 50px;
+    right: 5rem;
+    color: #fff;
+    font-size: 40px;
+    transition: 0.3s;
+  }
+
+  .extraTextCont {
+    font-size: 26px;
+  }
+
+}
+
+/* ================================================================== */
+
+
 @media (max-width: 768px) {
+
+  /* .pronsRight {
+    max-width: 100%;
+  } */
+
+  .pronsSubCont {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .hero4cards>div:nth-child(-n+3) {
+    border-right: none;
+  }
 
   .Benefits-left,
   .awarenessSec {

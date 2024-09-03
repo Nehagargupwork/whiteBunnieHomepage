@@ -364,7 +364,7 @@
 
      .case-left img {
          position: relative;
-         margin: 30px 0px 0px;
+         margin: 30px 0px;
      }
 
      .case-right {
@@ -558,11 +558,11 @@
          line-height: 38px;
      }
 
-     .coverage-section ul li {
+     /* .coverage-section ul li {
          width: 95%;
          float: left;
          margin: 0 0% 0 5%;
-     }
+     } */
 
      .testimonial-section-btm ul li {
          width: 100%;
