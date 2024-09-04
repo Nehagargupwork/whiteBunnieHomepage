@@ -2464,6 +2464,9 @@ img.image-quote {
 
 @media (max-width: 768px) {
 
+  .seoContriSubContainer1{
+    margin: 1rem;
+  }
 
   .seoContriHeading,
   .seo-service h3,
