@@ -17,6 +17,11 @@ body {
   animation-fill-mode: forwards;
 }
 
+
+
+
+
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
@@ -2232,6 +2237,14 @@ img.image-quote {
   margin: 1rem;
 }
 
+.seoContriSubContainer1{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
 .SocioAdvertisingBox {
   display: flex;
   align-items: center;
@@ -2315,7 +2328,7 @@ img.image-quote {
   justify-content: space-around;
   align-items: center;
   gap: 5rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 
 .socioAdversing {
@@ -2451,7 +2464,7 @@ img.image-quote {
 
 @media (max-width: 768px) {
 
-  
+
   .seoContriHeading,
   .seo-service h3,
   .free-trial1 h3,
@@ -2557,32 +2570,6 @@ img.image-quote {
   }
 }
 
-@media (max-width: 480px) {
-
-  .seo-service ul {
-    margin: 2rem 0;
-  }
-
-  .hero4cards>div:nth-child(-n+3) {
-    border-bottom: 1px solid rgb(54, 54, 54);
-  }
-
-  .seoContriSubHeading {
-    font-size: 1.5rem;
-  }
-
-  .ranked-section h3 {
-    font-size: 24px;
-  }
-
-  .ranked-section p {
-    font-size: 16px;
-  }
-
-  .ranked-section-img img {
-    max-width: 11rem;
-  }
-}
 
 @media (max-width: 1200px) {
 
@@ -2590,9 +2577,6 @@ img.image-quote {
     display: none;
   }
 }
-
-
-
 
 
 
@@ -3308,7 +3292,7 @@ img.image-quote {
   flex-direction: column;
   text-align: center;
   padding: 1rem;
-  gap: 16px;
+  gap: 6px;
   /* Add padding for smaller screens */
 }
 
@@ -3325,12 +3309,14 @@ img.image-quote {
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 900;
+  line-height: 120%;
 }
 
 .seoHero .seoSubHeading {
   color: #FFF;
   font-family: Poppins;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  margin-top: 12px;
   /* Adjust font size for responsiveness */
   font-style: normal;
   font-weight: 600;
@@ -3494,7 +3480,7 @@ img.image-quote {
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  font-size: 22px;
+  font-size: 18px;
   margin: 12px;
 }
 
@@ -3610,15 +3596,16 @@ img.image-quote {
 
 @media (max-width: 768px) {
 
-  .seoContriSubContainer,
-  .seoServiceBest {
-    margin: 1rem 0px;
-  } 
+  .heroCard {
+    width: 50%;
+  }
+
 
   .seoContriSubContainer,
   .seoServiceBest {
-    margin: 1;
+    margin: 1rem 0px;
   }
+
 
   .pronsSubCont {
     flex-direction: column;
@@ -3693,3 +3680,41 @@ img.image-quote {
     width: 100%;
   }
 }
+
+
+
+
+@media (max-width: 480px) {
+
+  .heroCard {
+    width: 100%;
+    padding: 2rem 0rem;
+  }
+
+  .seo-service ul {
+    margin: 2rem 0;
+  }
+
+  .hero4cards>div:nth-child(-n+3) {
+    border-bottom: 1px solid rgb(54, 54, 54);
+  }
+
+  .seoContriSubHeading {
+    font-size: 1.5rem;
+  }
+
+  .ranked-section h3 {
+    font-size: 24px;
+  }
+
+  .ranked-section p {
+    font-size: 16px;
+  }
+
+  .ranked-section-img img {
+    max-width: 11rem;
+  }
+}
+
+
+
