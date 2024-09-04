@@ -96,7 +96,7 @@
   }
 
   .seoHero {
-    padding: 4rem 2rem;
+    padding: 5rem 2rem 2rem 1rem;
   }
 
   .seoHero .seoHeading {
@@ -134,7 +134,13 @@
 
 @media (max-width: 768px) {
 
+  .extraTextSeoPro {
+    font-size: 18px;
+  }
 
+  .social-media-btn2{
+    margin-bottom: 2rem;
+  }
   
   .button-cse {
     flex-direction: column;
