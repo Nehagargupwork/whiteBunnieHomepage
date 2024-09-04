@@ -1,0 +1,333 @@
+/* Responsive styles */
+
+@media (min-width: 1024px) {
+  .seoHero button {
+    font-size: 16px;
+    padding: 16px 38px;
+  }
+}
+
+
+@media (min-width: 768px) {
+
+
+  .seo-service ul span p.forBoxSize {
+    height: 7rem;
+  }
+
+  .seoContriSubHeading {
+    font-size: 16px;
+  }
+
+
+  .free-trial1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #EBEBEB;
+    padding: 1rem;
+  }
+
+
+  .SocioAdvertisingContainer {
+    padding: 1rem;
+  }
+
+  .button-cse {
+    flex-direction: column;
+  }
+
+  #engaging {
+    padding: 2rem 6px;
+  }
+
+  .engaging-left {
+    padding: 0;
+  }
+
+
+  .seoContriContainer {
+    padding: 2rem 1rem;
+  }
+
+
+  .seoContriSubHeading {
+    font-size: 1.8rem;
+  }
+
+  .ranked-section {
+    gap: 1rem;
+  }
+
+
+  .socioAdversing-img img {
+    max-width: 12rem;
+  }
+
+
+  .getURankedBg {
+    display: none;
+  }
+
+
+
+  .code-of-ehins1 {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .code-of-ehins1 .icon-left1 {
+    width: 100%;
+    padding: 1rem;
+  }
+
+
+  .code-of-ehins-section1 div {
+    font-size: 33px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+
+  .code-of-ehins-section1 p {
+    text-align: center;
+  }
+
+  .answerBox {
+    margin: 0 1rem 2rem 1rem;
+    font-size: 24px;
+  }
+
+  .seoHero {
+    padding: 4rem 2rem;
+  }
+
+  .seoHero .seoHeading {
+    font-size: 4rem;
+    /* margin-top: -5rem; */
+    line-height: 120%;
+  }
+
+  .seoHero .seoSubHeading {
+    margin-top: 16px;
+    font-size: 2rem;
+  }
+
+  .seoHero button {
+    font-size: 1.2rem;
+    padding: 1.2rem 3rem;
+  }
+
+  .close {
+    /* position: absolute; */
+    position: fixed;
+    bottom: 50px;
+    right: 5rem;
+    color: #fff;
+    font-size: 40px;
+    transition: 0.3s;
+  }
+
+  .extraTextCont {
+    font-size: 26px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .seoContriSubContainer1 {
+    margin: 1rem;
+  }
+
+  .socioAdversing p,
+  .SocioAdvertisingBox p,
+  .free-trial p,
+  .contribute span,
+  .pronsHeading {
+    text-align: center;
+  }
+
+  .code-of-ethics-para {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .heroCard {
+    width: 50%;
+  }
+
+  .engaging-left h3 {
+    text-align: center;
+  }
+
+  .seoContriSubContainer,
+  .seoServiceBest {
+    margin: 1rem 0px;
+  }
+
+
+  .pronsSubCont {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .hero4cards>div:nth-child(-n+3) {
+    border-right: none;
+  }
+
+  .Benefits-left,
+  .awarenessSec {
+    padding: 1rem 0;
+  }
+
+
+
+  .seoContriSubHeading {
+    font-size: 16px;
+  }
+
+  .siteOptimizeSubHeading {
+    font-size: 16px;
+  }
+
+  .embeddedVid {
+    width: 100%;
+  }
+
+  .engaging-left{
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .faqQuestion {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: 'Poppins';
+  }
+
+  .hero4cards>div:nth-child(-n+3) {
+    border-right: none;
+  }
+
+  .asSeenOn .asSeenOnHeading {
+    font-size: 2rem;
+  }
+
+  .asSeenOnRow1 img {
+    width: 100px;
+  }
+
+  .asSeenOnRow2 img {
+    width: 60px;
+  }
+
+  .getURankedBg {
+    display: none;
+  }
+
+  .trusted-section-paragraph {
+    font-size: 20px;
+  }
+
+  .testimonial-section-btm .clientTalking,
+  .contribute .heading,
+  .faqHeading,
+  .siteOptimizeMainHeading,
+  .seo-service h3, .seoContriHeading, .free-trial1 h3, .free-trial1 h3, .pronsHeading {
+    font-size: 33px;
+  }
+
+
+  .BenefitsRightImgBox {
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+
+  .heroCard {
+    width: 100%;
+    padding: 2rem 0rem;
+  }
+
+  .seo-service ul {
+    margin: 2rem 0;
+  }
+
+  .hero4cards>div:nth-child(-n+3) {
+    border-bottom: 1px solid rgb(54, 54, 54);
+  }
+
+  .seoContriSubHeading {
+    font-size: 1.5rem;
+  }
+
+  .ranked-section h3 {
+    font-size: 24px;
+  }
+
+  .ranked-section p {
+    font-size: 16px;
+  }
+
+  .ranked-section-img img {
+    max-width: 11rem;
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+
+  .seo-left-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+  .seoContriSubHeading {
+    font-size: 2rem;
+  }
+
+  .ranked-section {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .socioAdversing {
+    flex-direction: column;
+    /* gap: 2rem; */
+  }
+
+  .ranked-section h3 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .ranked-section p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  /* .ranked-section-img img {
+    max-width: 16rem;
+  } */
+}
+
+
+
+@media (max-width: 1200px) {
+
+  .codeEthicsArrow {
+    display: none;
+  }
+}
