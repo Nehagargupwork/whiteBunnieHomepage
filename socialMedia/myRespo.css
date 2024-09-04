@@ -35,9 +35,6 @@
     padding: 1rem;
   }
 
-  .button-cse {
-    flex-direction: column;
-  }
 
   #engaging {
     padding: 2rem 6px;
@@ -48,9 +45,7 @@
   }
 
 
-  .seoContriContainer {
-    padding: 2rem 1rem;
-  }
+
 
 
   .seoContriSubHeading {
@@ -139,9 +134,20 @@
 
 @media (max-width: 768px) {
 
+
+  
+  .button-cse {
+    flex-direction: column;
+  }
+
   .seoContriSubContainer1 {
     margin: 1rem;
   }
+
+  .seoContriContainer {
+    padding: 2rem 1rem 0 1rem;
+  }
+
 
   .socioAdversing p,
   .SocioAdvertisingBox p,
@@ -200,7 +206,7 @@
     width: 100%;
   }
 
-  .engaging-left{
+  .engaging-left {
     padding: 1rem;
     text-align: center;
   }
@@ -240,7 +246,11 @@
   .contribute .heading,
   .faqHeading,
   .siteOptimizeMainHeading,
-  .seo-service h3, .seoContriHeading, .free-trial1 h3, .free-trial1 h3, .pronsHeading {
+  .seo-service h3,
+  .seoContriHeading,
+  .free-trial1 h3,
+  .free-trial1 h3,
+  .pronsHeading {
     font-size: 33px;
   }
 
