@@ -2320,7 +2320,6 @@ img.image-quote {
   justify-content: space-around;
   align-items: center;
   gap: 5rem;
-  /* margin-top: 2rem; */
 }
 
 .socioAdversing {
@@ -3084,11 +3083,6 @@ img.image-quote {
 
 /* ================================================================= */
 
-
-
-
-
-
 .seoHero {
   background: url("../img/seoPage/chemHero.png");
   background-size: cover;
@@ -3158,7 +3152,6 @@ img.image-quote {
 .seoHero button:hover {
   background: #FFD700;
 }
-
 
 /* ============================== seo-service ===============================  */
 .seo-service {

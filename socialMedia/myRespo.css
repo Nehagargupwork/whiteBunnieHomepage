@@ -223,10 +223,6 @@
     font-family: 'Poppins';
   }
 
-  .hero4cards>div:nth-child(-n+3) {
-    border-right: none;
-  }
-
   .asSeenOn .asSeenOnHeading {
     font-size: 2rem;
   }
@@ -253,7 +249,6 @@
   .siteOptimizeMainHeading,
   .seo-service h3,
   .seoContriHeading,
-  .free-trial1 h3,
   .free-trial1 h3,
   .pronsHeading {
     font-size: 33px;
@@ -310,7 +305,6 @@
     flex-direction: column;
   }
 
-
   .seoContriSubHeading {
     font-size: 2rem;
   }
@@ -322,7 +316,6 @@
 
   .socioAdversing {
     flex-direction: column;
-    /* gap: 2rem; */
   }
 
   .ranked-section h3 {
@@ -335,9 +328,6 @@
     text-align: center;
   }
 
-  /* .ranked-section-img img {
-    max-width: 16rem;
-  } */
 }
 
 
