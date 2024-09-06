@@ -358,6 +358,10 @@ body {
     color: #FFF234; margin-left: 1rem;
 }
 
+.designationCss1{
+    color: #FFF234; margin-left: 2.8rem;
+}
+
 /* ==================================================== */
 
 
@@ -402,7 +406,7 @@ body {
 @media (min-width: 768px) {
 
     .ranked-section, .ranked-section2 {
-        gap: 1rem;
+        gap: 4rem;
     }
 
     .free-trial1 {
@@ -445,7 +449,7 @@ body {
         font-size: 2rem;
     }
 
-    .designationCss{
+    .designationCss, .designationCss1{
         text-align: center;
         margin: 0;
     }

@@ -2240,7 +2240,7 @@ img.image-quote {
   margin: 1rem;
 }
 
-.seoContriSubContainer1{
+.seoContriSubContainer1 {
   display: flex;
   gap: 2rem;
   justify-content: center;
@@ -3228,6 +3228,7 @@ img.image-quote {
 
 
 .seo-service ul span a {
+  margin-top: 2rem;
   background: #222;
   color: #FFF234;
   text-align: center;
@@ -3338,5 +3339,3 @@ img.image-quote {
   line-height: 26px;
   white-space: nowrap;
 }
-
-
