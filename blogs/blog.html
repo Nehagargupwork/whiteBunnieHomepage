@@ -12,7 +12,6 @@
 
     <link rel="stylesheet" href="./blog.css">
 
-
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css' rel='stylesheet'>
 
 </head>
@@ -39,12 +38,12 @@
 
         <div class="newsLetter">
 
-            <div class="newLetterBoxes">
+            <div class="newLetterBoxes noWrapInPhn">
                 <img src="./blog-envelop.png" alt="newsLetterImage">
 
                 <div class="newLetterInsideLeft">
                     <h2>Join Thousands</h2>
-                    <div>of subscribers who get fresh content to help their business weekly.</div>
+                    <div class="hideNewsLettersInPhone">of subscribers who get fresh content to help their business weekly.</div>
                 </div>
 
             </div>
@@ -76,8 +75,8 @@
                 <div class="postDateBy">Sep 05, 2024 by <a href="#">Neha Garg</a> </div>
 
                 <p class="limited-text">Getting traffic but no sales is one of the toughest problems businesses face in
-                    the digital age.
-                    Make no mistake; driving users to your website is great, but the bigger Lorem ipsum dolor sit amet
+                    the digital age. Make no mistake; driving users to your website is great, but the bigger Lorem ipsum
+                    dolor sit amet
                     consectetur adipisicing elit. Ratione aspernatur pariatur voluptate nihil illum, beatae ea libero
                     neque maiores nemo earum! Non officiis modi quis iure cupiditate sunt deleniti tempora, voluptas,
                     dignissimos assumenda culpa officia mollitia temporibus fugiat illo adipisci unde nobis veniam quam!
@@ -114,7 +113,6 @@
                                 <span>Dec 12, 2023</span>
                                 <span>Neha Garg</span>
                             </div>
-                            <!-- <h2 class="name">David Dell</h2> -->
                             <h2 class="description">The lorem text the section that contains header with having open
                                 functionality. Lorem
                                 dolor sit amet consectetur adipisicing elit.</h2>
@@ -266,7 +264,139 @@
     <!-- ============================================== -->
 
 
+    <div style="border: 2px solid black;" class="blogsCont">
+
+
+        <div class="tagCarouselSlider">
+
+            <div class="newsLetter">
+
+
+                <div class="tagCarouselSliderBoxes tagCarouselSliderBoxes1">
+                    <input type="text" placeholder="Search blog">
+                    <button type="submit">Search</button>
+                </div>
+
+
+                <div class="tagCarouselSliderBoxes">
+                    <button class="slider-arrow slider-arrow-left">◀</button>
+
+                    <div class="belowSearchTagSlider">
+                        <a>Digital Marketing</a>
+                        <a>Fintech SEO</a>
+                        <a>SEO</a>
+                        <a>Social Media</a>
+                        <a>Email Marketing</a>
+                        <a>PPC</a>
+                        <a>Digital Marketing</a>
+                        <a>Fintech SEO</a>
+                        <a>SEO</a>
+                        <a>Social Media</a>
+                        <a>Email Marketing</a>
+                        <a>PPC</a>
+                    </div>
+
+                    <button class="slider-arrow slider-arrow-right">▶</button>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+        <div class="blogsBox">
+
+            <div class="blogCard">
+                <div class="blogImgBox">
+                    <img src="https://whitebunnie.com/wp-content/uploads/2024/08/fintech-seo-agency.jpg" alt="blogImg">
+                </div>
+
+                <div class="halfCont">
+
+                    <div class="blogCardtags"> <span>Digital Marketing</span> <span>Fintech SEO</span>
+                        <span>SEO</span>
+                    </div>
+
+                    <h1>Fintech SEO Strategies – Navigating the Latest Industry Trends</h1>
+
+                    <h4 class="authorClass">By Neha Garg / September 6, 2024</h4>
+
+                    <p class="blogDescription limited-text-bloCard">Getting traffic but no sales is one of the toughest
+                        problems businesses face in
+                        the digital age. Make no mistake; driving users to your website is great, but the bigger Lorem
+                        ipsum dolor sit amet
+                        consectetur adipisicing elit. Ratione aspernatur pariatur voluptate nihil illum, beatae ea
+                        libero</p>
+
+                    <a href="#"> Read Post »</a>
+
+                </div>
+
+            </div>
+
+
+            <div class="blogCard">
+                <div class="blogImgBox">
+                    <img src="https://whitebunnie.com/wp-content/uploads/2024/08/fintech-seo-agency.jpg" alt="blogImg">
+                </div>
+
+                <div class="halfCont">
+
+                    <div class="blogCardtags"> <span>Digital Marketing</span> <span>Fintech SEO</span>
+                        <span>SEO</span>
+                    </div>
+
+                    <h1>Fintech SEO Strategies – Navigating the Latest Industry Trends</h1>
+
+                    <h4 class="authorClass">By Neha Garg / September 6, 2024</h4>
+
+                    <p class="blogDescription limited-text-bloCard">Getting traffic but no sales is one of the toughest
+                        problems businesses face in
+                        the digital age. Make no mistake; driving users to your website is great, but the bigger Lorem
+                        ipsum dolor sit amet
+                        consectetur adipisicing elit. Ratione aspernatur pariatur voluptate nihil illum, beatae ea
+                        libero</p>
+
+                    <a href="#"> Read Post »</a>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
     <!-- ============================================== -->
+
+    <script>
+
+        const slider = document.querySelector('.belowSearchTagSlider');
+        const leftArrow = document.querySelector('.slider-arrow-left');
+        const rightArrow = document.querySelector('.slider-arrow-right');
+
+        function slideRight() {
+            const firstSpan = slider.querySelector('a');
+            const spanWidth = firstSpan.offsetWidth + parseInt(getComputedStyle(firstSpan).marginRight);
+            slider.scrollLeft += spanWidth;
+        }
+
+        function slideLeft() {
+            const firstSpan = slider.querySelector('a');
+            const spanWidth = firstSpan.offsetWidth + parseInt(getComputedStyle(firstSpan).marginRight);
+            slider.scrollLeft -= spanWidth;
+        }
+
+        rightArrow.addEventListener('click', slideRight);
+        leftArrow.addEventListener('click', slideLeft);
+
+    </script>
 
 
 </body>

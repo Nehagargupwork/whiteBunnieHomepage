@@ -1,14 +1,16 @@
 function truncateText(selector, maxLength) {
-    const element = document.querySelector(selector);
-    let text = element.innerText;
-
-    if (text.length > maxLength) {
-        element.innerText = text.substring(0, maxLength) + "...";
-    }
+    const elements = document.querySelectorAll(selector); // Select all elements that match the selector
+    elements.forEach(element => {
+        let text = element.innerText;
+        if (text.length > maxLength) {
+            element.innerText = text.substring(0, maxLength) + "...";
+        }
+    });
 }
 
-// Example usage, limiting to 150 characters
+// Example usage, limiting to 160 and 120 characters
 truncateText('.limited-text', 160);
+truncateText('.limited-text-bloCard', 120);
 
 
 
@@ -41,3 +43,16 @@ var swiper = new Swiper(".slide-content", {
         },
     },
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
