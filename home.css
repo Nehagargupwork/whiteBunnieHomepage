@@ -243,9 +243,10 @@ a {
 .hero4cards {
   display: flex;
   justify-content: space-between;
-  padding: 0px 4rem;
+  /* padding: 0px 4rem; */
   flex-wrap: wrap;
 }
+
 
 .hero4cards>div:nth-child(-n+3) {
   border-right: 1px solid rgb(54, 54, 54);
@@ -276,7 +277,6 @@ a {
   opacity: 0.5;
   white-space: nowrap;
   border-color: #fff;
-  /* 115.625% */
 }
 
 .plus {
@@ -2222,6 +2222,13 @@ p.second-para {
 /* ========================================================== */
 
 @media (max-width: 768px) {
+
+
+  
+.heroCard {
+  padding: 2rem 0;
+}
+
   .seoContriHeading {
     font-size: 33px;
   }
@@ -2290,8 +2297,12 @@ p.second-para {
     margin: 2rem 0;
   }
 
-  .hero4cards>div:nth-child(-n+3) {
+  /* .hero4cards>div:nth-child(-n+3) {
     border-bottom: 1px solid rgb(54, 54, 54);
+  } */
+
+  .hero4cards{
+    justify-content: center;
   }
 
   .asSeenOn .asSeenOnHeading {

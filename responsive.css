@@ -843,7 +843,7 @@
      }
 
      .heroCard {
-         width: 50%;
+         width: 45%;
      }
 
      .testimonial-section::before {
@@ -926,10 +926,14 @@
          /* Adjust size for mobile */
      }
 
-     .heroCard {
+     .heroCardTypography {
+        font-size: 40px;
+     }
+
+     /* .heroCard {
          width: 100%;
          padding: 2rem 0rem;
-     }
+     } */
 
      #mixedSlider3 .MS-content .item {
          width: 100%;
