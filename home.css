@@ -1860,7 +1860,7 @@ p.second-para {
   font-style: normal;
   font-weight: 800;
   line-height: 110%;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
   text-align: center;
 }
 
@@ -1889,18 +1889,23 @@ p.second-para {
 }
 
 .getURankList {
-  color: #FFF;
+  color: #000;
   font-family: Poppins;
-  font-size: 1rem;
+  font-size: 1.3rem;
   /* Adjust font size */
   font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
+  max-width: 50rem;
+  font-weight: 500;
+  line-height: 160%;
   margin-bottom: 1.5rem;
-  padding-left: 1.5rem;
+  /* padding-left: 1.5rem; */
+  padding: 1rem 1rem 1rem 3rem;
   /* Add padding for list items */
   text-align: left;
   /* Align text to the left */
+  /* background-color: white; */
+  background-color: #FFF234;
+  border-radius: 30px;
 }
 
 .afterListGetuRanked {
@@ -1910,8 +1915,7 @@ p.second-para {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin: 1rem 0;
   /* padding: 0 1rem; */
   /* Add padding for smaller screens */
   text-align: center;
@@ -1934,7 +1938,7 @@ p.second-para {
 
   .getURankedPara,
   .getURankedH6,
-  .getURankList,
+  /* .getURankList, */
   .afterListGetuRanked {
     font-size: 1.5rem;
     /* Further increase font size */
@@ -3338,6 +3342,11 @@ p.second-para {
     padding: 2rem;
     gap: 4rem;
     flex-direction: column;
+  }
+
+  .getURankList {
+    padding: 1rem 1rem 1rem 2.3rem;
+    font-size: 1rem;
   }
 
   .siteOptimizeCard {
